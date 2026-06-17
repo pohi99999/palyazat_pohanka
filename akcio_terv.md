@@ -1,376 +1,134 @@
+# Hibrid Operatív Akcióterv – Pohánka és Társa Kft.
 
+Ez a dokumentum a Pohánka és Társa Kft. első pályázati (DIMOP) és támogatott hitelkérelmi (Széchenyi) folyamatainak gyakorlati, lépésről lépésre követhető megvalósítási terve. 
 
-\## DIMOP Plusz-1.2.6/B – adatlap szöveg (vázlat)
+A dokumentumban szereplő cégadatok a [mesterdoc.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md), a részletes pályázati és hitelkutatási háttéranyagok pedig a [kutatas_lehetőségek.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/kutatas_lehet%C5%91s%C3%A9gek.md) fájlban találhatók.
 
+---
 
+## I. Bevezetés (Cégprofil és Célok)
 
-\### Projekt indokoltsága, kiinduló helyzet
+*   **Pályázó vállalkozás:** POHÁNKA ÉS TÁRSA KÖNYVELŐ IRODA Kft.
+*   **Főbb paraméterek:** Zalaegerszegi mikrovállalkozás, 3 fő alkalmazotti létszám (ÁSZE), KIVA adózás, "Megbízható adózó" státusz, korábbi hitel- és támogatásmentes előélet.
+*   **Digitális érettség:** Modern Vállalkozások Programja (MVP) által kiállított alacsony digitális intenzitású (DI) igazolás (**Iratazonosító: IG32095-2025**).
+*   **Elsődleges pályázati cél:** **DIMOP Plusz-1.2.6/B-26** – Mikro- és kisvállalkozások digitalizációjának támogatása.
+    *   **Projekt:** *Brunella Agent System (BAS)* mesterséges intelligencia alapú könyvelés-automatizálási szoftver és kapcsolódó irodai IT hardver bevezetése.
+    *   **Költségvetés:** 9 000 000 HUF (90% támogatás = 8 100 000 HUF vissza nem térítendő támogatás, 10% önerő = 900 000 HUF).
+*   **Elsődleges támogatott hitelcél:** **Széchenyi Mikrohitel MAX+**
+    *   **Projekt:** Irodai IT infrastruktúra bővítése és a könyvelőirodai mobilitást segítő cégautó beszerzése.
+    *   **Hitelösszeg:** 5 000 000 – 7 000 000 HUF (fix 3%-os éves kamat).
 
+---
 
+## II. DIMOP Plusz-1.2.6/B-26 Napi szintű operatív terv
 
-A Pohánka és Társa Kft. mikrovállalkozás Zalaegerszegen, főként számviteli és könyvelési szolgáltatásokat nyújt, 16+ éves működési múlttal, stabil, pozitív saját tőkével és megbízható adózói minősítéssel. A vállalkozás digitális intenzitása a Modern Vállalkozások Programja keretében lefolytatott audit alapján 10 pontos, azaz “alacsony” szintű, ami indokolja a célzott digitalizációs beavatkozást. 
+> [!IMPORTANT]
+> **KRITIKUS HATÁRIDŐK:**
+> *   **Hivatalos beadási határidő Nyugat-Dunántúlon:** **2026. június 30.**
+> *   **Belső célzott beadási határidő:** **2026. június 26.** (az állami pályázati portál utolsó napos túlterheltségének és esetleges leállásának elkerülésére!)
 
+### 1.1 Jogosultsági ellenőrzés (Június 18–19. / 1-2. nap)
+*   [ ] **Cégadatok validálása:** A [mesterdoc.md I. pontja](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md#i-%C3%A1ltal%C3%A1nos-c%C3%A9gadatok-c%C3%A9gkivonat-alapj%C3%A1n) alapján ellenőrizni a NAV törzsadatait. Biztosítani, hogy az IT TEÁOR kódok (6201, 6202, 6311) hivatalosan bejegyezve szerepeljenek.
+*   [ ] **DI-igazolás aktiválása:** Belépés a [digikkv.hu](https://digikkv.hu) felületre, a Modern Vállalkozások Programja (MVP) regisztráció összekapcsolása, az `IG32095-2025` iratazonosítójú 10 pontos DI-igazolás letöltése és ellenőrzése.
+*   [ ] **Kizáró okok ellenőrzése:** Meggyőződni arról, hogy a cég köztartozásmentes (a NAV adatbázisban "Megbízható adózó" státuszban szerepel-e, lásd [mesterdoc.md VII. pont](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md#vii-egy%C3%A9b-fontos-inform%C3%A1ci%C3%B3k-kiz%C3%B3-okok-%C3%A9s-b%C3%ADr%C3%A1lati-szempontok)).
 
+### 1.2 Költségvetés véglegesítése (Június 20–21. / 3-4. nap)
+*   [ ] **Allokáció végrehajtása:** A 9 000 000 HUF keretösszeg felosztása a DIMOP szabályoknak megfelelően:
+    *   **Hardverbeszerzés (max. 30%):** GPU-s munkaállomás a BAS lokális Ollama futtatásához, irodai PC-k, NAS tároló a vektoradatbázishoz (LanceDB) – *Tervezett összeg: max. 2 700 000 HUF.*
+    *   **Szoftver és Felhőszolgáltatások:** BAS mag szoftverlicencek, Google Cloud / API elérések – *Tervezett összeg: kb. 4 500 000 HUF.*
+    *   **Képzés és Tanácsadás:** A BAS bevezetéséhez szükséges munkafolyamat-tanácsadás és a 3 fő munkatárs AI-asszisztált képzése – *Tervezett összeg: kb. 1 800 000 HUF.*
 
-A könyvelési és adminisztratív folyamatok jelenleg nagyrészt manuálisak: a beérkező számlák jelentős részét kézzel rögzítik, a bankszámla- és pénztártételek egyeztetése időigényes, a dokumentumkezelés és riportolás több, részben nem integrált rendszerben történik. Ez a működés a növekvő ügyfélszám mellett kapacitáskorlátot, hibakockázatot és profitabilitási plafont eredményez. 
+### 1.3 Árajánlatok összegyűjtése (Június 22–24. / 5-7. nap)
+*   [ ] **Hardver ajánlatok:** Legalább 3 független és összehasonlítható árajánlat bekérése a GPU-s munkaállomásra és a hálózati NAS-ra.
+*   [ ] **Szoftver és Fejlesztési ajánlatok:** Árajánlat bekérése a BAS (Brunella Agent System) implementációt és a FastAPI orkesztrációs mag integrációját végző fejlesztő partnertől.
+*   [ ] **Képzési és Tanácsadói ajánlatok:** Árajánlatok bekérése a BAS tréning és munkafolyamat-tanácsadás lebonyolítására.
 
+### 1.4 Projektleírás / Adatlap szövegek (Június 25. / 8. nap)
+*   [ ] **Szövegek véglegesítése:** Az alábbi előkészített, strukturált szövegek átolvasása és beillesztése a pályázati formanyomtatványba:
 
+#### 1.4.1 Projekt indokoltsága, kiinduló helyzet
+A Pohánka és Társa Kft. mikrovállalkozás Zalaegerszegen, főként számviteli és könyvelési szolgáltatásokat nyújt, 16+ éves működési múlttal, stabil, pozitív saját tőkével és megbízható adózói minősítéssel. A vállalkozás digitális intenzitása a Modern Vállalkozások Programja keretében lefolytatott audit alapján 10 pontos, azaz “alacsony” szintű, ami indokolja a célzott digitalizációs beavatkozást.
+
+A könyvelési és adminisztratív folyamatok jelenleg nagyrészt manuálisak: a beérkező számlák jelentős részét kézzel rögzítik, a bankszámla- és pénztártételek egyeztetése időigényes, a dokumentumkezelés és riportolás több, részben nem integrált rendszerben történik. Ez a működés a növekvő ügyfélszám mellett kapacitáskorlátot, hibakockázatot és profitabilitási plafont eredményez.
 
 A pályázó célja, hogy a Brunella Agent System (BAS) hibrid, multi‑agent AI rendszer bevezetésével átfogó digitális transzformációt hajtson végre, és a manuális adminisztrációt nagy arányban automatizált, intelligens folyamatokra cserélje.
 
-
-
-\*\*\*
-
-
-
-\### Projekt célja
-
-
-
-A projekt célja egy olyan integrált, AI‑alapú digitális infrastruktúra kiépítése, amely a Pohánka és Társa Kft. teljes könyvelési és adminisztratív értékláncát lefedi a számlabefogadástól a banki egyeztetésen át a NAV‑szinkronig. A Brunella Agent System bevezetésével a vállalkozás legalább 50%-kal kívánja csökkenteni az egy ügyfélre jutó manuális adatbevitelre fordított időt, miközben javítja a szolgáltatás minőségét és növeli a digitalizációs érettséget. 
-
-
+#### 1.4.2 Projekt célja
+A projekt célja egy olyan integrált, AI‑alapú digitális infrastruktúra kiépítése, amely a Pohánka és Társa Kft. teljes könyvelési és adminisztratív értékláncát lefedi a számlabefogadástól a banki egyeztetésen át a NAV‑szinkronig. A Brunella Agent System bevezetésével a vállalkozás legalább 50%-kal kívánja csökkenteni az egy ügyfélre jutó manuális adatbevitelre fordított időt, miközben javítja a szolgáltatás minőségét és növeli a digitalizációs érettséget.
 
 Konkrét cél, hogy a beérkező számlák legalább 80%-a automatikusan, Gmail‑figyelés, OCR és AI alapú adatkinyerés segítségével kerüljön a könyvelési rendszerbe, a bankszámla- és pénztártételek minimum 70%-a pedig automatikus reconciliation folyamatokon fusson keresztül. A vállalkozás DI‑pontszáma a projekt lezárásáig az “alacsony” kategóriából a “közepes” szintre emelkedjen.
 
-
-
-\*\*\*
-
-
-
-\### A projekt szakmai tartalma, tevékenységek
-
-
-
-A projekt keretében a vállalkozás a következő fejlesztési elemeket valósítja meg:  
-
-
-
-1\. \*\*Hardver és hálózati infrastruktúra fejlesztése\*\*  
-
-&#x20;  - GPU‑képes munkaállomás és korszerű irodai számítógépek beszerzése a BAS lokális futtatásához és fejlesztéséhez. 
-
-&#x20;  - NAS és hálózati eszközök telepítése a vektoradatbázis és biztonságos adatmentés kiszolgálására.
-
-
-
-2\. \*\*Brunella Agent System (BAS) bevezetése\*\*  
-
-&#x20;  - Node.js alapú orkesztrációs mag, Python/FastAPI alrendszer és Playwright alapú “Robotkéz” modul bevezetése a könyvelői szoftverek és webes felületek automatizált kezelésére. 
-
-&#x20;  - LanceDB vektoradatbázisra épülő RAG‑megoldás kialakítása, amely a számlák, bankkivonatok és korábbi döntések alapján támogatja az AI‑asszisztensek tanulását.
-
-&#x20;  - Phoenix Protocol v2 önjavító mechanizmus élesítése folyamatos heartbeat‑monitoringgal és automatikus újraindítással.
-
-
-
-3\. \*\*Felhőszolgáltatások és üzemeltetés\*\*  
-
-&#x20;  - Felhőalapú erőforrások (pl. Google Cloud) igénybevétele a rendszer skálázható és biztonságos futtatásához, backup‑ és monitoringszolgáltatásokkal kiegészítve.
-
-
-
-4\. \*\*Tanácsadás és képzés\*\*  
-
-&#x20;  - Külső IT tanácsadó bevonása a rendszertervezéshez, biztonsági hardeninghez és folyamatoptimalizáláshoz. 
-
-&#x20;  - Belső képzések szervezése a BAS mindennapi használatára, AI‑asszisztált munkavégzésre és digitális munkafolyamatokra. 
-
-
-
-\*\*\*
-
-
-
-\### Várható eredmények, indikátorok
-
-
-
-\- A manuális számlaadat‑rögzítéssel töltött idő legalább 50%-kal csökken a projekt előtti bázisidőszakhoz képest (belső időmérési kimutatás alapján). 
-
-\- A beérkező számlák minimum 80%-a automatikus Gmail‑figyelés + OCR + AI alapú folyamatokon keresztül kerül be a könyvelési rendszerbe. 
-
-\- A bankszámla- és házipénztár tranzakciók legalább 70%-a automatikus egyeztető folyamatokon fut át. 
-
-\- A rendszer éves rendelkezésre állása eléri a 99%-ot a Phoenix Protocol v2 önjavító mechanizmusnak köszönhetően. 
-
-\- A DI‑pontszám az új audit során az “alacsony” szintről legalább “közepes” kategóriára javul. 
-
-
-
-\*\*\*
-
-
-
-\## Projekt szakmai összefoglaló (1–2 oldalra szánt narratíva – vázlat)
-
-
-
-\### Kiinduló helyzet és probléma
-
-
-
-A Pohánka és Társa Kft. több mint másfél évtizede működő, zalaegerszegi mikrovállalkozás, amely számviteli és adótanácsadási szolgáltatásokat nyújt mikro- és kisvállalkozások számára. A cég pénzügyi helyzete stabil, saját tőkéje pozitív, nincsen lejárt köztartozása, és “Megbízható adózó” minősítéssel rendelkezik. 
-
-
-
-A Modern Vállalkozások Programja keretében elvégzett digitális intenzitásmérés azonban rámutatott, hogy a vállalkozás digitális érettsége alacsony: több kulcsfontosságú folyamat (számlabefogadás, banki egyeztetés, dokumentumkezelés) manuális, részben papíralapú, illetve több, egymással nem integrált rendszerben zajlik. Ez a működés a növekedés és a hatékonyság elsődleges korlátja.
-
-
-
-\*\*\*
-
-
-
-\### A Brunella Agent System szerepe
-
-
-
-A pályázat középpontjában álló Brunella Agent System (BAS) egy hibrid, multi‑agent MI ökoszisztéma, amely kifejezetten a könyvelési és adminisztratív munkafolyamatok automatizálására készült. A rendszer orkesztrációja Node.js alapú, míg a nagy mennyiségű adatfeldolgozást Python/FastAPI komponensek végzik, Playwright alapú “Robotkéz” modulokkal kiegészítve, amelyek képesek emberhez hasonló módon kezelni a szoftverek grafikus felületeit.
-
-
-
-A BAS több kulcstechnológiát egyesít: a LanceDB vektoradatbázisra épülő RAG architektúra lehetővé teszi, hogy a rendszer a korábbi számlák és könyvelési döntések alapján egyre intelligensebben támogassa az munkatársakat, míg a Phoenix Protocol v2 önjavító mechanizmus biztosítja a 24/7 üzembiztosságot. A Bifrost Gateway a lokális (Ollama) és a felhős (Gemini, GPT‑4o) MI modellek intelligens kombinációját valósítja meg, optimalizálva a költség–pontosság arányt. 
-
-
-
-\*\*\*
-
-
-
-\### Fejlesztési elemek és fejlesztési logika
-
-
-
-A projekt első pillére a digitális infrastruktúra megerősítése: GPU‑s munkaállomás, korszerű irodai PC‑k, NAS és hálózati eszközök biztosítják azt a hardveres hátteret, amelyre a BAS hosszú távon stabilan építhető. Ezt egészíti ki a felhőalapú infrastruktúra (pl. Google Cloud), amely a skálázhatóságot, biztonságos távoli elérést és professzionális backup‑megoldásokat nyújt. 
-
-
-
-A második pillér a BAS szoftveres bevezetése: az orkesztrációs mag, az adatfeldolgozó és automatizáló modulok, valamint a vektoradatbázisra épülő tudásbázis integrációja a meglévő könyvelési folyamatokba. Ennek eredményeként a beérkező számlák nagy része automatikus Gmail‑figyelés, OCR és AI‑alapú adatkinyerés révén kerül a könyvelő rendszerbe, míg a banki és pénztári tranzakciók automatizált egyeztető folyamatokon mennek keresztül. 
-
-
-
-A harmadik pillér a tudásátadás és szervezetfejlesztés: a munkatársak célzott képzése biztosítja, hogy a BAS ne “fekete dobozként”, hanem átlátható, a mindennapi munkát támogató eszközként jelenjen meg, és a változás elfogadottsága magas legyen.
-
-
-
-\*\*\*
-
-
-
-\### Várható hatások és fenntarthatóság
-
-
-
-A projekt révén a Pohánka és Társa Kft. egységnyi idő alatt több ügyfelet tud kiszolgálni, miközben csökken a hibakockázat és javul a szolgáltatás átláthatósága. A manuális adminisztráció visszaszorításával felszabaduló kapacitás magasabb hozzáadott értékű szakmai tevékenységre (tanácsadás, elemzés) fordítható, ami hozzájárul az árbevétel és a profitabilitás növekedéséhez.
-
-
-
-A phoenix‑alapú önjavító architektúra, a felhőalapú backup és a rendszeres DI‑audit biztosítják a fejlesztés hosszú távú fenntarthatóságát és továbbfejleszthetőségét. A BAS bevezetése egyben új üzleti modellkapukat is megnyit (BAS‑alapú szolgáltatáscsomagok más vállalkozások számára), ami megalapozza a későbbi innovációs és skálázódási pályázatok (pl. GINOP Plusz 2.1.3‑24) sikeres elérését. 
-
-
-
-\*\*\*
-
-
-
-\## Akcióterv – teendők támogatásokra (pályázatok)
-
-
-
-\### A. DIMOP Plusz-1.2.6/B-26 – azonnali prioritás
-
-
-
-1\. \*\*Adatellenőrzés, jogosultsági check (1–2 nap)\*\*  
-
-&#x20;  - DI‑igazolás, cégadatok, létszám, árbevétel, székhely/telephely ellenőrzése a mesterdoc és cégkivonat alapján. 
-
-
-
-2\. \*\*Költségvetés véglegesítése (2–3 nap)\*\*  
-
-&#x20;  - A 9 M Ft-os keret végleges bontása (hardver/szoftver/felhő/képzés) a fenti javaslat alapján, konkrét egységárakkal és szállítókkal. \[socialpro](https://www.socialpro.hu/dimop-plusz-126/)
-
-
-
-3\. \*\*Árajánlatok beszerzése (5–7 nap)\*\*  
-
-&#x20;  - Legalább 2–3 független árajánlat begyűjtése a fő tételekre (workstation, NAS, szoftverlicencek, fejlesztői szolgáltatás, felhőcsomag). \[onedrive.live](https://onedrive.live.com/personal/7042f804db147b6f/\_layouts/15/doc.aspx?resid=12040e83-f603-4478-93f4-7aa5e2f4a793\&cid=7042f804db147b6f)
-
-
-
-4\. \*\*DFK és projektleírás finomhangolása (3–4 nap)\*\*  
-
-&#x20;  - DFK aktualizálása a konkrét BAS‑projekt részleteivel, indikátorokkal, költségvetéssel és ütemtervvel. 
-
-
-
-5\. \*\*Pályázati adatlap kitöltése (3–5 nap)\*\*  
-
-&#x20;  - Online adatlapba beemelni a fenti adatlap‑szöveget (indokoltság, célok, szakmai tartalom, indikátorok), csatolni a szükséges mellékleteket (DFK, DI‑igazolás, árajánlatok).
-
-
-
-6\. \*\*Belső ellenőrzés + beadás (1–2 nap)\*\*  
-
-&#x20;  - Ellenőrző lista lefuttatása, hibák javítása, majd beadás jóval a június 30-i ablak vége előtt. 
-
-
-
-\*\*\*
-
-
-
-\### B. DIMOP Plusz-1.2.3/A-24 – “második kör” előkészítése
-
-
-
-7\. \*\*Stratégiai döntés a második fejlesztési fázisról (1 nap)\*\*  
-
-&#x20;  - Mi az, ami nem fér bele a 9 M Ft-ba (pl. extra cloud‑kapacitás, további modulok, hosszabb távú üzemeltetés), ezt külön “II. fázis” csomagba szervezni. 
-
-
-
-8\. \*\*Jogosultsági kalkuláció (1–2 nap)\*\*  
-
-&#x20;  - Árbevétel és üzemi eredmény alapján meghatározni, mekkora DIMOP 1.2.3/A támogatás + 0%-os hitel fér bele biztonságosan.
-
-
-
-9\. \*\*Előminősítés / konzultáció (online vagy tanácsadóval, 1 nap)\*\*  
-
-&#x20;  - Pályázatíró/tanácsadó egyeztetés, hogy a DIMOP 1.2.3/A-24 konstrukció melyik szakaszában érdemes majd indulni, és milyen dokumentáció szükséges. 
-
-
-
-10\. \*\*Projektvázlat elkészítése DIMOP 1.2.3/A-ra (5–7 nap)\*\*  
-
-&#x20;   - A DIMOP 1.2.6/B projekt tapasztalatai és eredményei alapján “felfelé” épített 3–12 M Ft-os második fejlesztési csomag kidolgozása (plusz modulok, további automatizálás, skálázás). 
-
-
-
-\*\*\*
-
-
-
-\### C. GINOP Plusz-2.1.3-24 és egyéb pályázatok – pipeline
-
-
-
-11\. \*\*Innovációs dokumentáció csomag létrehozása (7–10 nap)\*\*  
-
-&#x20;   - BAS technológiai leírás K+F szempontrendszerben (TRL, újdonságtartalom, Phoenix Protocol, Innovation Bridge, Swarm logika) GINOP 2.1.3‑24 célrendszeréhez igazítva. 
-
-
-
-12\. \*\*Pályázatfigyelés beállítása (folyamatos)\*\*  
-
-&#x20;   - Rendszeres figyelés GINOP 2.1.3‑24 új szakaszaira, esetleges új vállalati képzési pályázatokra (GINOP 3.2.1 jellegűek).
-
-
-
-13\. \*\*MVLSH / Demján jellegű programok monitorozása (folyamatos)\*\*  
-
-&#x20;   - Ha újra nyílik “Minden vállalkozásnak legyen saját honlapja” vagy MI‑fókuszú voucher, gyors reagálás a már kész tartalommal (pohanka.vercel.app, esettanulmányok). 
-
-
-
-\*\*\*
-
-
-
-\## Akcióterv – teendők támogatott hitelekre
-
-
-
-\### D. GINOP Plusz-1.4.3-24 – KKV Technológia Plusz (0% hitel)
-
-
-
-1\. \*\*Hitelképességi előszűrés (1–2 nap)\*\*  
-
-&#x20;  - Belső kalkuláció: mekkora 0%-os hitel illeszkedik a jelenlegi 2–3 M Ft körüli éves nyereséghez és cash‑flow‑hoz (pl. 10–20 M Ft célösszeg). 
-
-
-
-2\. \*\*MFB Pont / közvetítő bank felkeresése (1 nap)\*\*  
-
-&#x20;  - Időpont egyeztetés, előminősítésre alkalmas dokumentumok (mérleg, eredménykimutatás, NAV igazolás, mesterdoc) összekészítése. 
-
-
-
-3\. \*\*Előminősítési tárgyalás (1 nap)\*\*  
-
-&#x20;  - A finanszírozandó eszköz- és technológiai projekt rövid bemutatása (BAS + esetleges jármű/gép), hitelösszeg és futamidő egyeztetése.
-
-
-
-4\. \*\*Döntés: GINOP 1.4.3-24 vs. Széchenyi hitel kombináció (1–2 nap)\*\*  
-
-&#x20;  - Összehasonlítani a 0%-os GINOP-hitel feltételeit a Széchenyi Mikrohitel MAX+ és Széchenyi Beruházási Hitel MAX+ konstrukciókkal (fedezet, futamidő, admin). 
-
-
-
-5\. \*\*Hitelkérelem összeállítása és benyújtása (5–10 nap)\*\*  
-
-&#x20;  - Részletes beruházási terv, cash‑flow terv, fedezet dokumentációja, szükséges banki nyomtatványok kitöltése. 
-
-
-
-\*\*\*
-
-
-
-\### E. DIMOP Plusz-1.2.3/A-24 – hitelrész integrálása
-
-
-
-6\. \*\*DIMOP 1.2.3/A hitel–támogatás arány tervezése (2–3 nap)\*\*  
-
-&#x20;  - Meghatározni, hogy a 3–20 M Ft-os keretből mekkora arányban legyen VNT és mekkora a 0%-os hitel, úgy hogy a hitelterhelés biztonságos maradjon. 
-
-
-
-7\. \*\*Hitelrész banki egyeztetése (1–2 nap)\*\*  
-
-&#x20;  - A pályázatban vállalt hitelrész feltételeinek pontosítása a finanszírozó intézménnyel (futamidő, biztosíték, lehívás ütemezése).
-
-
-
-\*\*\*
-
-
-
-\### F. Széchenyi Mikrohitel MAX+ és Beruházási Hitel MAX+
-
-
-
-8\. \*\*Széchenyi Programiroda konzultáció (1 nap)\*\*  
-
-&#x20;  - Termékismertetés és előminősítés: Mikrohitel MAX+ vs. Beruházási Hitel MAX+, javasolt hitelösszeg és fedezet. 
-
-
-
-9\. \*\*Banki ajánlatok bekérése 2–3 banktól (3–5 nap)\*\*  
-
-&#x20;  - Kamat (3% / 1,5% zöld), díjak, fedezeti elvárások, futamidő és türelmi idők összehasonlítása. 
-
-
-
-10\. \*\*Hitelstratégia véglegesítése (1–2 nap)\*\*  
-
-&#x20;   - Eldönteni, hogy a DIMOP + GINOP 0%-os hiteleket milyen mértékben egészítitek ki Széchenyi‑hitelekkel (pl. nagyobb jármű/bizonyos eszközök finanszírozására). 
-
-
-
-11\. \*\*Hitelkérelem(ek) beadása és nyomon követése (5–15 nap)\*\*  
-
-&#x20;   - Teljes banki dokumentáció összeállítása, hiánypótlások kezelése, majd pozitív döntés esetén folyósítás és szerződéses kötelezettségek monitorozása.
-
-
-
-
-
+#### 1.4.3 A projekt szakmai tartalma, tevékenységek
+A projekt keretében a vállalkozás a következő fejlesztési elemeket valósítja meg:
+1. **Hardver és hálózati infrastruktúra fejlesztése:** GPU‑képes munkaállomás és korszerű irodai számítógépek beszerzése a BAS lokális futtatásához és fejlesztéséhez. NAS és hálózati eszközök telepítése a vektoradatbázis és biztonságos adatmentés kiszolgálására.
+2. **Brunella Agent System (BAS) bevezetése:** Node.js alapú orkesztrációs mag, Python/FastAPI alrendszer és Playwright alapú “Robotkéz” modul bevezetése a könyvelői szoftverek és webes felületek automatizált kezelésére. LanceDB vektoradatbázisra épülő RAG‑megoldás kialakítása, amely a számlák, bankkivonatok és korábbi döntések alapján támogatja az AI‑asszisztensek tanulását. Phoenix Protocol v2 önjavító mechanizmus élesítése folyamatos heartbeat‑monitoringgal és automatikus újraindítással.
+3. **Felhőszolgáltatások és üzemeltetés:** Felhőalapú erőforrások (pl. Google Cloud) igénybevétele a rendszer skálázható és biztonságos futtatásához, backup‑ és monitoringszolgáltatásokkal kiegészítve.
+4. **Tanácsadás és képzés:** Külső IT tanácsadó bevonása a rendszertervezéshez, biztonsági hardeninghez és folyamatoptimalizáláshoz. Belső képzések szervezése a BAS mindennapi használatára, AI‑asszisztált munkavégzésre és digitális munkafolyamatokra.
+
+#### 1.4.4 Várható eredmények, indikátorok
+*   A manuális számlaadat‑rögzítéssel töltött idő legalább 50%-kal csökken a projekt előtti bázisidőszakhoz képest (belső időmérési kimutatás alapján).
+*   A beérkező számlák minimum 80%-a automatikus Gmail‑figyelés + OCR + AI alapú folyamatokon keresztül kerül be a könyvelési rendszerbe.
+*   A bankszámla- és házipénztár tranzakciók legalább 70%-a automatikus egyeztető folyamatokon fut át.
+*   A rendszer éves rendelkezésre állása eléri a 99%-ot a Phoenix Protocol v2 önjavító mechanizmusnak köszönhetően.
+*   A DI‑pontszám az új audit során az “alacsony” szintről legalább “közepes” kategóriára javul.
+
+### 1.5 Mellékletek beszerzése (Június 26. / 9. nap – BELSŐ HATÁRIDŐ)
+*   [ ] **Belső határidő ellenőrzése:** Minden mellékletnek készen kell állnia az EPTK-ba történő feltöltéshez. (Lásd a IV. fejezet Melléklet Ellenőrző Listáját).
+
+### 1.6 EPTK feltöltés és beadás (Június 27–29. / 10-12. nap)
+*   [ ] **Regisztráció és belépés:** Belépés az állami EPTK pályázati felületre (ügyfélkapus azonosítással).
+*   [ ] **Adatlap rögzítése:** A cégadatok, pénzügyi adatok bevitele, és a 1.4-es fejezetben szereplő leírások bemásolása a megfelelő mezőkbe.
+*   [ ] **Mellékletek feltöltése:** A DFK igazolás, a DI-igazolás, a 3 db árajánlat, cégkivonat és aláírási címpéldány feltöltése PDF formátumban.
+*   [ ] **Elektronikus aláírás és beadás:** A projektgazda cégjegyzésre jogosult képviselőjének (ügyvezető) AVDH vagy minősített elektronikus aláírásával hitelesíteni az adatlapot és beküldeni.
+
+---
+
+## III. Széchenyi Mikrohitel MAX+ Heti sprintek
+
+### 2.1 Hitelképességi előszűrés (1. Hét: Július 1–7.)
+*   [ ] **Előminősítési kalkuláció:** Ellenőrizni a [mesterdoc.md II. pontjában](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md#ii-p%C3%A9nz%C3%BCgyi-%C3%A9s-gazdas%C3%A1gi-adatok-utols%C3%B3-3-lez%C3%A1rt-%C3%BCzleti-%C3%A9v) szereplő pénzügyi adatokat (2025-ös árbevétel: 9 158 000 Ft, saját tőke: 6 065 000 Ft).
+*   [ ] **Hitelösszeg kijelölése:** Mivel a tervezett hitelösszeg **5-7 millió HUF**, ez a saját tőke (6 M Ft) és az árbevétel (9,1 M Ft) alapján teljesen biztonságos tartományba esik.
+*   [ ] **Törlesztő kalkuláció:** Kiszámítani a 3%-os fix kamat mellett fizetendő havi törlesztőrészletet (pl. 5 évre 6 M Ft esetén a tőke + kamat törlesztő kb. 110-115 ezer HUF/hó, ami a 2025-ös stabil adózott eredmény mellett könnyen kigazdálkodható).
+
+### 2.2 Széchenyi Programiroda / bank kiválasztása (2. Hét: Július 8–14.)
+*   [ ] **OTP kapcsolat felvétele:** Mivel a cég OTP bankszámlával rendelkezik, és megbízható partner, az OTP Bank Széchenyi hitel termékét választjuk.
+*   [ ] **Időpontfoglalás a KAVOSZ-nál:** Időpontot foglalni a zalaegerszegi KAVOSZ (Széchenyi Programiroda) irodába a hitelkérelem személyes átadásához és előminősítéshez.
+
+### 2.3 Szükséges dokumentumok összegyűjtése (3. Hét: Július 15–21.)
+*   [ ] **Pénzügyi beszámolók:** Letölteni az Igazságügyi Minisztérium portáljáról a 2023, 2024 és 2025-ös egyszerűsített éves beszámolókat (mérlegeket és eredménykimutatásokat).
+*   [ ] **Főkönyvek letöltése:** A könyvelési szoftverből kinyerni a 2023, 2024, 2025-ös lezárt főkönyvi kivonatokat, valamint a 2026. I. féléves törtidőszaki főkönyvi kivonatot.
+*   [ ] **NAV nullás igazolás:** Lekérni az Ügyfélkapun keresztül a köztartozásmentes adózói adatbázisban (KOMA) való szereplést igazoló NAV Nullás igazolást.
+
+### 2.4 Hitelcél részletes leírása (4. Hét: Július 22–28.)
+*   [ ] **Eszközök specifikációja:** A Széchenyi Mikrohitel MAX+ beruházási hitel céljának pontos meghatározása és az árajánlatok összegyűjtése:
+    *   **Irodai hardver:** További irodai laptopok, monitorok a 3 fő részére – *Keretösszeg: kb. 1,5–2 M HUF.*
+    *   **Mobilitási eszköz (cégautó):** A könyvelőiroda ügyfeleihez való kijárást támogató, gazdaságos cégautó – *Keretösszeg: kb. 3,5–5 M HUF.*
+
+### 2.5 Hitelkérelem összeállítása és beadása (5. Hét: Július 29. – Augusztus 4.)
+*   [ ] **Nyomtatványok kitöltése:** A KAVOSZ honlapjáról letöltött hitelkérelmi adatlap és üzleti terv sablonok kitöltése a [mesterdoc.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md) alapján.
+*   [ ] **Személyes benyújtás:** A kitöltött kérelmek és a IV. fejezetben felsorolt összes melléklet személyes leadása a zalaegerszegi Széchenyi Programirodában.
+
+### 2.6 Döntés, szerződéskötés, lehívás (6-8. Hét: Augusztus 5–25.)
+*   [ ] **Banki bírálat követése:** Kapcsolattartás az OTP banki hitelügyintézőjével, esetleges hiánypótlások gyors teljesítése.
+*   [ ] **Szerződéskötés és Garancia:** A hitelszerződés aláírása az OTP Banknál, a Garantiqa kezességvállalási szerződés megkötése, és a fedezetek (pl. cégautó zálogjog) bejegyzése.
+*   [ ] **Folyósítás és elszámolás:** A hitelösszeg lehívása, az eszközök kifizetése és a bank felé történő számlabemutatásos elszámolás.
+
+---
+
+## IV. Csatolmányok és Mellékletek közös checklist
+
+Az alábbi táblázat tartalmazza a mindkét konstrukcióhoz szükséges dokumentumok listáját, azok forrását és felelősét:
+
+| Dokumentum Megnevezése | Konstrukció | Felelős | Forrás / Hivatkozás | Státusz |
+| :--- | :---: | :---: | :--- | :---: |
+| **Digitális Fejlesztési Koncepció (DFK)** | DIMOP | Pályázatíró / IT | MVP DFK rendszer | Beszerzendő |
+| **Digitális Intenzitás (DI) Igazolás** | DIMOP | Cégvezetés | [digikkv.hu](https://digikkv.hu) (IG32095-2025) | Rendelkezésre áll |
+| **3 db független árajánlat (IT és BAS)** | DIMOP | IT Tanácsadó | Külső beszállítók | Beszerzendő |
+| **2023, 2024, 2025 Beszámolók** | Mindkettő | Könyvelő | [mesterdoc.md II. szakasz](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md#ii-p%C3%A9nz%C3%BCgyi-%C3%A9s-gazdas%C3%A1gi-adatok-utols%C3%B3-3-lez%C3%A1rt-%C3%BCzleti-%C3%A9v) | Rendelkezésre áll |
+| **2023, 2024, 2025 Főkönyvi kivonatok** | Hitel | Könyvelő | Könyvelő szoftverből | Beszerzendő |
+| **2026. I. féléves törtidőszaki főkönyv** | Hitel | Könyvelő | Könyvelő szoftverből | Beszerzendő |
+| **Friss cégkivonat (30 napnál nem régebbi)** | Mindkettő | Cégvezetés | Igazságügyi Minisztérium | Beszerzendő |
+| **Aláírási címpéldányok** | Mindkettő | Cégvezetés | Meglévő közjegyzői okirat | Rendelkezésre áll |
+| **NAV Nullás Köztartozás Igazolás** | Mindkettő | Könyvelő | NAV KOMA rendszer | Beszerzendő |
+| **Hitelkérelmi nyomtatványok és üzleti terv**| Hitel | Cégvezetés | [kavosz.hu](https://www.kavosz.hu) portálról letölthető | Beszerzendő |
+| **Autóvásárlási és IT eszköz árajánlatok** | Hitel | Cégvezetés | Autókereskedés és IT bolt | Beszerzendő |
