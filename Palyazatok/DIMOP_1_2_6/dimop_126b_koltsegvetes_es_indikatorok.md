@@ -6,7 +6,7 @@
 - **Igényelt vissza nem térítendő támogatás (90%):** 8 100 000 Ft  
 - **Önerő (10%):** 900 000 Ft  
 
-A költségvetés kialakítása megfelel a DIMOP Plusz1.2.6/B26 konstrukció alapelveinek: a hardverbeszerzés aránya nem haladja meg a 30%-ot, a fennmaradó rész szoftverre, felhőszolgáltatásokra, tanácsadásra és képzésre fordítható.
+A költségvetés kialakítása megfelel a DIMOP Plusz-1.2.6/B-26 konstrukció alapelveinek: a hardverbeszerzés aránya nem haladja meg a 30%-ot, a fennmaradó rész szoftverre, felhőszolgáltatásokra, tanácsadásra és képzésre fordítható.
 
 ## Részletes költségvetési bontás (tervezett)
 
@@ -45,4 +45,4 @@ A fenti bontás a következő szakmai logikát követi:
 - A rendszer éves rendelkezésre állásának elérése legalább 99%-os szinten (tervezett leállásokon kívül).  
 - A vállalkozás digitális intenzitásának javítása az alacsony kategóriából minimum közepes szintre a következő DIaudit során.
 
-Ezek az indikátorok közvetlenül támogatják a DIMOP Plusz1.2.6/B26 program céljait: a vidéki, alacsony digitalizációs szintű kkvk termelékenységének növelését digitalizációs beruházásokon és folyamatfejlesztésen keresztül.
+Ezek az indikátorok közvetlenül támogatják a DIMOP Plusz-1.2.6/B-26 program céljait: a vidéki, alacsony digitalizációs szintű kkv-k termelékenységének növelését digitalizációs beruházásokon és folyamatfejlesztésen keresztül.

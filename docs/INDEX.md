@@ -3,7 +3,9 @@
 Ez a fájl összefoglalja a Pohánka és Társa Kft. pályázati és támogatott hitelkérelmi dokumentációjának struktúráját, és közvetlen elérést biztosít a legfontosabb fájlokhoz.
 
 ## 1. Alapvető Kontextus és Adatok
-*   [Mesterdokumentum (mesterdoc.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md) – A cég összes hivatalos cégbírósági, pénzügyi és létszámadata.
+*   [Mesterdokumentum (mesterdoc.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md) / [Mesterdokumentum v5 (mesterdoc-5.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc-5.md) – A cég összes hivatalos cégbírósági, pénzügyi és létszámadata.
+*   [Hátralévő teendők TODO (palyazat-todo-list-5.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/palyazat-todo-list-5.md) – Kizárólag a még elvégzendő feladatok listája.
+*   [Előző TODO lista (palyazat-todo-list-4.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/palyazat-todo-list-4.md) – A 4. forduló után lezárt, teljes TODO lista.
 *   [Pályázatfigyelési Kutatás (kutatas_lehetőségek.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/kutatas_lehet%C5%91s%C3%A9gek.md) – Az elérhető források részletes elemzése és összehasonlítása.
 *   [Fő Akcióterv (akcio_terv.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/akcio_terv.md) – A beadási folyamat napi (DIMOP) és heti (Széchenyi) szintű to-do listája.
 *   [Projekt Szabályzat (GEMINI.md)](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/GEMINI.md) – Az AI asszisztens működési elvei.

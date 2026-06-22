@@ -32,9 +32,8 @@ A Széchenyi Mikrohitel MAX+ esetében a 6 000 000 Ft hitelösszeg 5 éves futam
 
 ### Törlesztőképesség indoklása
 
-A mesterdoc alapján a Pohánka és Társa Kft.:
-- pozitív saját tőkével rendelkezik,  
-- az elmúlt években stabilan pozitív eredményt ért el, a legutóbbi évben ~23 millió Ft nagyságrendű adózott eredménnyel,  
+A mesterdoc alapján a Pohánka és Társa Kft. törlesztőképessége stabil:
+- az elmúlt években stabilan pozitív eredményt ért el, a legutóbbi évben ~374 ezer Ft adózott eredménnyel (és ~6 millió Ft saját tőkével),  
 - nincsen lejárt köztartozása, megbízható adózó minősítésű.
 
 A ~110 000 Ft/hó törlesztő a jelenlegi eredményszinthez képest biztonságos sávban mozog, és a Brunella Agent System bevezetéséhez kapcsolódó hatékonyságnövekedés (adminisztrációs idő 50%os csökkenése, több automatizált folyamat, több ügyfél kiszolgálása változatlan létszámmal) várhatóan további árbevétel és profitnövekedést eredményez.

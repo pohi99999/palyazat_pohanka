@@ -32,7 +32,7 @@ A projekt átfogó célja a Pohánka és Társa Kft. könyvelési és adminisztr
 
 ## Várható közvetett eredmények
 
-- A felszabaduló kapacitás lehetővé teszi 1020% közötti árbevételnövekedés elérését a projektet követő 2. üzleti év végére, elsősorban új ügyfelek felvételével és magasabb hozzáadott értékű szolgáltatások bevezetésével.  
+- A felszabaduló kapacitás lehetővé teszi 10-20% közötti árbevétel-növekedés elérését a projektet követő 2. üzleti év végére, elsősorban új ügyfelek felvételével és magasabb hozzáadott értékű szolgáltatások bevezetésével.  
 - A digitalizált és automatizált folyamatok csökkentik a hibakockázatot és javítják a szolgáltatás átláthatóságát, ami hosszú távon erősíti az ügyfélmegtartást és a cég reputációját.
 
-A fenti célok és eredmények közvetlenül hozzájárulnak a DIMOP Plusz1.2.6/B26 felhívás által megfogalmazott célokhoz: a vidéki, alacsony digitális intenzitású kkvk versenyképességének növeléséhez digitális infrastruktúra-fejlesztés és transzformáció útján.
+A fenti célok és eredmények közvetlenül hozzájárulnak a DIMOP Plusz-1.2.6/B-26 felhívás által megfogalmazott célokhoz: a vidéki, alacsony digitális intenzitású kkv-k versenyképességének növeléséhez digitális infrastruktúra-fejlesztés és transzformáció útján.

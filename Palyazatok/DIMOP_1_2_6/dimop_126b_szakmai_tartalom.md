@@ -39,4 +39,4 @@ A projekt során a következő infrastruktúra elemek kerülnek beszerzésre és
 
 Ezen felül felhőszolgáltatások (pl. Google Cloud) biztosítják a rendszer skálázhatóságát, a redundáns adatmentést és a monitorozási funkciókat.
 
-A fenti szakmai tartalom megfelel a DIMOP Plusz1.2.6/B26 felhívás digitális infrastruktúra és transzformáció célrendszerének: hardver és szoftverfejlesztés, felhőalapú megoldások bevezetése, valamint digitális folyamatok kialakítása és automatizálása.
+A fenti szakmai tartalom megfelel a DIMOP Plusz-1.2.6/B-26 felhívás digitális infrastruktúra és transzformáció célrendszerének: hardver és szoftverfejlesztés, felhőalapú megoldások bevezetése, valamint digitális folyamatok kialakítása és automatizálása.

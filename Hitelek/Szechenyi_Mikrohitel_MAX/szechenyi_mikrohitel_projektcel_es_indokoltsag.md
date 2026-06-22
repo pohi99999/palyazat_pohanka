@@ -24,6 +24,6 @@ A hitel felvétele lehetővé teszi, hogy:
 - a BAS által ígért hatékonyságnövekedés (adminisztrációs idő 50%os csökkentése, több automatizált folyamat) a gyakorlatban is realizálódjon, mivel a rendszerhez illeszkedő, modern hardver áll rendelkezésre;  
 - az ügyfélszerzés és szolgáltatásnyújtás rugalmasabbá váljon, ami a hitel futamideje alatt növekvő árbevételt és stabil törlesztőképességet biztosít.
 
-A 23 millió Ft körüli éves nyereség és a pozitív saját tőke alapján egy 57 millió Ft-os, 3%-os kamatozású Széchenyi Mikrohitel MAX+ biztonságosan kigazdálkodható, különösen figyelembe véve a Brunella/BAS rendszer által várhatóan generált hatékonyság és bevételnövekedést.  
+A pozitív éves nyereség (2025-ben ~374 ezer Ft, a saját tőke pedig ~6 millió Ft) alapján a 6 000 000 Ft összegű, 3%-os kamatozású Széchenyi Mikrohitel MAX+ biztonságosan kigazdálkodható, különösen figyelembe véve a Brunella/BAS rendszer által várhatóan generált hatékonyság- és árbevétel-növekedést.  
 
 A hitel és a DIMOP támogatás kombinációja így egy kiegyensúlyozott finanszírozási mixet hoz létre: a vissza nem térítendő források minimalizálják a saját tőke terhelését, míg a kedvezményes hitel biztosítja a hiányzó beruházási elemek finanszírozását.

@@ -14,8 +14,8 @@ Ez a lista tartalmazza a Széchenyi Mikrohitel MAX+ igényléséhez jellemzően 
 
 | #  | Dokumentum                                        | Forrás / Megjegyzés                                   | Státusz |
 |----|---------------------------------------------------|------------------------------------------------------|---------|
-| 4. | Utolsó 23 lezárt év beszámolói                   | eBeszámoló, mesterdoc gyűjtendő mappa               | [ ]     |
-| 5. | Utolsó 23 év főkönyvi kivonatai                  | Könyvelő  mesterdoc alapján                         | [ ]     |
+| 4. | Utolsó 3 lezárt év beszámolói                    | eBeszámoló, mesterdoc gyűjtendő mappa               | [ ]     |
+| 5. | Utolsó 3 év főkönyvi kivonatai                   | Könyvelő - mesterdoc alapján                         | [ ]     |
 | 6. | Aktuális év (törtidőszak) főkönyvi kivonata       | Ha már rendelkezésre áll                             | [ ]     |
 | 7. | Rövid cashflow terv (havi törlesztő + fedezet)   | szechenyi_mikrohitel_koltsegvetes_es_cashflow.md    | [ ]     |
 
@@ -32,7 +32,7 @@ Ez a lista tartalmazza a Széchenyi Mikrohitel MAX+ igényléséhez jellemzően 
 | #  | Dokumentum                                          | Forrás / Megjegyzés                              | Státusz |
 |----|-----------------------------------------------------|-------------------------------------------------|---------|
 | 11.| Részletes beruházási lista (IT eszközök + cégautó) | szechenyi_mikrohitel_projektcel_es_indokoltsag.md alapján | [ ]     |
-| 12.| IT eszköz árajánlat(ok)                            | 23 ajánlat workstation/PC/NAS eszközökre       | [ ]     |
+| 12.| IT eszköz árajánlat(ok)                            | 2-3 ajánlat workstation/PC/NAS eszközökre            | [ ]     |
 | 13.| Cégautó(ka)t érintő árajánlat(ok)                  | Márka/kereskedő ajánlatai (bruttó vételár)      | [ ]     |
 
 ## 5. Hitelkérelmi és KAVOSZ nyomtatványok
