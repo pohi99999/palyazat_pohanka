@@ -38,3 +38,5 @@ Fontos fájlok gyors elérés:
 - Hitelek/Szechenyi_Mikrohitel_MAX/* — hiteldokumentáció és cashflow
 
 Ha kérdésed van a struktúrával vagy a fájlok tartalmával kapcsolatban, jelezd, és frissítem a TARTALOM.md‑et további részletekkel vagy fájllinkekkel.
+
+Script ellenőrzés: scripts\check_mellekletek.ps1 — egyszerű PowerShell ellenőrző script a mellékletek meglétének vizsgálatához. Futtatás: powershell -ExecutionPolicy Bypass -File .\scripts\check_mellekletek.ps1

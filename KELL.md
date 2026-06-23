@@ -26,7 +26,7 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 
 5) EPTK felületre belépés és pályázat kiválasztása; szövegek bemásolása és mellékletek feltöltése (finalizálás)
 - MIT: Jelentkezz be az EPTK (Elektronikus Pályázati Tér) felületére, válaszd ki a DIMOP Plusz‑1.2.6/B‑26 felhívást, másold be az EPTK mezőkbe a "Rövid EPTK‑verzió" blokkok szövegét, töltsd fel a kötelező mellékleteket (KOMA, iparűzési igazolás, DFK, árajánlatok, dokumentumlista).
-- HOL: EPTK (Ügyfélkapu belépés szükséges). (A pontos URL és belépési útvonal a pályázati portálon elérhető.)
+- HOL: EPTK (Elektronikus Pályázati Tér) — hivatalos pályázati portál: https://www.palyazat.gov.hu (Ügyfélkapu belépés szükséges; a benyújtási URL az adott felhívásnál található).
 - MIVEL: a repository Palyazatok/DIMOP_1_2_6/* fájlai (különösen a dimop_126b_*.md fájlokban lévő "## Rövid EPTK‑verzió" blokk), KELL.md-ben összegyűjtött igazolások.
 - MIKOR: benyújtás előtti napon/napokban; javasolt ellenőrző kör (külső szakértő vagy könyvelő) a végleges benyújtás előtt.
 
@@ -49,3 +49,7 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 - MIKOR: 1–3 nap a benyújtás előtt.
 
 Megjegyzés: minden igazolásnál őrizd meg a letöltött PDF/HTML bizonylatot és töltsd fel az EPTK mellékletei közé; ha kétség merül fel, konzultálj a pályázati tanácsadóval vagy a könyvelővel.
+
+Automatizált melléklet-ellenőrzés
+A projekt repository-hoz hozzáadtam egy egyszerű PowerShell scriptet: scripts\check_mellekletek.ps1. A script a repo gyökérből futtatva ellenőrzi az alapvető mellékletek meglétét (például: KOMA, iparűzési igazolás, DFK, árajánlatok, cégkivonat, dimop költségvetés). Futtatás PowerShellben: powershell -ExecutionPolicy Bypass -File .\scripts\check_mellekletek.ps1
+A script nem tölt fel semmit az EPTK-re, csak helyi fájlrendszerben vizsgálja a fájlok meglétét és listázza a hiányzó tételeket, így segít előkészíteni a feltöltést.
