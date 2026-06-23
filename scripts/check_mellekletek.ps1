@@ -13,7 +13,7 @@ $required = @(
     "arajanlat_integracio.pdf",
     "cegkivonat.pdf",
     "mesterdoc.md",
-    "Palyazatok\\DIMOP_1_2_6\\dimop_126b_koltsegvetes_es_indikatorok.md"
+    "dimop_126b_koltsegvetes_es_indikatorok.md"
 )
 
 $found = @()
