@@ -1,5 +1,17 @@
 # DIMOP Plusz-1.2.6/B-26  Célok és várható eredmények
 
+## Rövid EPTK-verzió
+A projekt célja a Pohánka és Társa Kft. könyvelési és adminisztratív folyamatainak digitális transzformációja a Brunella Agent System (BAS) bevezetésével. A projekt 9 000 000 Ft összköltségű (8 100 000 Ft támogatás, 900 000 Ft önerő). 
+Konkrét, számszerűsített célok:
+1. Az egy ügyfélre jutó manuális számlaadat-rögzítési és adminisztrációs idő csökkentése legalább 50%-kal a bázisévhez (2025) képest.
+2. A beérkező számlák legalább 80%-ának automatikus feldolgozása (Gmail-monitoring + OCR + AI adatkinyerés és könyvelő szoftverbe juttatás).
+3. A bankszámla- és házipénztár tranzakciók legalább 70%-ának automatikus egyeztetése (reconciliation) szabályalapú és AI-támogatott egyeztetéssel.
+4. A bevezetett Phoenix Protocol v2 önjavító protokollnak köszönhetően a BAS rendszer éves rendelkezésre állása elérje a 99%-ot.
+5. A vállalkozás digitális intenzitásának javítása az alacsony kategóriából legalább közepes szintre a következő auditon.
+Indikátorok: 1 db támogatott vállalkozás, min. 3 db új vagy korszerűsített digitális eszköz (GPU munkaállomás, NAS, PC/laptopok), 1 db BAS szoftverrendszer bevezetése, legalább 1 felhőszolgáltatás (Google Cloud), 3 fő képzésben részesített munkavállaló.
+
+---
+
 ## Átfogó cél
 
 A projekt átfogó célja a Pohánka és Társa Kft. könyvelési és adminisztratív folyamatai digitális transzformációja és részleges automatizálása a Brunella Agent System (BAS) bevezetésével, annak érdekében, hogy a vállalkozás termelékenysége, szolgáltatási minősége és növekedési potenciálja érdemben javuljon.
