@@ -8,7 +8,7 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 
 2) Helyi iparűzési adó igazolás az önkormányzattól
 - MIT: Kérd le az önkormányzat által kiadott helyi iparűzési adó befizetésre/mentességre vonatkozó igazolást.
-- HOL: Zalaegerszeg / illetékes önkormányzat pénzügyi ügyfélszolgálata vagy e‑ügyintézés.
+- HOL: Zalaegerszeg (https://zalaegerszeg.hu) / illetékes önkormányzat pénzügyi ügyfélszolgálata vagy e‑ügyintézés.
 - MIVEL: cégkivonat, üzleti cím, befizetési bizonylatok (ha van).
 - MIKOR: javasolt min. 2 hét a kérelmezéstől a jóváhagyásig; indítsd el mielőbb.
 
