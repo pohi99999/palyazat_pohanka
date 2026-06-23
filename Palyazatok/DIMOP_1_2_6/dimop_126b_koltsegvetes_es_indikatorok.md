@@ -1,5 +1,10 @@
 # DIMOP Plusz-1.2.6/B-26  Költségvetés és indikátorok
 
+## Rövid EPTK-verzió
+A projekt összköltsége 9 000 000 Ft; ebből igényelt vissza nem térítendő támogatás 8 100 000 Ft (90%), saját forrás 900 000 Ft (10%). Tervezett bontás: hardver (≈2 700 000 Ft; GPU munkaállomás, PC/laptop, NAS), szoftver és felhő (≈3 600 000 Ft; BAS licencek, OCR, LanceDB, felhő), tanácsadás/integráció (≈1 800 000 Ft), képzés (≈900 000 Ft). Vállalt indikátorok: 1 támogatott vállalkozás, min. 3 új/korszerűsített digitális eszköz, 1 bevezetett BAS rendszer, legalább 1 felhőszolgáltatás, 3 képzett munkavállaló. Eredményindikátorok: manuális adminisztrációs idő ≥50% csökkentése, ≥80% automatikus számlafeldolgozás, ≥70% banki tranzakció automatikus párosítása, rendszer éves rendelkezésre állása ≈99%, DI‑szint emelkedése alacsonyról legalább közepesre.
+
+---
+
 ## Projekt összköltség és finanszírozási szerkezet
 
 - **Projekt összköltség:** 9 000 000 Ft  

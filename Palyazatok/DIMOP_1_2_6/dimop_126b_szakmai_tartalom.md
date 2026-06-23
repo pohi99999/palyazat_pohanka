@@ -1,13 +1,7 @@
 # DIMOP Plusz-1.2.6/B-26  A fejlesztés szakmai tartalma
 
 ## Rövid EPTK-verzió
-A projekt keretében a Pohánka és Társa Kft. bevezeti a Brunella Agent System (BAS) hibrid, multi-agent AI rendszert. A rendszer egy Node.js alapú orkesztrációs magból (Express.js, Socket.IO) és Python/FastAPI alapú adatfeldolgozó és automatizációs rétegből áll (Playwright robotkéz technológia, számlaadat- és bankkivonat-feldolgozás).
-Fő szakmai/technológiai elemek:
-1. Specializált autonóm ágensek együttműködő csapata (MAS), amelyek Vision-Language-Action képességgel közvetlenül kezelik az irodai szoftverek felületeit (Robotkéz).
-2. LanceDB vektoradatbázisra épülő RAG (Retrieval-Augmented Generation) memória, amely a korábbi számlák és könyvelési döntések alapján javaslatot tesz a tételek kezelésére.
-3. Phoenix Protocol v2 önjavító mechanizmus 5 másodperces heartbeat monitoringgal az üzemzavarok és adatvesztés elkerülésére.
-4. Bifrost Gateway hibrid elérés a helyi (Ollama, qwen2.5-coder:7b) és felhős (Gemini, GPT-4o) modellek intelligens és költséghatékony kombinálására.
-Beszerzendő infrastruktúra: 1 db GPU-val szerelt munkaállomás a helyi MI modellek futtatásához, 2 db irodai laptop/PC a kliensoldali használathoz, 1 db NAS és hálózati eszközök a biztonsági mentések és az adatbázis kiszolgálására. A szoftverlicencek és felhőszolgáltatások bevezetését külső IT tanácsadás és a 3 fős munkatársi gárda AI-asszisztált képzése támogatja.
+A fejlesztés központi eleme a Brunella Agent System (BAS): egy hibrid, multi‑agent architektúra, amely orkesztrációs magból (Node.js/Express) és adatfeldolgozó‑automatizációs rétegből (Python/FastAPI + Playwright robotkéz) áll. A BAS autonóm ágensei OCR‑ és Vision‑Language‑Action képességekkel képesek a számlák és webes banki felületek kezelésére, míg a LanceDB alapú RAG memória a korábbi bizonylatok és döntések alapján javaslatokat ad. A Phoenix Protocol v2 önjavító monitoringgal (5 s liveness) növeli az üzembiztonságot; a Bifrost Gateway intelligensen kombinálja a helyi (Ollama, qwen) és felhőmodellt (Google Gemini/GPT), optimalizálva költséget és adatvédelmet. Infrastrukturális tételek: 1 db GPU munkaállomás, PC/laptopok, NAS, OCR és LanceDB licencek, felhő erőforrások, integráció és 3 fős képzés. A megoldás célja a megbízható, adatvédelem‑orientált automatizálás és a könyvelési folyamatok hibaarányának jelentős csökkentése.
 
 ---
 
