@@ -23,7 +23,7 @@ Ez a lista tartalmazza a Széchenyi Mikrohitel MAX+ igényléséhez jellemzően 
 
 | #  | Dokumentum                                  | Forrás / Megjegyzés                                         | Státusz |
 |----|---------------------------------------------|------------------------------------------------------------|---------|
-| 8. | NAV Nullás igazolás / köztartozásmentesség | NAV KOMA / NAV ügyfélkapu                                 | [ ]     |
+| 8. | NAV Nullás igazolás / köztartozásmentesség | KOMA - Pohánka Kft.pdf (NAV KOMA igazolás, 2026. 06. 23.) | [x]     |
 | 9. | Helyi iparűzési adó igazolás               | Önkormányzat (Zalaegerszeg)                                | [ ]     |
 | 10.| Megbízható adózói minősítés igazolása      | NAV rendszer  státusz ellenőrzés (nem mindig külön doksi) | [ ]     |
 

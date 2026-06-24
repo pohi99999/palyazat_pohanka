@@ -1,6 +1,6 @@
 KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 
-1) NAV: köztartozás‑mentesség ("nullás") igazolás lekérése
+1) [x] NAV: köztartozás‑mentesség ("nullás") igazolás lekérése (KOMA - Pohánka Kft.pdf elmentve, aktuális igazolás rendelkezésre áll)
 - MIT: Kérd le a NAV által kiadott köztartozás‑mentesség igazolást a pályázathoz.
 - HOL: NAV ügyfélkapu / NAV honlap (https://www.nav.gov.hu) → Ügyfélkapu belépés, adóigazolások menü.
 - MIVEL: cég adószáma, cégkivonat, mesterdoc.md (cégadatok).

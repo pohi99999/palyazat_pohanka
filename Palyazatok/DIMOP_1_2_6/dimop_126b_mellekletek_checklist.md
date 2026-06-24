@@ -22,7 +22,7 @@ Ez a checklist segít biztosítani, hogy a DIMOP Plusz1.2.6/B26 pályázathoz mi
 
 | #  | Dokumentum                                  | Konstrukció | Forrás / Megjegyzés                                        | Státusz |
 |----|---------------------------------------------|-------------|-----------------------------------------------------------|---------|
-| 7. | NAV Nullás igazolás / KOMA státusz       | DIMOP       | NAV KOMA  köztartozásmentes adózói adatbázis             | [ ]     |
+| 7. | NAV Nullás igazolás / KOMA státusz       | DIMOP       | KOMA - Pohánka Kft.pdf (NAV KOMA igazolás, 2026. 06. 23.) | [x]     |
 | 8. | Önkormányzati iparűzési adó tartozás-igazolás | DIMOP    | Helyi önkormányzat (Zalaegerszeg)                         | [ ]     |
 
 ## 4. Digitális intenzitás és DFK dokumentum

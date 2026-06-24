@@ -83,7 +83,7 @@ Kérlek, az alábbi pontok alapján gyűjtsd össze az információkat, töltsd 
 *   [ ] Utolsó 3 lezárt év Mérlege és Eredménykimutatása (vagy Egyszerűsített Éves Beszámoló).
 *   [ ] Utolsó 3 lezárt év Főkönyvi kivonata.
 *   [ ] Aktuális év törtidőszaki (legfrissebb) főkönyvi kivonata (ha elérhető).
-*   [ ] NAV "Nullás" igazolás (vagy képernyőkép a köztartozásmentes adózói adatbázisról).
+*   [x] NAV "Nullás" igazolás (vagy képernyőkép a köztartozásmentes adózói adatbázisról). Csatolva: KOMA - Pohánka Kft.pdf, érvényes a pályázat benyújtásakor (lekérdezve: 2026. 06. 23.).
 
 ---
 

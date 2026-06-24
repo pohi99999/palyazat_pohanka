@@ -18,6 +18,7 @@ Fő könyvtárak és fontos fájlok (gyökérből relatív útvonal)
 
 - docs/
   - 2025-06-19_IG32095-2025_DII.pdf — DI igazolás és kapcsolódó vizsgálatok.
+  - KOMA - Pohánka Kft.pdf — NAV KOMA igazolás (köztartozásmentes adózói státusz igazolása a DIMOP és Széchenyi hitelhez, lekérdezve: 2026. 06. 23.)
   - (további pdf/docx anyagok: ha vannak, itt találhatók)
 
 - mesterdoc.md, mesterdoc-5.md
