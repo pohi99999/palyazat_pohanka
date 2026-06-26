@@ -141,6 +141,12 @@ Kérlek, az alábbi pontok alapján gyűjtsd össze az információkat, töltsd 
 5.  **Marketing, Piacra jutás:** *Nincs tervezve.*
 6.  **Kutatás-Fejlesztés és Innováció (K+F+I):** *Nincs tervezve.*
 7.  **Forgóeszköz finanszírozás:** *Nincs tervezve.*
+8.  **Finanszírozási és hitelstratégia (Széchenyi Mikrohitel MAX+):**
+    *   A DIMOP Plusz-1.2.6/B-26 pályázat és a támogatott DFK mellett a cég a Széchenyi Mikrohitel MAX+ beruházási hitelt is bevonja a digitalizációs fejlesztések finanszírozásába.
+    *   **Tervezett hitelösszeg:** 6 000 000 Ft
+    *   **Kondíciók:** évi fix 3% kamat, 5 év (60 hónap) futamidő, havi 107 812 Ft annuitásos törlesztő.
+    *   **Hitel célja:** A DIMOP által közvetlenül nem fedezett, kiegészítő informatikai hardvereszközök (1 db GPU munkaállomás, 3 db PC/laptop, NAS) és a regionális ügyfélkapcsolatokhoz szükséges 1 db cégautó beszerzése.
+
 
 ---
 
