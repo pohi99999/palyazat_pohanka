@@ -18,11 +18,11 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 - MIVEL: cégadatok (mesterdoc.md).
 - MIKOR: azonnal, a pályázat és hitel előkészítő szakaszában.
 
-3) DFK szolgáltatóval időpont‑egyeztetés és DFK dokumentum átvétele
-- MIT: Egyeztess időpontot a DFK (digitális fejlesztési koncepció) készítővel, szerezd be és ellenőrizd a végleges DFK dokumentumot.
-- HOL: DFK szolgáltató / tanácsadó (kapcsolat a "palyazat-todo-list-4.md" alapján).
-- MIVEL: mesterdoc.md, DIMOP források (Palyazatok/DIMOP_1_2_6/*).
-- MIKOR: a pályázati dokumentálás előtt, legalább 2–3 héttel a benyújtás előtt.
+3) DFK (Digitális Fejlesztési Koncepció) folyamat menedzselése (Részletezve a fájl végén lévő DFK szekcióban)
+- MIT: Egyeztess és menedzseld a DFK folyamatot a kijelölt szolgáltatóval a hivatalos igazolás megszerzéséig.
+- HOL: DFK szolgáltató (Modern Vállalkozások Programja 2.0 / DKF tanácsadó).
+- MIVEL: [palyazat_ginop_1-3.pdf](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/palyazat_ginop_1-3.pdf) Támogatói Okirat, [dfk_koncepcio_vazlat.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6/dfk_koncepcio_vazlat.md).
+- MIKOR: a DIMOP pályázat benyújtása előtt (a végső felhasználási határidő 2026. november 30.).
 
 4) Hardver és szoftver árajánlatok bekérése (min. 2–3 ajánlat)
 - MIT: Kérj legalább 2–3 részletes árajánlatot a GPU munkaállomásra, NAS‑ra, OCR szoftverre, LanceDB/DB licencekre és integrációra.
@@ -55,6 +55,34 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 - MIKOR: 1–3 nap a benyújtás előtt.
 
 Megjegyzés: minden igazolásnál őrizd meg a letöltött PDF/HTML bizonylatot és töltsd fel az EPTK mellékletei közé; ha kétség merül fel, konzultálj a pályázati tanácsadóval vagy a könyvelővel.
+
+## DFK / GINOP támogatott szolgáltatás teendők
+
+*   `[ ]` **DFK szolgáltató megkeresése és időpont egyeztetése**
+    *   **MIT:** Vedd fel a kapcsolatot a Modern Vállalkozások Programja 2.0 / DKF kijelölt tanácsadójával a DFK folyamat elindításához.
+    *   **HOL:** Online / E-mail / Telefon. Kapcsolat a [palyazat-todo-list-4.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/palyazat-todo-list-4.md) és a Támogatói Okirat alapján.
+    *   **KIVEL:** KAVOSZ / MKIK vagy kijelölt DKF regisztrált tanácsadó.
+    *   **HATÁRIDŐ:** Azonnal (javasolt a DIMOP pályázati anyag összeállításának korai szakaszában).
+*   `[ ]` **Kérelmi és Hozzájárulási Nyilatkozat aláírása / visszaküldése**
+    *   **MIT:** A Támogatói Okiratban ([palyazat_ginop_1-3.pdf](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/palyazat_ginop_1-3.pdf)) előírt Kérelmi és Hozzájárulási Nyilatkozatot cégszerűen aláírva küldd vissza a szolgáltató felé a jogosultság aktiválásához.
+    *   **HOL:** Cégkapun vagy postai úton a szolgáltató címére.
+    *   **KIVEL:** Pohánka Józsefné / Pohánka József (ügyvezetők).
+    *   **HATÁRIDŐ:** A megkeresést követő 5 munkanapon belül.
+*   `[ ]` **DFK workshop / interjú lebonyolítása**
+    *   **MIT:** Vegyél részt a vállalati digitális státuszfelméréshez szükséges interjún/workshopon, és ismertesd a cég hibrid működési modelljét, valamint a BAS (Brunella Agent System) bevezetési terveit.
+    *   **HOL:** Személyesen a zalaegerszegi bérelt irodában (Kossuth út 39.) vagy online MS Teams / Zoom megbeszélésen.
+    *   **KIVEL:** A DFK tanácsadóval és a cég belső IT/adminisztrációs csapatával.
+    *   **HATÁRIDŐ:** A szolgáltatóval egyeztetett időpontban (ajánlott 1–2 héten belül).
+*   `[ ]` **DFK végleges dokumentum átvétele és ellenőrzése**
+    *   **MIT:** Vedd át a hivatalosan elkészült, aláírt Digitális Fejlesztési Koncepció (DFK) dokumentumot, ellenőrizd, hogy a javasolt irányok lefedik-e a DIMOP 1.2.6/B projektet (hardver, szoftver, BAS MI integráció).
+    *   **HOL:** E-mailben vagy a szolgáltató portáljáról letöltve. Mentsd el a `docs/` könyvtárba `DFK.pdf` néven (hogy a PowerShell ellenőrző script is megtalálja).
+    *   **KIVEL:** DFK tanácsadóval.
+    *   **HATÁRIDŐ:** A workshopot követő 10 munkanapon belül, legkésőbb 2026. november 30.
+*   `[ ]` **DFK fő megállapításainak beépítése a DIMOP pályázatba**
+    *   **MIT:** A végleges DFK anyagból származó pontos megállapításokat és szakértői javaslatokat (pl. hatékonysági mutatók, DI növekedési számok) vezesd át a DIMOP indokoltsági és szakmai tartalmi dokumentumaiba az EPTK finalizálása előtt.
+    *   **HOL:** Helyi munkaterületen a `Palyazatok/DIMOP_1_2_6/dimop_126b_*` fájlokban.
+    *   **KIVEL:** Brunella asszisztens segítségével.
+    *   **HATÁRIDŐ:** A pályázat benyújtása előtt legalább 3 nappal.
 
 Automatizált melléklet-ellenőrzés
 A projekt repository-hoz hozzáadtam egy egyszerű PowerShell scriptet: scripts\check_mellekletek.ps1. A script a repo gyökérből futtatva ellenőrzi az alapvető mellékletek meglétét (például: KOMA, iparűzési igazolás, DFK, árajánlatok, cégkivonat, dimop költségvetés). Futtatás PowerShellben: powershell -ExecutionPolicy Bypass -File .\scripts\check_mellekletek.ps1
