@@ -146,6 +146,7 @@ Kérlek, az alábbi pontok alapján gyűjtsd össze az információkat, töltsd 
     *   **Tervezett hitelösszeg:** 6 000 000 Ft
     *   **Kondíciók:** évi fix 3% kamat, 5 év (60 hónap) futamidő, havi 107 812 Ft annuitásos törlesztő.
     *   **Hitel célja:** A DIMOP által közvetlenül nem fedezett, kiegészítő informatikai hardvereszközök (1 db GPU munkaállomás, 3 db PC/laptop, NAS) és a regionális ügyfélkapcsolatokhoz szükséges 1 db cégautó beszerzése.
+    *   **Megvalósítás és Kivitelezés:** A BAS rendszer részletes technikai architektúrája, moduláris fejlesztési feladatai, a fejlesztők/kivitelezők számára előírt feladatlista és a mérföldkövek ütemezése a [FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Fejlesztes/FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md) fájlban található. Ez az átfogó ütemterv biztosítja, hogy a technikai fejlesztés szorosan igazodjon a DIMOP + DFK + Széchenyi finanszírozási mérföldkövekhez és a hatósági határidőkhöz.
 
 
 ---
