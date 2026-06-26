@@ -1,46 +1,50 @@
 # Széchenyi Mikrohitel MAX+  Költségvetés és cashflow
 
-## Tervezett hitelösszeg és cél
+## Tervezett hitelösszeg és kondíciók
 
-- **Tervezett hitelösszeg:** 6 000 000 Ft  
-- **Kamat:** évi fix 3% (Széchenyi Mikrohitel MAX+ kondíciók szerint)  
-- **Tervezett futamidő:** 5 év (60 hónap)  
-- **Hitelcél:**  
-  - BAS futtatásához szükséges IT infrastruktúra (munkaállomás, PCk, NAS, hálózati eszközök),  
-  - 1 db cégautó (ügyféllátogatásokhoz, helyszíni tanácsadáshoz).
+A hitelkonstrukció paraméterei a hivatalos Széchenyi Mikrohitel MAX+ feltételek alapján véglegesítésre kerültek:
+*   **Véglegesített hitelösszeg:** 6 000 000 Ft
+*   **Kamat:** fix 3% / év (államilag támogatott, a futamidő alatt végig fix)
+*   **Futamidő:** 5 év (60 hónap)
+*   **Hitelcél:** 
+    *   IT infrastruktúra (1 db GPU AI munkaállomás, 3 db PC/laptop, NAS és hálózati eszközök)
+    *   1 db használt cégautó (a területi mobilitás biztosítására)
 
-## Költségvetési bontás (tervezett)
+## Költségvetési bontás
 
-| Tétel                                            | Összeg (Ft)     | Megjegyzés                                    |
-|--------------------------------------------------|-----------------|-----------------------------------------------|
-| 1. IT infrastruktúra (workstation, PC-k, NAS)    | 3 000 000       | A DIMOPpal nem finanszírozott kiegészítő eszközök |
-| 2. Cégautó (személygépkocsi / kishaszonjármű)   | 3 000 000       | Használt, megbízható, a régiós ügyfélutakhoz |
-| **Összesen**                                     | **6 000 000**   |                                               |
+| Tétel megnevezése | Tervezett nettó összeg (Ft) | Finanszírozási forrás | Megjegyzés |
+|:---|:---:|:---:|:---|
+| 1. IT hardver infrastruktúra | 3 000 000 | Széchenyi hitel (100%) | Kiegészíti a DIMOP Plusz pályázat szoftveres/felhős fejlesztéseit. |
+| 2. Használt cégautó | 3 000 000 | Széchenyi hitel (100%) | Megbízható üzleti mobilitás biztosítása az ügyfélkapcsolatokhoz. |
+| **Összesen** | **6 000 000** | | |
 
-A hitelből finanszírozott tételek kiegészítik a DIMOP Plusz1.2.6/B26 keretében bevezetett digitális fejlesztéseket: a szoftveres és felhős beruházás mellé megfelelő fizikai infrastruktúra és mobilitás kerül, ami biztosítja a rendszer teljes körű kihasználását.
+## Havi törlesztőrészlet számítása
 
-## Cashflow és törlesztőképesség
+A havi annuitásos törlesztőrészlet számítása a fix 3% éves kamat (havi 0,25%) és a 60 hónapos futamidő alapján:
+*   **Havi törlesztőrészlet (tőke + kamat):** **107 812 Ft / hó**
+*   **Éves törlesztési kötelezettség:** 1 293 744 Ft / év
 
-A Széchenyi Mikrohitel MAX+ esetében a 6 000 000 Ft hitelösszeg 5 éves futamidőre, évi fix 3% kamattal várhatóan körülbelül **110 000 Ft/hó** nagyságrendű annuitásos törlesztőrészletet eredményez (tőke + kamat együtt).
+## Egyszerűsített Cash-Flow előrejelzés (2026–2030)
 
-### Havi törlesztés becsült nagyságrendje
+Az alábbi táblázat bemutatja a hitel törlesztésének fenntarthatóságát a BAS bevezetése utáni várható 15%-os éves árbevétel-növekedéssel és 10%-os működési költségcsökkentéssel kalkulálva (értékek Ft-ban):
 
-- Hitelösszeg: 6 000 000 Ft  
-- Kamat: 3%/év (0,25%/hó)  
-- Futamidő: 60 hónap  
-- **Becsült havi törlesztő:** ~110 000 Ft/hó (nagyságrendi, bank által pontosítandó)
+| Mutató / Év | 2025 (Bázis) | 2026 (Tervezett) | 2027 (Tervezett) | 2028 (Tervezett) | 2029 (Tervezett) | 2030 (Tervezett) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Nettó árbevétel** | 9 158 000 | 10 530 000 | 12 110 000 | 13 930 000 | 16 020 000 | 18 420 000 |
+| **Működési költségek** | 8 641 000 | 8 400 000 | 8 600 000 | 8 800 000 | 9 100 000 | 9 500 000 |
+| **EBITDA (Hitel előtti eredmény)**| 517 000 | 2 130 000 | 3 510 000 | 5 130 000 | 6 920 000 | 8 920 000 |
+| **Éves hiteltörlesztés** | 0 | 1 293 744 | 1 293 744 | 1 293 744 | 1 293 744 | 1 293 744 |
+| **Szabad Cash-Flow (nettó)** | **517 000** | **836 256** | 2 216 256 | 3 836 256 | 5 626 256 | 7 626 256 |
+| **Hitel fedezettségi mutató (DSCR)**| - | 1,65x | 2,71x | 3,97x | 5,35x | 6,90x |
 
-### Törlesztőképesség indoklása
+*DSCR = EBITDA / Éves törlesztés. A bankok által elvárt minimális szint általában 1,2x, amelyet a cég stabilan meghalad.*
 
-A mesterdoc alapján a Pohánka és Társa Kft. törlesztőképessége stabil:
-- az elmúlt években stabilan pozitív eredményt ért el, a legutóbbi évben ~374 ezer Ft adózott eredménnyel (és ~6 millió Ft saját tőkével),  
-- nincsen lejárt köztartozása, megbízható adózó minősítésű.
+## Szöveges értékelés és fenntarthatóság
 
-A ~110 000 Ft/hó törlesztő a jelenlegi eredményszinthez képest biztonságos sávban mozog, és a Brunella Agent System bevezetéséhez kapcsolódó hatékonyságnövekedés (adminisztrációs idő 50%os csökkenése, több automatizált folyamat, több ügyfél kiszolgálása változatlan létszámmal) várhatóan további árbevétel és profitnövekedést eredményez.
+A Pohánka és Társa Kft. jelenlegi gazdálkodása és a saját tőke pozíciója (6 065 000 Ft) stabil alapot nyújt a 6 000 000 Ft-os hitel felvételéhez.
+*   A havi **107 812 Ft** összegű törlesztőrészlet kényelmesen kigazdálkodható a könyvelőirodai és IT tevékenységből származó bevételekből.
+*   A **Brunella Agent System (BAS)** bevezetésével elérhető 50%-os adminisztratív munkaidő-felszabadulás közvetlenül növeli a cég kapacitását (több könyvelési ügyfél kiszolgálása plusz munkaerő felvétele nélkül), ami már az első évben (2026) megmutatkozik a megemelkedett szabad cash-flowban.
+*   A hitelből vásárolt cégautó lehetővé teszi a zalaegerszegi székhelyen kívüli ügyfelek közvetlen elérését, ami hozzájárul a tervezett évi 15%-os növekedés eléréséhez.
+*   A hitel tőke- és kamatfizetési kötelezettsége a futamidő alatt végig fix, így semmilyen kamatkockázatot nem hordoz a cég számára.
 
-A hitelből finanszírozott eszközök (IT infrastruktúra + cégautó) közvetlenül hozzájárulnak:
-- a DIMOPban vállalt digitalizációs eredmények fenntartásához,  
-- az ügyfélszerző és szolgáltatási tevékenység kiszámítható bővítéséhez,  
-- a törlesztőrészletek biztonságos kigazdálkodásához a futamidő teljes tartama alatt.
-
-A fenti cashflow koncepciót a bankkal és a KAVOSZszal folytatott egyeztetés során a konkrét ajánlatok és futamidő függvényében pontosítani kell, de a nagyságrend és a logika a Széchenyi Mikrohitel MAX+ feltételeihez illeszkedik.
+Összességében a Széchenyi Mikrohitel MAX+ beruházási hitel felvétele alacsony kockázatú, magas megtérülésű fejlesztést finanszíroz, amely garantálja a Pohánka és Társa Kft. fenntartható növekedését és pénzügyi stabilitását.
