@@ -42,11 +42,11 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 - MIVEL: cégvezető aláírás, megbízólevél (ha más nyújtja be).
 - MIKOR: a pályázat végső benyújtásakor.
 
-7) Banki / KAVOSZ egyeztetés a Széchenyi Mikrohitelhez (előzetes)
-- MIT: Kapcsolatfelvétel a bankkal vagy KAVOSZ‑szolgáltatóval a mikrohitel lehetőségeinek előzetes egyeztetéséhez (ez későbbi részletezés tárgya).
-- HOL: kiválasztott bank fiókja / KAVOSZ ügyfélszolgálat.
-- MIVEL: pénzügyi dokumentumok, cash‑flow tervek (Hitelek/Szechenyi_Mikrohitel_MAX/*.md), mesterdoc anyagok.
-- MIKOR: pályázat benyújtása előtt; javasolt 2–3 hét előkészítéssel.
+7) Banki / KAVOSZ egyeztetés a Széchenyi Mikrohitelhez (Részletezve a fájl végén lévő Széchenyi szekcióban)
+- MIT: Vedd fel a kapcsolatot a finanszírozó partnerrel és menedzseld a hiteligénylést.
+- HOL: KAVOSZ Regisztráló Iroda (pl. Zala Vármegyei Kereskedelmi és Iparkamara zalaegerszegi irodája) / kiválasztott hitelintézet (pl. OTP Bank).
+- MIVEL: Széchenyi Mikrohitel MAX+ dokumentációcsomag (Hitelek/Szechenyi_Mikrohitel_MAX/*).
+- MIKOR: Párhuzamosan a DIMOP pályázat előkészítésével.
 
 8) Könyvelői és jogi ellenőrzés
 - MIT: Kérd a könyvelőd és jogi tanácsadód végleges ellenőrzését a benyújtandó dokumentumok és költségvetés felett.
@@ -83,6 +83,37 @@ Megjegyzés: minden igazolásnál őrizd meg a letöltött PDF/HTML bizonylatot 
     *   **HOL:** Helyi munkaterületen a `Palyazatok/DIMOP_1_2_6/dimop_126b_*` fájlokban.
     *   **KIVEL:** Brunella asszisztens segítségével.
     *   **HATÁRIDŐ:** A pályázat benyújtása előtt legalább 3 nappal.
+
+## Széchenyi Mikrohitel MAX+ teendők
+
+*   `[ ]` **Bank / Széchenyi Programiroda / KAVOSZ iroda azonosítása és időpontfoglalás**
+    *   **MIT:** Válaszd ki a legközelebbi regisztráló irodát (pl. Zala Vármegyei Kereskedelmi és Iparkamara irodája, Zalaegerszeg, Petőfi Sándor u. 24.) és foglalj időpontot a hiteligénylés elindításához.
+    *   **HOL:** Online (kavosz.hu) vagy telefonon a helyi kamaránál.
+    *   **KIVEL:** KAVOSZ regisztráló ügyintézővel.
+    *   **HATÁRIDŐ:** A DIMOP pályázat benyújtásának hetében, vagy közvetlenül utána.
+*   `[ ]` **Széchenyi projektleírás és beruházási lista kinyomtatása / PDF küldése**
+    *   **MIT:** Készítsd elő a [szechenyi_mikrohitel_projektcel_es_indokoltsag.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Hitelek/Szechenyi_Mikrohitel_MAX/szechenyi_mikrohitel_projektcel_es_indokoltsag.md) projektleírást és a beruházási táblázatot kinyomtatva, valamint PDF-ben, hogy a bank/KAVOSZ lássa a hitel pontos célját.
+    *   **HOL:** Helyi iroda, nyomtatás vagy e-mailes küldés.
+    *   **KIVEL:** Hitelügyintézővel.
+    *   **HATÁRIDŐ:** Az irodai találkozó előtt 1 nappal.
+*   `[ ]` **Dokumentumcsomag összekészítése és ellenőrzése**
+    *   **MIT:** Gyűjtsd össze az alábbi, már rendelkezésre álló dokumentumokat a `docs` mappából, és ellenőrizd őket az ügyintéző által megadott checklist alapján:
+        *   Utolsó 3 év lezárt beszámolói (`2023.-beszamolo-10.pdf`, `2024.-beszamolo-2.pdf`, `2025-evi-merleg-4.pdf`)
+        *   Utolsó 3 év főkönyvi kivonatai (`2023.-fokonyv.pdf`, `2024.-fokonyv-3.pdf`, `2025.-fokonyv-5.pdf`)
+        *   Friss cégkivonat (`Cegkivonat-7.pdf`)
+        *   Aláírási címpéldány és KKV minősítés (`Alairasi-cimp.-Atlath.-nyil.-KKV-min-6.pdf`)
+        *   NAV KOMA nullás igazolás (`KOMA-Pohanka-Kft-8.pdf`)
+        *   HIPA helyi adóigazolás (`SKM_4050260625124300-9.pdf`)
+        *   Rövid cash-flow terv (`szechenyi_mikrohitel_koltsegvetes_es_cashflow.md` alapján kinyomtatva)
+        *   *Vigyél magaddal: személyi igazolványt, lakcímkártyát, adókártyát és céges bélyegzőt!*
+    *   **HOL:** Zalaegerszeg (helyi iroda / KAVOSZ iroda).
+    *   **KIVEL:** Pohánka Józsefné / Pohánka József (ügyvezetők).
+    *   **HATÁRIDŐ:** A KAVOSZ időpont napján.
+*   `[ ]` **Hitelkérelem hivatalos beadása és szerződéskötés**
+    *   **MIT:** Töltsd ki az igénylőlapot a KAVOSZ irodában, nyújtsd be a teljes dokumentációt, és a pozitív bírálat után kösd meg a hitelszerződést a kiválasztott finanszírozó bankkal (pl. OTP).
+    *   **HOL:** KAVOSZ Iroda $\rightarrow$ Finanszírozó bank fiókja.
+    *   **KIVEL:** Hitelügyintézővel és a banki kapcsolattartóval.
+    *   **HATÁRIDŐ:** A hitelkérelem benyújtását követő 30–60 napon belül.
 
 Automatizált melléklet-ellenőrzés
 A projekt repository-hoz hozzáadtam egy egyszerű PowerShell scriptet: scripts\check_mellekletek.ps1. A script a repo gyökérből futtatva ellenőrzi az alapvető mellékletek meglétét (például: KOMA, iparűzési igazolás, DFK, árajánlatok, cégkivonat, dimop költségvetés). Futtatás PowerShellben: powershell -ExecutionPolicy Bypass -File .\scripts\check_mellekletek.ps1
