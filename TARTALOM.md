@@ -42,6 +42,14 @@ Első lépések új belépőnek (2–3 perc)
 2. Ellenőrizd a KELL.md fájlban szereplő igazolásokat (NAV, önkormányzat) és szerezz be minden hiányzó PDF‑bizonyítékot.
 3. A költségvetést és árajánlatokat a Hitelek/Szechenyi_Mikrohitel_MAX/ és a dimop_126b_koltsegvetes_es_indikatorok.md alapján állítsd össze.
 
+## DFK / GINOP (MV Program 2.0) dokumentumok
+- [palyazat_ginop_1-3.pdf](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/palyazat_ginop_1-3.pdf) — GINOP / MV Program 2.0 Támogatói Okirat, a DFK in-kind támogatott szolgáltatás hivatalos dokumentuma.
+- [dfk_koncepcio_vazlat.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6/dfk_koncepcio_vazlat.md) — A cég digitális megújulási koncepciójának és szakmai irányainak belső vázlata.
+- [2025-06-19_IG32095-2025_DII.pdf](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/2025-06-19_IG32095-2025_DII.pdf) — Vállalati Digitális Intenzitás (DI) igazolás (10 pont, alacsony szint).
+- [2025-06-19_IG32096-2025_RCR13-2.pdf](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/2025-06-19_IG32096-2025_RCR13-2.pdf) — Közösségi Digitális Intenzitás igazolás (8 pont, magas szint).
+
+*Kapcsolódás a DIMOP pályázathoz:* Ezek a dokumentumok igazolják a cég kiinduló alacsony digitalizáltsági állapotát, és a GINOP támogatással készülő DFK adja meg a DIMOP Plusz-1.2.6/B-26 projekt digitalizációs tervének hivatalos szakértői alátámasztását.
+
 Fontos fájlok gyors elérés:
 - KELL.md — emberi teendők (most létrehozva)
 - TARTALOM.md — ez a fájl (áttekintés)
