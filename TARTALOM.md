@@ -57,6 +57,14 @@ Első lépések új belépőnek (2–3 perc)
 
 *Kapcsolódás a banki csomaghoz:* A fenti dokumentumok képezik a KAVOSZ és a bank felé benyújtandó hitelkérelmi csomag szakmai magját. A szükséges kiegészítő hivatalos dokumentumok (utolsó 3 év lezárt beszámolói, főkönyvi kivonatai, friss cégkivonat, NAV KOMA és helyi HIPA igazolások) mind elérhetők PDF formátumban a `docs/` könyvtárban.
 
+## Fejlesztési / kivitelezési dokumentumok
+- [FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Fejlesztes/FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md) — Fő fejlesztési és kivitelezési terv, amely a BAS moduláris lebontását, fejlesztési feladatait és ütemezését tartalmazza.
+- [Fejlesztesi-Terv-Kivitelezonek.docx](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/Fejlesztesi-Terv-Kivitelezonek.docx) — Részletes kivitelezői fejlesztési terv és feladatmeghatározás.
+- [Innovacios-Strategia.docx](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/Innovacios-Strategia.docx) — A vállalat hosszú távú innovációs és technológiai stratégiája.
+- [Brunella-Agents-System-BAS-rendszer.pdf](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/docs/Brunella-Agents-System-BAS-rendszer.pdf) — A BAS rendszer részletes technikai és architektúrális leírása.
+
+*Kapcsolódás a fejlesztőkhöz:* A fenti dokumentumok a fejlesztést és a kivitelezést végző IT csapat számára szolgálnak elsődleges master specifikációként és útmutatóként.
+
 Fontos fájlok gyors elérés:
 - KELL.md — emberi teendők (most létrehozva)
 - TARTALOM.md — ez a fájl (áttekintés)
