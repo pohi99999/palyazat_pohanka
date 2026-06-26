@@ -115,6 +115,21 @@ Megjegyzés: minden igazolásnál őrizd meg a letöltött PDF/HTML bizonylatot 
     *   **KIVEL:** Hitelügyintézővel és a banki kapcsolattartóval.
     *   **HATÁRIDŐ:** A hitelkérelem benyújtását követő 30–60 napon belül.
 
+## BAS / fejlesztési teendők
+
+*   `[ ]` **BAS modulprioritások és technikai specifikáció jóváhagyása**
+    *   **MIT:** Tekintsd át a [FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Fejlesztes/FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md) fájlban meghatározott modulokat, és hagyd jóvá a fejlesztési prioritásokat (pl. Bifrost Gateway vs Robotkéz V2).
+    *   **HATÁRIDŐ:** A fejlesztés megkezdése előtt (javasolt: 2026. július 15.).
+*   `[ ]` **Külső fejlesztők briefelése és megbízása**
+    *   **MIT:** Készítsd elő a feladatleírásokat a [FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Fejlesztes/FEJLESZTESI_TERV_BAS_DIMOP_SZECHENYI.md) alapján, és egyeztesd a külső kivitelező fejlesztőkkel a határidőket és a díjazást.
+    *   **HATÁRIDŐ:** 2026. július végéig.
+*   `[ ]` **Lokális GPU munkaállomás és NAS beszerzés jóváhagyása**
+    *   **MIT:** Véglegesítsd a hardver specifikációkat a Széchenyi Mikrohitel MAX+ igénylés elindításakor, hagyd jóvá az árajánlatokat a vásárláshoz.
+    *   **HATÁRIDŐ:** A hitelkérelem benyújtásakor.
+*   `[ ]` **BAS MVP tesztelés és átvétel jóváhagyása**
+    *   **MIT:** Teszteld a BAS magrendszer (Gmail monitoring + OCR + adatkivonat) működését a könyvelőiroda mindennapi feladatai során, és adj írásos jóváhagyást a következő fázis (banki párosítás) indításához.
+    *   **HATÁRIDŐ:** Az MVP fázis lezárásakor (javasolt: 2026. október 15.).
+
 Automatizált melléklet-ellenőrzés
 A projekt repository-hoz hozzáadtam egy egyszerű PowerShell scriptet: scripts\check_mellekletek.ps1. A script a repo gyökérből futtatva ellenőrzi az alapvető mellékletek meglétét (például: KOMA, iparűzési igazolás, DFK, árajánlatok, cégkivonat, dimop költségvetés). Futtatás PowerShellben: powershell -ExecutionPolicy Bypass -File .\scripts\check_mellekletek.ps1
 A script nem tölt fel semmit az EPTK-re, csak helyi fájlrendszerben vizsgálja a fájlok meglétét és listázza a hiányzó tételeket, így segít előkészíteni a feltöltést.
