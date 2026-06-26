@@ -50,6 +50,13 @@ Első lépések új belépőnek (2–3 perc)
 
 *Kapcsolódás a DIMOP pályázathoz:* Ezek a dokumentumok igazolják a cég kiinduló alacsony digitalizáltsági állapotát, és a GINOP támogatással készülő DFK adja meg a DIMOP Plusz-1.2.6/B-26 projekt digitalizációs tervének hivatalos szakértői alátámasztását.
 
+## Széchenyi Mikrohitel MAX+ dokumentumok
+- [szechenyi_mikrohitel_projektcel_es_indokoltsag.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Hitelek/Szechenyi_Mikrohitel_MAX/szechenyi_mikrohitel_projektcel_es_indokoltsag.md) — Hitelcél és indokolás (6 M Ft hardver + cégautó).
+- [szechenyi_mikrohitel_koltsegvetes_es_cashflow.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Hitelek/Szechenyi_Mikrohitel_MAX/szechenyi_mikrohitel_koltsegvetes_es_cashflow.md) — Részletes költségterv, havi törlesztő számítása (107 812 Ft/hó) és cash-flow fenntarthatósági előrejelzés.
+- [szechenyi_mikrohitel_dokumentumlista.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Hitelek/Szechenyi_Mikrohitel_MAX/szechenyi_mikrohitel_dokumentumlista.md) — Banki / KAVOSZ beadandó dokumentumok ellenőrző listája a megadott státuszokkal.
+
+*Kapcsolódás a banki csomaghoz:* A fenti dokumentumok képezik a KAVOSZ és a bank felé benyújtandó hitelkérelmi csomag szakmai magját. A szükséges kiegészítő hivatalos dokumentumok (utolsó 3 év lezárt beszámolói, főkönyvi kivonatai, friss cégkivonat, NAV KOMA és helyi HIPA igazolások) mind elérhetők PDF formátumban a `docs/` könyvtárban.
+
 Fontos fájlok gyors elérés:
 - KELL.md — emberi teendők (most létrehozva)
 - TARTALOM.md — ez a fájl (áttekintés)
