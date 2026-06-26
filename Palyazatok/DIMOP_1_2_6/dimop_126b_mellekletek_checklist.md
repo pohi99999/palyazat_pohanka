@@ -6,24 +6,24 @@ Ez a checklist segít biztosítani, hogy a DIMOP Plusz1.2.6/B26 pályázathoz mi
 
 | #  | Dokumentum                                   | Konstrukció | Forrás / Megjegyzés                            | Státusz |
 |----|----------------------------------------------|-------------|-----------------------------------------------|---------|
-| 1. | Friss cégkivonat (30 napnál nem régebbi)    | DIMOP       | eCégjegyzék / cégkapu                         | [ ]     |
-| 2. | Aláírási címpéldány / aláírás-minta         | DIMOP       | Ügyvéd / korábbi hitelanyag                   | [ ]     |
+| 1. | Friss cégkivonat (30 napnál nem régebbi)    | DIMOP       | Cegkivonat-7.pdf                              | [x]     |
+| 2. | Aláírási címpéldány / aláírás-minta         | DIMOP       | Alairasi-cimp.-Atlath.-nyil.-KKV-min-6.pdf    | [x]     |
 | 3. | Társasági szerződés / alapító okirat        | DIMOP       | Cégiratok                                     | [ ]     |
 
 ## 2. Pénzügyi dokumentumok
 
 | #  | Dokumentum                                        | Konstrukció | Forrás / Megjegyzés                                   | Státusz |
 |----|---------------------------------------------------|-------------|------------------------------------------------------|---------|
-| 4. | Utolsó 3 lezárt év beszámolói (mérleg + eredmény) | DIMOP       | mesterdoc-ban listázott évek, eBeszámoló            | [ ]     |
-| 5. | Utolsó 3 év főkönyvi kivonatai                    | DIMOP       | Könyvelő / mesterdoc gyűjtendő mappa                  | [ ]     |
+| 4. | Utolsó 3 lezárt év beszámolói (mérleg + eredmény) | DIMOP       | 2023.-beszamolo-10.pdf, 2024.-beszamolo-2.pdf, 2025-evi-merleg-4.pdf | [x]     |
+| 5. | Utolsó 3 év főkönyvi kivonatai                    | DIMOP       | 2023.-fokonyv.pdf, 2024.-fokonyv-3.pdf, 2025.-fokonyv-5.pdf         | [x]     |
 | 6. | Aktuális év törtidőszaki főkönyvi kivonata        | DIMOP       | Amennyiben rendelkezésre áll                         | [ ]     |
 
 ## 3. Adó- és megbízhatósági igazolások
 
 | #  | Dokumentum                                  | Konstrukció | Forrás / Megjegyzés                                        | Státusz |
 |----|---------------------------------------------|-------------|-----------------------------------------------------------|---------|
-| 7. | NAV Nullás igazolás / KOMA státusz       | DIMOP       | KOMA - Pohánka Kft.pdf (NAV KOMA igazolás, 2026. 06. 23.) | [x]     |
-| 8. | Önkormányzati iparűzési adó tartozás-igazolás | DIMOP    | Helyi önkormányzat (Zalaegerszeg)                         | [ ]     |
+| 7. | NAV Nullás igazolás / KOMA státusz       | DIMOP       | KOMA-Pohanka-Kft-8.pdf                        | [x]     |
+| 8. | Önkormányzati iparűzési adó tartozás-igazolás | DIMOP    | SKM_4050260625124300-9.pdf                    | [x]     |
 
 ## 4. Digitális intenzitás és DFK dokumentum
 

@@ -1,16 +1,22 @@
 KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 
-1) [x] NAV: köztartozás‑mentesség ("nullás") igazolás lekérése (KOMA - Pohánka Kft.pdf elmentve, aktuális igazolás rendelkezésre áll)
+1) [x] NAV: köztartozás‑mentesség ("nullás") igazolás lekérése (Kész, csatolt PDF: KOMA-Pohanka-Kft-8.pdf)
 - MIT: Kérd le a NAV által kiadott köztartozás‑mentesség igazolást a pályázathoz.
 - HOL: NAV ügyfélkapu / NAV honlap (https://www.nav.gov.hu) → Ügyfélkapu belépés, adóigazolások menü.
 - MIVEL: cég adószáma, cégkivonat, mesterdoc.md (cégadatok).
 - MIKOR: lehetőleg a pályázat benyújtása előtt 1–2 héttel (várható ügyintézési idő: néhány nap).
 
-2) Helyi iparűzési adó igazolás az önkormányzattól
+2) [x] Helyi iparűzési adó igazolás az önkormányzattól (Kész, csatolt PDF: SKM_4050260625124300-9.pdf)
 - MIT: Kérd le az önkormányzat által kiadott helyi iparűzési adó befizetésre/mentességre vonatkozó igazolást.
 - HOL: Zalaegerszeg (https://zalaegerszeg.hu) / illetékes önkormányzat pénzügyi ügyfélszolgálata vagy e‑ügyintézés.
 - MIVEL: cégkivonat, üzleti cím, befizetési bizonylatok (ha van).
 - MIKOR: javasolt min. 2 hét a kérelmezéstől a jóváhagyásig; indítsd el mielőbb.
+
+2a) [x] Cégkivonat, aláírási címpéldány és korábbi beszámolók / főkönyvek letöltése és összegyűjtése (Kész, csatolt PDF-ek: 2023.-beszamolo-10.pdf, 2024.-beszamolo-2.pdf, 2025-evi-merleg-4.pdf, 2023.-fokonyv.pdf, 2024.-fokonyv-3.pdf, 2025.-fokonyv-5.pdf, Cegkivonat-7.pdf, Alairasi-cimp.-Atlath.-nyil.-KKV-min-6.pdf)
+- MIT: Szerezd be a cégkivonatot, az aláírási címpéldányt, valamint az utolsó 3 lezárt év beszámolóit és főkönyvi kivonatait a pályázati és hitel előminősítéshez.
+- HOL: e-Beszámoló, e-Cégjegyzék, cégkapu, könyvelőiroda.
+- MIVEL: cégadatok (mesterdoc.md).
+- MIKOR: azonnal, a pályázat és hitel előkészítő szakaszában.
 
 3) DFK szolgáltatóval időpont‑egyeztetés és DFK dokumentum átvétele
 - MIT: Egyeztess időpontot a DFK (digitális fejlesztési koncepció) készítővel, szerezd be és ellenőrizd a végleges DFK dokumentumot.

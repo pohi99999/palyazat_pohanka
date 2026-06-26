@@ -16,10 +16,20 @@ Fő könyvtárak és fontos fájlok (gyökérből relatív útvonal)
   - szechenyi_mikrohitel_koltsegvetes_es_cashflow.md — cash‑flow és költségterv.
   - szechenyi_mikrohitel_dokumentumlista.md — banki dokumentumlista (ajánlott dokumentumok a hitelhez).
 
-- docs/
+- docs/ (Csatolt jogi, pénzügyi és adóigazolás mellékletek)
   - 2025-06-19_IG32095-2025_DII.pdf — DI igazolás és kapcsolódó vizsgálatok.
-  - KOMA - Pohánka Kft.pdf — NAV KOMA igazolás (köztartozásmentes adózói státusz igazolása a DIMOP és Széchenyi hitelhez, lekérdezve: 2026. 06. 23.)
-  - (további pdf/docx anyagok: ha vannak, itt találhatók)
+  - Beszámolók és főkönyvek (2023–2025):
+    - 2023. évi beszámoló: `2023.-beszamolo-10.pdf`
+    - 2024. évi beszámoló: `2024.-beszamolo-2.pdf`
+    - 2025. évi mérleg / beszámoló: `2025-evi-merleg-4.pdf`
+    - 2023. évi főkönyv: `2023.-fokonyv.pdf`
+    - 2024. évi főkönyv: `2024.-fokonyv-3.pdf`
+    - 2025. évi főkönyv: `2025.-fokonyv-5.pdf`
+  - Cégiratok és adóigazolások:
+    - Friss cégkivonat: `Cegkivonat-7.pdf`
+    - Aláírási címpéldány + átláthatósági nyilatkozat / KKV minősítés: `Alairasi-cimp.-Atlath.-nyil.-KKV-min-6.pdf`
+    - NAV KOMA köztartozásmentes igazolás: `KOMA-Pohanka-Kft-8.pdf`
+    - Helyi iparűzési adó (HIPA) önkormányzati igazolás: `SKM_4050260625124300-9.pdf`
 
 - mesterdoc.md, mesterdoc-5.md
   - A projekt állandó adatai: cégadatok, TEÁOR, kontaktok, üzleti célok, rövid pénzügyi adatok. Első hely, ahol ellenőrizd a benyújtáshoz szükséges adatokat.

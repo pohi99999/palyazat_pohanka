@@ -79,11 +79,12 @@ Kérlek, az alábbi pontok alapján gyűjtsd össze az információkat, töltsd 
 9.  **Jegyzett tőke / Saját tőke aránya megfelelő volt-e?**
     *   **Igen** (A saját tőke minden évben meghaladta a jegyzett tőke 100%-át, tőkepótlási kötelezettség nem állt fenn).
 
-**Szükséges csatolandó dokumentumok (Gyűjtendő mappa):**
-*   [ ] Utolsó 3 lezárt év Mérlege és Eredménykimutatása (vagy Egyszerűsített Éves Beszámoló).
-*   [ ] Utolsó 3 lezárt év Főkönyvi kivonata.
+**Szükséges csatolandó dokumentumok (Elérhetők a `docs` könyvtárban):**
+*   [x] Utolsó 3 lezárt év Mérlege és Eredménykimutatása (Csatolt beszámolók: `2023.-beszamolo-10.pdf`, `2024.-beszamolo-2.pdf`, `2025-evi-merleg-4.pdf`).
+*   [x] Utolsó 3 lezárt év Főkönyvi kivonata (Csatolt főkönyvek: `2023.-fokonyv.pdf`, `2024.-fokonyv-3.pdf`, `2025.-fokonyv-5.pdf`).
 *   [ ] Aktuális év törtidőszaki (legfrissebb) főkönyvi kivonata (ha elérhető).
-*   [x] NAV "Nullás" igazolás (vagy képernyőkép a köztartozásmentes adózói adatbázisról). Csatolva: KOMA - Pohánka Kft.pdf, érvényes a pályázat benyújtásakor (lekérdezve: 2026. 06. 23.).
+*   [x] NAV "Nullás" igazolás / KOMA (Csatolt: `KOMA-Pohanka-Kft-8.pdf`) és Helyi iparűzési adó igazolás (Csatolt: `SKM_4050260625124300-9.pdf`).
+*   [x] Friss cégkivonat (Csatolt: `Cegkivonat-7.pdf`) és Aláírási címpéldány / KKV minősítés (Csatolt: `Alairasi-cimp.-Atlath.-nyil.-KKV-min-6.pdf`).
 
 ---
 
