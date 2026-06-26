@@ -45,3 +45,7 @@ A projekt során a következő infrastruktúra elemek kerülnek beszerzésre és
 Ezen felül felhőszolgáltatások (pl. Google Cloud) biztosítják a rendszer skálázhatóságát, a redundáns adatmentést és a monitorozási funkciókat.
 
 A fenti szakmai tartalom megfelel a DIMOP Plusz-1.2.6/B-26 felhívás digitális infrastruktúra és transzformáció célrendszerének: hardver és szoftverfejlesztés, felhőalapú megoldások bevezetése, valamint digitális folyamatok kialakítása és automatizálása.
+
+## Kapcsolódás a DFK-hoz (GINOP / MV Program 2.0)
+
+A projekt digitalizációs tervét és a BAS (Brunella Agent System) bevezetését a GINOP / MV Program 2.0 keretében biztosított DFK (Digitális Fejlesztési Koncepció) támogatott szolgáltatás szakmailag alátámasztja. A koncepcióból származó javaslatok (digitális intenzitás növelése, folyamat-automatizálás és MI-alapú megoldások) beépítésre kerültek a fejlesztési tervbe. A DFK szakértői anyaga növeli a DIMOP Plusz-1.2.6/B-26 projekt szakmai megalapozottságát és a támogatás elnyerésének esélyeit.

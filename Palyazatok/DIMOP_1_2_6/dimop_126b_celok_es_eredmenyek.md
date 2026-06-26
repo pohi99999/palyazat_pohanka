@@ -41,3 +41,7 @@ A projekt átfogó célja a Pohánka és Társa Kft. könyvelési és adminisztr
 - A digitalizált és automatizált folyamatok csökkentik a hibakockázatot és javítják a szolgáltatás átláthatóságát, ami hosszú távon erősíti az ügyfélmegtartást és a cég reputációját.
 
 A fenti célok és eredmények közvetlenül hozzájárulnak a DIMOP Plusz-1.2.6/B-26 felhívás által megfogalmazott célokhoz: a vidéki, alacsony digitális intenzitású kkv-k versenyképességének növeléséhez digitális infrastruktúra-fejlesztés és transzformáció útján.
+
+## Kapcsolódás a DFK-hoz (GINOP / MV Program 2.0)
+
+A projekt digitalizációs tervét és a BAS (Brunella Agent System) bevezetését a GINOP / MV Program 2.0 keretében biztosított DFK (Digitális Fejlesztési Koncepció) támogatott szolgáltatás szakmailag alátámasztja. A koncepcióból származó javaslatok (digitális intenzitás növelése, folyamat-automatizálás és MI-alapú megoldások) beépítésre kerültek a fejlesztési tervbe. A DFK szakértői anyaga növeli a DIMOP Plusz-1.2.6/B-26 projekt szakmai megalapozottságát és a támogatás elnyerésének esélyeit.

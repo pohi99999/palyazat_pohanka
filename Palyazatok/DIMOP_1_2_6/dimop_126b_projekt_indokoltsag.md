@@ -24,3 +24,7 @@ A projekt indokoltságát tehát három fő tényező alapozza meg:
 3. **Területi és célcsoport megfelelés**: vidéki mikrovállalkozás, dokumentáltan alacsony DI szinttel (IG32095-2025, IG32096-2025), ami pontosan a DIMOP Plusz-1.2.6/B-26 célcsoportja.
 
 A tervezett digitalizációs beruházás tehát nem nicetohave, hanem a vállalkozás fenntartható működésének és hosszú távú versenyképességének kulcsfeltétele.
+
+## Kapcsolódás a DFK-hoz (GINOP / MV Program 2.0)
+
+A projekt digitalizációs tervét és a BAS (Brunella Agent System) bevezetését a GINOP / MV Program 2.0 keretében biztosított DFK (Digitális Fejlesztési Koncepció) támogatott szolgáltatás szakmailag alátámasztja. A koncepcióból származó javaslatok (digitális intenzitás növelése, folyamat-automatizálás és MI-alapú megoldások) beépítésre kerültek a fejlesztési tervbe. A DFK szakértői anyaga növeli a DIMOP Plusz-1.2.6/B-26 projekt szakmai megalapozottságát és a támogatás elnyerésének esélyeit.
