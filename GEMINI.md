@@ -17,6 +17,43 @@ Ez a munkaterület a Pohánka és Társa Kft. számára elérhető hazai és eur
 
 ## Haladás / Mérföldkövek
 
+### 2026. június 29.
+-   **AI Konfigurációs Infrastruktúra felépítése:** A `.github/` könyvtárban három fájl létrehozása:
+    -   [`.github/copilot-instructions.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/.github/copilot-instructions.md) — átfogó, 10,4 KB-os Copilot útmutató magyarul: projekt áttekintés, TEÁOR, EPTK-szövegek, mesterdoc-centric munkafolyamat, precizitási követelmények, önellenőrző kérdések.
+    -   [`.github/mcp-servers.json`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/.github/mcp-servers.json) — opcionális MCP szerveres konfiguráció (filesystem, git, GitHub).
+    -   [`.github/WORKFLOWS.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/.github/WORKFLOWS.md) — 4 db opcionális GitHub Actions workflow: melléklet-validáció, EPTK-integritás, mesterdok emlékeztető, commit linter.
+
+-   **TAMOGAT sablonkönyvtár létrehozása:** A projekt gyökerében `TAMOGAT/` könyvtár, 3 sablonfájllal:
+    -   [`TAMOGAT/CEGADAT_SABLON.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/TAMOGAT/CEGADAT_SABLON.md) — Cégadatok (teljes névre, TEÁOR kódokra, pénzügyi kivonatra, DI igazolásokra, kulcsdokumentumokra kiterjedő), moduláris FIXME mezőkkel.
+    -   [`TAMOGAT/PALYAZATI_DOKUMENTUM_SABLON.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/TAMOGAT/PALYAZATI_DOKUMENTUM_SABLON.md) — Általános VNT pályázati vázlat: I–V. fejezetek (indokoltság, célok, szakmai tartalom, költségvetés, indikátorok), BAS alapszövegekkel és EPTK-szöveg sablon copy-paste blokkkal.
+    -   [`TAMOGAT/MELLEKLETEK_SABLON.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/TAMOGAT/MELLEKLETEK_SABLON.md) — 31 soros táblázatos melléklet checklist: cégiratok, 3 éves pénzügyi dok., KOMA, HIPA, DI igazolások, DFK, árajánlatok; konkrét `docs/` fájlnevekkel és benyújtás előtti összesítővel.
+
+-   **HITEL sablonkönyvtár létrehozása:** A projekt gyökerében `HITEL/` könyvtár, 3 sablonfájllal:
+    -   [`HITEL/HITELPROJEKT_SABLON.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/HITEL/HITELPROJEKT_SABLON.md) — Beruházási hitel sablon: cégbemutatás, részletes beruházási lista (GPU workstation, PC, NAS, cégautó), indokoltság és jogosultsági feltételek, Széchenyi 6M Ft referencia adatokkal.
+    -   [`HITEL/HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/HITEL/HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md) — Annuitásos törlesztőrészlet számítás képlettel (referencia: 107 812 Ft/hó), 5 éves EBITDA / szabad cash-flow / DSCR (1,65x–6,90x) előrejelzés, paraméterezhető FIXME mezőkkel (más hitelhez).
+    -   [`HITEL/HITEL_DOKUMENTUMLISTA_SABLON.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/HITEL/HITEL_DOKUMENTUMLISTA_SABLON.md) — 32 soros KAVOSZ / banki dokumentumlista checklist: cégiratok, 3 év pénzügyi dok., KOMA, HIPA, beruházási lista, árajánlatok, fedezeti iratok, igénylőlapok.
+
+-   **DIMOP_1_2_6_B_2026 pályázati almappa létrehozása:** `Palyazatok/DIMOP_1_2_6_B_2026/` könyvtár a TAMOGAT sablonokból generált, kitöltött első vázlattal:
+    -   [`felhivas_raw.txt`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6_B_2026/felhivas_raw.txt) — Felhívás összefoglaló (palyazat.gov.hu URL 404 → lokális DIMOP adatokból összeállítva): konstrukció neve, 90% intenzitás, keretösszeg, fő indikátorok, DFK és Széchenyi kapcsolódás.
+    -   [`01_CEGADAT.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6_B_2026/01_CEGADAT.md) — Teljesen kitöltött céges adatlap: KIVA adózás, OTP bankszámla, TEÁOR kódok, 2023–2025 pénzügyi táblázat, Megbízható adózó státusz, DI igazolások azonosítói, kettős finanszírozási terv (DIMOP 90% + Széchenyi 6M Ft), 14 kulcsdokumentum.
+    -   [`02_PALYAZATI_DOKUMENTUM.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6_B_2026/02_PALYAZATI_DOKUMENTUM.md) — Első vázlat: EPTK-verzió (bemásolható), projekt indokoltsága (8 bekezdés + 3 fő érv), célok (8 pont + indikátor táblázatok), BAS szakmai tartalom (Bifrost Gateway, FastAPI Robotkéz, LanceDB RAG, Phoenix Protocol v2), 9M Ft-os 4 kategóriás költségvetési bontás, FIXME jelölések emberi finomhangoláshoz.
+    -   [`03_MELLEKLETEK_CHECKLIST.md`](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6_B_2026/03_MELLEKLETEK_CHECKLIST.md) — 33 soros melléklet checklist konkrét `docs/` fájlnevekkel, „FELTÖLTVE EPTK-BE?" jelölő oszlop, 10 lépéses benyújtás előtti összesítő ellenőrzési lista.
+
+-   **KELL.md frissítése:** Két új szekció felvétele:
+    -   „Sablonok használata" szekció: pályázatnál → `TAMOGAT/` sablonok, hitelnél → `HITEL/` sablonok.
+    -   Új teendő: `[ ] DIMOP_1_2_6_B_2026 — sablonok áttekintése és finomhangolása beadás előtt`.
+
+-   **TARTALOM.md frissítése:** Három új szekció felvétele:
+    -   `## DIMOP_1_2_6_B_2026 — Aktuális pályázat` gyorslinkekkel a 4 új almappa fájlra.
+    -   `## TAMOGAT sablonok` a 3 sablon leírásával.
+    -   `## HITEL sablonok` a 3 sablon leírásával.
+
+-   **Git és GitHub szinkronizáció:** 4 commit sikeresen pushólva a `main` ágra:
+    -   `a372cb1` — `.github/copilot-instructions.md` létrehozva
+    -   `41522b9` — `.github/mcp-servers.json` és `WORKFLOWS.md` létrehozva
+    -   `997df22` — TAMOGAT és HITEL sablonkönyvtárak + KELL.md, TARTALOM.md frissítve
+    -   `a9e5803` — `Palyazatok/DIMOP_1_2_6_B_2026/` almappa létrehozva (4 fájl), KELL.md és TARTALOM.md frissítve
+
 ### 2026. június 26.
 -   **Mellékletfájlok átnevezése és egységesítése:** A `docs` könyvtárban lévő beszámolók, főkönyvek, cégiratok és adóigazolások ékezetes és szóközös fájlneveinek átnevezése a dokumentációval teljesen megegyező számozott, tiszta formátumra a hibátlan script-ellenőrzés és Git szinkron érdekében.
 -   **DIMOP 1.2.6/B Melléklet checklist kitöltése:** A [dimop_126b_mellekletek_checklist.md](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/Palyazatok/DIMOP_1_2_6/dimop_126b_mellekletek_checklist.md) fájlban az összes elérhető cégirat és pénzügyi beszámoló státuszának készre jelentése a konkrét fájlneveik beillesztésével.

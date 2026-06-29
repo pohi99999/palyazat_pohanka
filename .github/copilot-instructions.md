@@ -182,8 +182,20 @@ Mielőtt javasolnál vagy módosítanál, kérdezd meg magadtól:
 2. **Jogosultság?** — Teljesülnek-e a DIMOP/Széchenyi kizáró okok és előfeltételei?
 3. **EPTK-verzió?** — Ha EPTK-ba másolandó szöveg, tartalmaz-e "## Rövid EPTK-verzió" blokkot?
 4. **Költségvetés?** — Az összes költség a 9M (DIMOP) vagy 6M (Széchenyi) keretből van-e fedezve?
-5. **Melléklet?** — Újabb melléklet-e, és fel van-e töltve az EPTK ellenőrző listához (`dimop_126b_mellekletek_checklist.md`)?
+5. **Melléklet?** — Újabb melléklet-e, és fel van-e töltve az EPTK ellenőrző listához (`dimop_126b_mellekletek_checklist.md` és `Palyazatok/DIMOP_1_2_6_B_2026/03_MELLEKLETEK_CHECKLIST.md`)?
 6. **Határidő?** — A június 26-i belső DIMOP határidő előtt van-e még idő a módosításra?
+
+---
+
+## Haladás — Rövid Mérföldkő-napló
+
+### 2026. június 29.
+- `.github/copilot-instructions.md` (10,4 KB), `mcp-servers.json`, `WORKFLOWS.md` létrehozva
+- `TAMOGAT/` sablonkönyvtár (3 fájl): CEGADAT_SABLON, PALYAZATI_DOKUMENTUM_SABLON, MELLEKLETEK_SABLON
+- `HITEL/` sablonkönyvtár (3 fájl): HITELPROJEKT_SABLON, HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON, HITEL_DOKUMENTUMLISTA_SABLON
+- `Palyazatok/DIMOP_1_2_6_B_2026/` almappa létrehozva (4 fájl): felhivas_raw.txt, 01_CEGADAT.md, 02_PALYAZATI_DOKUMENTUM.md (első vázlat), 03_MELLEKLETEK_CHECKLIST.md
+- `KELL.md`, `TARTALOM.md`, `GEMINI.md` frissítve
+- 4 commit sikeresen pushólva (`a372cb1` → `41522b9` → `997df22` → `a9e5803`)
 
 ---
 
