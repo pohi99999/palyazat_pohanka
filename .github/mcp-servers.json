@@ -1,0 +1,39 @@
+{
+  "mcpServers": {
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "Z:\\001_Workspace\\pályázat-pohankaestarsakft"
+      ],
+      "description": "Helyi fájlrendszer hozzáférés — dokumentumok olvasása, keresése, szerkesztése"
+    },
+    "git": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-git",
+        "Z:\\001_Workspace\\pályázat-pohankaestarsakft"
+      ],
+      "description": "Git repository műveletek — commit-történet, branch-kezelés, változások követése"
+    },
+    "github": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-github"
+      ],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_TOKEN}"
+      },
+      "description": "GitHub API integráció — PR-ek, Issues, repo kezelés"
+    }
+  },
+  "notes": {
+    "activation": "Az MCP szerverek aktiválása: claude_desktop_config.json vagy IDE-specifikus beállítások (Cursor, VSCode)",
+    "github_token": "GITHUB_TOKEN env változó szükséges — GitHub Settings > Developer settings > Personal access tokens",
+    "purpose": "Dokumentumkezelés, verzió-történet, GitHub szinkronizáció automata",
+    "disabled_for_now": "Ez a repo nincs szoftver-fejlesztésre konfigurálva — MCP szerverek opcionálisak"
+  }
+}
