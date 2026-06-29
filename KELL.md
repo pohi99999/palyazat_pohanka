@@ -1,5 +1,17 @@
 KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 
+---
+
+## Új pályázati felhívás teendő
+
+`[ ]` **DIMOP_1_2_6_B_2026 — Pályázati almappa sablonok áttekintése és finomhangolása beadás előtt**
+- MIT: Nyisd meg a `Palyazatok/DIMOP_1_2_6_B_2026/` mappát, tekintsd át a 3 sablonból készített dokumentumot, és töltsd ki az összes `<!-- FIXME -->` megjegyzést a végleges felhívás szövege alapján.
+- HOL: `Palyazatok/DIMOP_1_2_6_B_2026/01_CEGADAT.md`, `02_PALYAZATI_DOKUMENTUM.md`, `03_MELLEKLETEK_CHECKLIST.md`
+- MIVEL: mesterdoc.md, felhivas_raw.txt (lokális adatok), végleges pályázati kiírás (EPTK portálról).
+- MIKOR: A benyújtás előtt legalább 3–5 nappal; az EPTK-verzió szövegeit ellenőrizd utolsó lépésként.
+
+---
+
 1) [x] NAV: köztartozás‑mentesség ("nullás") igazolás lekérése (Kész, csatolt PDF: KOMA-Pohanka-Kft-8.pdf)
 - MIT: Kérd le a NAV által kiadott köztartozás‑mentesség igazolást a pályázathoz.
 - HOL: NAV ügyfélkapu / NAV honlap (https://www.nav.gov.hu) → Ügyfélkapu belépés, adóigazolások menü.

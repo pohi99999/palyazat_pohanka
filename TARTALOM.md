@@ -65,6 +65,14 @@ Első lépések új belépőnek (2–3 perc)
 
 *Kapcsolódás a fejlesztőkhöz:* A fenti dokumentumok a fejlesztést és a kivitelezést végző IT csapat számára szolgálnak elsődleges master specifikációként és útmutatóként.
 
+## DIMOP_1_2_6_B_2026 — Aktuális pályázat (első vázlat, 2026-06-29)
+A `Palyazatok/DIMOP_1_2_6_B_2026/` könyvtár a TAMOGAT sablonokból generált, DIMOP Plusz-1.2.6/B-26 pályázathoz kitöltött első vázlatot tartalmaz.
+
+- [felhivas_raw.txt](Palyazatok/DIMOP_1_2_6_B_2026/felhivas_raw.txt) — Felhívás főbb paraméterei (lokális forrásból, URL nem volt elérhető): konstrukció neve, támogatási intenzitás (90%), indikátorok, DFK és Széchenyi kapcsolódás.
+- [01_CEGADAT.md](Palyazatok/DIMOP_1_2_6_B_2026/01_CEGADAT.md) — Teljesen kitöltött céges adatlap: adószám, TEÁOR, 3 éves pénzügyi kivonat, KKV besorolás, DI igazolások, kapcsolódó finanszírozás (DIMOP 90% + Széchenyi 6M Ft), kulcsdokumentumok linkekkel.
+- [02_PALYAZATI_DOKUMENTUM.md](Palyazatok/DIMOP_1_2_6_B_2026/02_PALYAZATI_DOKUMENTUM.md) — Első vázlat: EPTK-verzió blokk, projekt indokoltsága (8 bekezdés), célok és indikátorok (8 pont + táblázat), BAS szakmai tartalom (Bifrost Gateway, FastAPI Robotkéz, LanceDB RAG, Phoenix Protocol), 9M Ft-os költségvetési bontás (4 kategória), FIXME megjegyzések emberi finomhangoláshoz.
+- [03_MELLEKLETEK_CHECKLIST.md](Palyazatok/DIMOP_1_2_6_B_2026/03_MELLEKLETEK_CHECKLIST.md) — 33 soros melléklet checklist konkrét fájlnevekkel (docs/ mappából), "FELTÖLTVE EPTK-BE?" jelölő oszlop, benyújtás előtti összesítő ellenőrzési lista.
+
 ## TAMOGAT sablonok
 A `TAMOGAT/` könyvtár általános VNT pályázati sablonokat tartalmaz, Pohánka és Társa Kft. adataira épülve, de bármely pályázathoz modulárisan alkalmazható.
 
