@@ -130,6 +130,24 @@ Megjegyzés: minden igazolásnál őrizd meg a letöltött PDF/HTML bizonylatot 
     *   **MIT:** Teszteld a BAS magrendszer (Gmail monitoring + OCR + adatkivonat) működését a könyvelőiroda mindennapi feladatai során, és adj írásos jóváhagyást a következő fázis (banki párosítás) indításához.
     *   **HATÁRIDŐ:** Az MVP fázis lezárásakor (javasolt: 2026. október 15.).
 
+## Sablonok használata
+
+### Új pályázat indításakor
+- Használd a **`TAMOGAT/`** könyvtár sablonjait kiindulópontként:
+  - `TAMOGAT/CEGADAT_SABLON.md` — céges adatok, pénzügyi kivonat, DI igazolások (mesterdoc.md alapján ellenőrzendő)
+  - `TAMOGAT/PALYAZATI_DOKUMENTUM_SABLON.md` — projekt indokoltság, célok, szakmai tartalom, költségvetés, EPTK-verzió sablon
+  - `TAMOGAT/MELLEKLETEK_SABLON.md` — teljes melléklet checklist (cégkivonat, KOMA, HIPA, DFK, árajánlatok, stb.)
+- Minden `<!-- FIXME -->` jelölést töltsd ki a konkrét pályázati kiírás alapján.
+- Az EPTK-verzió blokkokat változtatás nélkül másold be az online pályázati felületre.
+
+### Új hitelkérelem indításakor
+- Használd a **`HITEL/`** könyvtár sablonjait kiindulópontként:
+  - `HITEL/HITELPROJEKT_SABLON.md` — beruházási lista, hitelcél, indokoltság, hitelfeltételek
+  - `HITEL/HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md` — törlesztőrészlet számítás, 5 éves cash-flow, DSCR mutató
+  - `HITEL/HITEL_DOKUMENTUMLISTA_SABLON.md` — KAVOSZ / banki dokumentumlista checklist
+- Minden `<!-- FIXME -->` jelölést töltsd ki a konkrét hitelkonstrukció és aktuális céges adatok alapján.
+- A Széchenyi Mikrohitel MAX+ referencia adatok (6M Ft, 3%, 107 812 Ft/hó) referenciaként maradnak a sablonban.
+
 Automatizált melléklet-ellenőrzés
 A projekt repository-hoz hozzáadtam egy egyszerű PowerShell scriptet: scripts\check_mellekletek.ps1. A script a repo gyökérből futtatva ellenőrzi az alapvető mellékletek meglétét (például: KOMA, iparűzési igazolás, DFK, árajánlatok, cégkivonat, dimop költségvetés). Futtatás PowerShellben: powershell -ExecutionPolicy Bypass -File .\scripts\check_mellekletek.ps1
 A script nem tölt fel semmit az EPTK-re, csak helyi fájlrendszerben vizsgálja a fájlok meglétét és listázza a hiányzó tételeket, így segít előkészíteni a feltöltést.

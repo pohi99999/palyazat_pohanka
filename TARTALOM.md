@@ -65,6 +65,20 @@ Első lépések új belépőnek (2–3 perc)
 
 *Kapcsolódás a fejlesztőkhöz:* A fenti dokumentumok a fejlesztést és a kivitelezést végző IT csapat számára szolgálnak elsődleges master specifikációként és útmutatóként.
 
+## TAMOGAT sablonok
+A `TAMOGAT/` könyvtár általános VNT pályázati sablonokat tartalmaz, Pohánka és Társa Kft. adataira épülve, de bármely pályázathoz modulárisan alkalmazható.
+
+- [CEGADAT_SABLON.md](TAMOGAT/CEGADAT_SABLON.md) — Cégadatok, TEÁOR kódok, pénzügyi kivonat (3 év), KKV besorolás, DI igazolások (IG32095-2025, IG32096-2025) és kulcsdokumentumok elérhetőségei.
+- [PALYAZATI_DOKUMENTUM_SABLON.md](TAMOGAT/PALYAZATI_DOKUMENTUM_SABLON.md) — Általános VNT pályázati dokumentum vázlat: projekt indokoltsága, célok, szakmai tartalom (BAS architektúra), költségvetési struktúra, indikátorok és EPTK-verzió sablon.
+- [MELLEKLETEK_SABLON.md](TAMOGAT/MELLEKLETEK_SABLON.md) — Táblázatos melléklet checklist: cégkivonat, aláírási címpéldány, 3 év beszámoló + főkönyv, KOMA, HIPA, DI igazolások, DFK, árajánlatok és projekt-specifikus iratok.
+
+## HITEL sablonok
+A `HITEL/` könyvtár általános beruházási hitel sablonokat tartalmaz (Széchenyi, GINOP 0%, banki hitel), Pohánka és Társa Kft. Széchenyi 6M Ft-os tervét referenciaként alkalmazva.
+
+- [HITELPROJEKT_SABLON.md](HITEL/HITELPROJEKT_SABLON.md) — Hitelcél leírás, részletes beruházási lista (GPU workstation, PC, NAS, cégautó), indokoltság és jogosultsági feltételek összesítője.
+- [HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md](HITEL/HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md) — Annuitásos törlesztő számítás képlettel (referencia: 107 812 Ft/hó), 5 éves EBITDA / szabad cash-flow / DSCR előrejelzés, paraméterezhető FIXME mezőkkel.
+- [HITEL_DOKUMENTUMLISTA_SABLON.md](HITEL/HITEL_DOKUMENTUMLISTA_SABLON.md) — KAVOSZ / banki dokumentumlista checklist: cégiratok, 3 év pénzügyi dokumentum, KOMA, HIPA, beruházási lista, árajánlatok, fedezeti iratok és igénylőlapok.
+
 Fontos fájlok gyors elérés:
 - KELL.md — emberi teendők (most létrehozva)
 - TARTALOM.md — ez a fájl (áttekintés)
