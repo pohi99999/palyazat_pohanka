@@ -183,11 +183,25 @@ Mielőtt javasolnál vagy módosítanál, kérdezd meg magadtól:
 3. **EPTK-verzió?** — Ha EPTK-ba másolandó szöveg, tartalmaz-e "## Rövid EPTK-verzió" blokkot?
 4. **Költségvetés?** — Az összes költség a 9M (DIMOP) vagy 6M (Széchenyi) keretből van-e fedezve?
 5. **Melléklet?** — Újabb melléklet-e, és fel van-e töltve az EPTK ellenőrző listához (`dimop_126b_mellekletek_checklist.md` és `Palyazatok/DIMOP_1_2_6_B_2026/03_MELLEKLETEK_CHECKLIST.md`)?
-6. **Határidő?** — A június 26-i belső DIMOP határidő előtt van-e még idő a módosításra?
+6. **Határidő?** — Az aktuális DIMOP határidő (`output/pohanka_3month_action_plan.json` alapján: 2026-08-05 a következő reális cél) előtt van-e még idő?
+7. **AI-profil naprakész?** — A `config/pohanka_credit_profile.json` tartalmaz-e friss adatokat (DI pont, DFK érvényesség, árbevétel)?
 
 ---
 
 ## Haladás — Rövid Mérföldkő-napló
+
+### 2026. június 30.
+- **Brunella AI Pályázat- és Hitelkereső Rendszer** elkészült és pushólva (commit: `611d48f`, `273387b`)
+- `config/pohanka_credit_profile.json` — Gépileg olvasható céges profil JSON (minden szekció: company, financials, digital_profile, investment_plan, preferences, eligibility_checks)
+- `src/domain/pohankaCreditProfile.py` — Python domain modul (9 helper függvény: getCreditPreferences, getGrantPreferences, getEligibilityChecks stb.)
+- `src/agents/fundingSearchAgent.py` — FundingSearchAgent konfiguráció (Brunella LLM rendszer-prompt, szűrési és rangsorolási paraméterek)
+- `src/workflows/fundingAndGrantDiscovery.py` — Teljes kereső workflow (szűrés, rangsorolás, JSON kimenet, jövőbeli automatizálás wireframe kommentekkel)
+- `output/pohanka_funding_candidates.json` — Első futás: 5 pályázat (DIMOP 90%, GINOP 80%, képzés 80%, Széchenyi vidéki 75%, NKFIH 70%) + 5 hitel (GINOP 0%, DIMOP komb. 0%, MFB 1,5%, SZ-Beruh 2,5%, SZ-Mikro 3%)
+- `output/pohanka_3month_action_plan.json` — 3 hónapos végrehajtható akcióterv (4 pályázat + 5 hitel, 5–10 lépés/program, magyar határidők és felelősök, szűrések és indoklások)
+- `tests/test_pohankaCreditProfile.py` — 29 egységteszt (mind zöld: `python -m pytest tests/ -v`)
+- `README.md` — Projekt dokumentáció létrehozva
+- `KELL.md`, `TARTALOM.md`, `akcio_terv.md`, `.github/copilot-instructions.md` frissítve
+- `.gitignore` — Python `__pycache__` kizárva
 
 ### 2026. június 29.
 - `.github/copilot-instructions.md` (10,4 KB), `mcp-servers.json`, `WORKFLOWS.md` létrehozva
@@ -199,6 +213,6 @@ Mielőtt javasolnál vagy módosítanál, kérdezd meg magadtól:
 
 ---
 
-**Utolsó frissítés**: 2026. június 29.
+**Utolsó frissítés**: 2026. június 30.
 **Szerzői jogok**: Pohánka és Társa Kft.
 **AI asszisztens**: Brunella (GitHub Copilot)

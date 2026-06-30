@@ -2,6 +2,42 @@ KELL — emberi teendők (párosítás: MIT / HOL / MIVEL / MIKOR)
 
 ---
 
+## Brunella AI Rendszer – Pályázat- és Hitelkereső (KÉSZ: 2026-06-30)
+
+> **Állapot:** Az AI-alapú pályázat- és hitelkereső rendszer (FundingSearchAgent + workflow) elkészült és commitolva van a repóba.
+
+### Kész fájlok (nem igényelnek emberi beavatkozást)
+- `config/pohanka_credit_profile.json` — Gépileg olvasható céges profil (cégadatok, pénzügyek, preferenciák)
+- `src/domain/pohankaCreditProfile.py` — Python domain modul (helper függvények)
+- `src/agents/fundingSearchAgent.py` — FundingSearchAgent (Brunella LLM-motor prompt)
+- `src/workflows/fundingAndGrantDiscovery.py` — Teljes kereső workflow
+- `output/pohanka_funding_candidates.json` — Első workflow futás eredménye (5 pályázat + 5 hitel)
+- `output/pohanka_3month_action_plan.json` — 3 hónapos végrehajtható akcióterv JSON
+
+### Emberi teendők az AI-rendszerhez
+
+`[ ]` **Profil frissítése ha céges adat változik**
+- MIT: Ha a cégadatok (árbevétel, létszám, DI pontszám, DFK érvényesség) megváltoznak, frissíteni kell a `config/pohanka_credit_profile.json` fájlt.
+- HOL: `config/pohanka_credit_profile.json`
+- MIVEL: Friss NAV/számviteli adatok, DI igazolás.
+- MIKOR: Évente, vagy ha az adatok lényegesen változnak.
+
+`[ ]` **Workflow újrafuttatása friss pályázati adatokkal**
+- MIT: A `python -m src.workflows.fundingAndGrantDiscovery` parancs futtatása frissíti az `output/pohanka_funding_candidates.json` fájlt. Jelenleg statikus jelölt adatokat tartalmaz – az LLM+search API integrációval automatizálható.
+- HOL: Repo gyökérből PowerShell-ben.
+- MIKOR: Havonta egyszer, vagy ha új pályázati felhívást észlelsz.
+
+`[ ]` **3 hónapos akcióterv áttekintése és lépések teljesítése**
+- MIT: Nyisd meg az `output/pohanka_3month_action_plan.json` fájlt, és teljesítsd az azonnali lépéseket (priority_rank=1):
+  - **2026-07-07:** OTP Bank KAVOSZ konzultáció + Széchenyi Kártya ellenőrzés
+  - **2026-07-08:** DFK véglegesítés + EPTK regisztráció
+  - **2026-07-10:** NAV KOMA és HIPA frissítés + MFB Pont tájékozódás
+  - **2026-07-15:** Árajánlatok (DIMOP+Széchenyi), GINOP státusz, Garantiqa folyamat
+- HOL: `output/pohanka_3month_action_plan.json`
+- MIKOR: Azonnal (július első hete)
+
+---
+
 ## Új pályázati felhívás teendő
 
 `[ ]` **DIMOP_1_2_6_B_2026 — Pályázati almappa sablonok áttekintése és finomhangolása beadás előtt**

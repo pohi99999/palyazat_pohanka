@@ -6,6 +6,35 @@ A dokumentumban szereplő cégadatok a [mesterdoc.md](file:///Z:/001_Workspace/p
 
 ---
 
+## 🆕 2026-06-30 – AI-alapú Pályázat- és Hitelkereső Rendszer (KÉSZ)
+
+> **Brunella Agent System (BAS) – FundingSearchAgent & Workflow**
+
+A mai napon (2026-06-30) elkészült és a GitHub repóba feltöltésre kerültek az alábbi fájlok (commit: `611d48f`, `273387b`):
+
+| Fájl | Tartalom |
+|------|----------|
+| `config/pohanka_credit_profile.json` | Gépileg olvasható céges profil JSON (cégadatok, 2023–2025 pénzügyek, DI igazolások, preferenciák, kizárások, jogosultsági ellenőrzések) |
+| `src/domain/pohankaCreditProfile.py` | Python domain modul – helper függvények az összes workflow számára |
+| `src/agents/fundingSearchAgent.py` | FundingSearchAgent – Brunella LLM rendszer-prompt a pályázat/hitel kereséshez |
+| `src/workflows/fundingAndGrantDiscovery.py` | Teljes kereső workflow – szűrés, rangsorolás, JSON kimenet generálás |
+| `output/pohanka_funding_candidates.json` | Első workflow kimenet: 5 pályázat + 5 hitelkonstrukció rangsorolva |
+| `output/pohanka_3month_action_plan.json` | **3 hónapos végrehajtható akcióterv** (4 pályázat × 5–10 lépés + 5 hitel × 4–10 lépés, magyar határidőkkel és felelősökkel) |
+| `tests/test_pohankaCreditProfile.py` | 29 egységteszt (mind zöld) |
+| `README.md` | Projekt dokumentáció |
+
+**Legfontosabb azonnali teendők** (az akcióterv JSON alapján):
+- `2026-07-07` — OTP Bank KAVOSZ konzultáció + Széchenyi Kártya ellenőrzés
+- `2026-07-08` — DFK véglegesítés + EPTK cégprofil ellenőrzés
+- `2026-07-10` — NAV KOMA + HIPA frissítés (ha lejárt), MFB Pont tájékozódás
+- `2026-07-15` — Árajánlatok (DIMOP + Széchenyi), GINOP státusz, Garantiqa megindítás
+- `2026-07-22` — DIMOP projekt indokolás + BAS szakmai tartalom véglegesítése
+- `2026-07-29` — Széchenyi hiteligénylő benyújtása OTP Bankba
+- `2026-08-05` — DIMOP benyújtás EPTK portálon
+
+---
+
+
 ## I. Bevezetés (Cégprofil és Célok)
 
 *   **Pályázó vállalkozás:** POHÁNKA ÉS TÁRSA KÖNYVELŐ IRODA Kft.
@@ -23,9 +52,11 @@ A dokumentumban szereplő cégadatok a [mesterdoc.md](file:///Z:/001_Workspace/p
 ## II. DIMOP Plusz-1.2.6/B-26 Napi szintű operatív terv
 
 > [!IMPORTANT]
-> **KRITIKUS HATÁRIDŐK:**
-> *   **Hivatalos beadási határidő Nyugat-Dunántúlon:** **2026. június 30.**
-> *   **Belső célzott beadási határidő:** **2026. június 26.** (az állami pályázati portál utolsó napos túlterheltségének és esetleges leállásának elkerülésére!)
+> **KRITIKUS HATÁRIDŐK – FRISSÍTVE 2026-06-30:**
+> *   **Eredeti beadási határidő (Nyugat-Dunántúl):** **2026. június 30.** ← MA VAN
+> *   **Státusz:** Ha a benyújtás ma (június 30.) nem sikerült, az EPTK-n ellenőrizni kell az új határidőt.
+> *   **Következő reális belső határidő:** **2026. augusztus 5.** (a 3 hónapos akcióterv alapján)
+> *   **AI-alapú akcióterv:** `output/pohanka_3month_action_plan.json` – részletes lépések és határidők
 
 ### 1.1 Jogosultsági ellenőrzés (Június 18–19. / 1-2. nap)
 *   [ ] **Cégadatok validálása:** A [mesterdoc.md I. pontja](file:///Z:/001_Workspace/p%C3%A1ly%C3%A1zat-pohankaestarsakft/mesterdoc.md#i-%C3%A1ltal%C3%A1nos-c%C3%A9gadatok-c%C3%A9gkivonat-alapj%C3%A1n) alapján ellenőrizni a NAV törzsadatait. Biztosítani, hogy az IT TEÁOR kódok (6201, 6202, 6311) hivatalosan bejegyezve szerepeljenek.

@@ -95,10 +95,21 @@ A `config/` és `src/` könyvtárak a Brunella ügynökalapú pályázat- és hi
 - [`src/agents/fundingSearchAgent.py`](src/agents/fundingSearchAgent.py) — FundingSearchAgent: a Brunella LLM-motornak átadott rendszer-prompt és ügynök konfiguráció. Hivatkozik a `pohankaCreditProfile`-ra mint `company_profile`.
 - [`src/workflows/fundingAndGrantDiscovery.py`](src/workflows/fundingAndGrantDiscovery.py) — Teljes workflow: szűrés (kizárások, intenzitás/kamatplafon), rangsorolás (kamatszint, ismert program, türelmi idő, összeg, garancia), JSON kimenet mentése.
 - [`output/pohanka_funding_candidates.json`](output/pohanka_funding_candidates.json) — Legutóbbi workflow kimenet: 5 pályázat + 5 hitelkonstrukció rangsorolva, akció tervekkel.
+- [`output/pohanka_3month_action_plan.json`](output/pohanka_3month_action_plan.json) — **3 hónapos végrehajtható akcióterv**: 4 pályázat × 5–10 lépés + 5 hitel × 4–10 lépés, magyar határidőkkel (2026-07-07 → 2026-09-30), felelősökkel és indoklásokkal.
 - [`tests/test_pohankaCreditProfile.py`](tests/test_pohankaCreditProfile.py) — 29 egységteszt: JSON validálás, helper függvények, kizárási logika, rangsorolás.
 
 *Futtatás:* `python -m src.workflows.fundingAndGrantDiscovery`
 *Tesztek:* `python -m pytest tests/ -v` (29 passed)
+*Legfontosabb azonnali lépés:* `2026-07-07` OTP Bank KAVOSZ konzultáció + `2026-07-08` EPTK regisztráció + DFK véglegesítés
+
+### 2026-06-30 Haladás összefoglaló
+
+| Commitok | Tartalom |
+|----------|----------|
+| `611d48f` | Brunella AI rendszer: config/, src/, tests/, README.md, TARTALOM.md, .gitignore |
+| `273387b` | 3 hónapos akcióterv JSON: output/pohanka_3month_action_plan.json |
+| (jelen) | Dokumentáció frissítés: KELL.md, akcio_terv.md, copilot-instructions.md |
+
 
 Fontos fájlok gyors elérés:
 - KELL.md — emberi teendők (most létrehozva)
