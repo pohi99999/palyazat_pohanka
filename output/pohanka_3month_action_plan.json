@@ -1,0 +1,530 @@
+{
+  "plan_horizon_months": 3,
+  "company_name": "Pohánka és Társa Kft.",
+  "grants": [
+    {
+      "program_code": "DIMOP Plusz-1.2.6/B-26",
+      "name": "DIMOP Plusz-1.2.6/B-26 – KKV digitalizáció és automatizáció",
+      "official_url": "https://palyazat.gov.hu/",
+      "type": "grant",
+      "priority_rank": 1,
+      "reason": "A cég legfontosabb rövid távú pályázata: 90%-os VNT intenzitás, 9 M Ft tervezett projektérték, a BAS rendszer (szoftver, felhő, AI, képzés) teljes egészében elszámolható. A DFK igazolás (D127/23-505/2025) rendelkezésre áll, a DI pontszámok (IG32095-2025, IG32096-2025) megvannak, az EPTK benyújtás 2026 júliusban reálisan végrehajtható.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "DFK dokumentum véglegesítése",
+          "description": "A Modern Vállalkozások Program 2.0 keretében készülő Digitális Fejlesztési Koncepció (DFK, azonosító: D127/23-505/2025) szövegének és mellékletének véglegesítése. Ellenőrizni kell, hogy a DFK összhangban van-e a DIMOP 1.2.6/B-26 szakmai tartalommal (BAS projekt, Bifrost Gateway, FastAPI Robotkéz, LanceDB RAG, Phoenix Protocol). Érvényessége: 2026-11-30-ig megvan.",
+          "due_by": "2026-07-08",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "EPTK regisztráció és cégadatok ellenőrzése",
+          "description": "Az EPTK (Egységes Pályázatkezelő és Támogatási Keretrendszer) portálon a cégprofil aktualizálása: adószám (14728864-2-20), képviseleti jogosultság, aláírási minta érvényessége, KKV besorolás státusza. KIVA adózás nem kizáró ok. A belépési jogosultságokat és a képviselő hozzáférési adatait is ellenőrizni kell.",
+          "due_by": "2026-07-08",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Kettős finanszírozási tilalom vizsgálata",
+          "description": "Jogi és szakmai ellenőrzés: a DIMOP Plusz-1.2.6/B-26 VNT és a tervezett Széchenyi Mikrohitel MAX+ (6 M Ft) kombinálható-e kettős finanszírozási tilalom megsértése nélkül. Az elszámolható tételek (GPU, NAS) elválasztása a DIMOP-projektből a hitelből finanszírozott hardvertételektől. Szükség esetén jogi tanácsadó vagy a Nemzeti Fejlesztési Minisztérium ügyfélszolgálatának megkeresése.",
+          "due_by": "2026-07-10",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft. / external consultant"
+        },
+        {
+          "step_order": 4,
+          "title": "Árajánlatok begyűjtése (minden elszámolható tételre)",
+          "description": "Legalább 3-3 szállítói árajánlat bekérése a következő kategóriákhoz: (a) BAS szoftver licencek és fejlesztés; (b) felhőszolgáltatás (IaaS/PaaS, pl. Azure/AWS); (c) OCR és LanceDB AI modulok; (d) IT integráció és tanácsadás; (e) képzés (3 fő, AI/IT kompetenciafejlesztés). Az ajánlatoknak tartalmazniuk kell a tételes árat, szállítási határidőt és a cég adatait.",
+          "due_by": "2026-07-18",
+          "dependencies": [3],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 5,
+          "title": "Projekt indokoltság és célok szövegének véglegesítése",
+          "description": "A Palyazatok/DIMOP_1_2_6_B_2026/02_PALYAZATI_DOKUMENTUM.md fájl FIXME szakaszainak kitöltése. A projekt indokoltságát (8 bekezdés) és a célokat (8 indikátor) a DFK és a pénzügyi adatok (2025: 9 158 000 Ft árbevétel, 3 fő, KIVA) alapján felülvizsgálni és véglegesíteni. EPTK-verzió blokk kimásolható és beilleszthető az EPTK-ba.",
+          "due_by": "2026-07-22",
+          "dependencies": [1, 3],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 6,
+          "title": "Szakmai tartalom (BAS architektúra) leírásának elkészítése",
+          "description": "A Brunella Agent System (BAS) részletes technikai leírásának megírása az EPTK szakmai tartalom mezőjéhez: Bifrost Gateway (orkesztrációs réteg), FastAPI Robotkéz (API integrációs réteg), LanceDB RAG (vektoros tudásbázis), Phoenix Protocol v2 (önjavító protokoll). Elvárt hatások: 50% adminisztrációs megtakarítás, 80% automatizált számlafeldolgozás, 70% banki egyeztetési automatizálás.",
+          "due_by": "2026-07-22",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 7,
+          "title": "Kötelező mellékletek összegyűjtése",
+          "description": "A 03_MELLEKLETEK_CHECKLIST.md alapján az összes kötelező melléklet összegyűjtése és ellenőrzése: (a) friss cégkivonat (Cegkivonat-7.pdf – max. 30 napos); (b) NAV KOMA köztartozásmentes igazolás (KOMA-Pohanka-Kft-8.pdf – frissíteni, ha lejárt); (c) HIPA igazolás (SKM_4050260625124300-9.pdf – frissíteni, ha lejárt); (d) DI igazolások (IG32095-2025, IG32096-2025); (e) DFK Támogatói Okirat (palyazat_ginop_1-3.pdf); (f) KKV minősítő nyilatkozat; (g) aláírási minta.",
+          "due_by": "2026-07-25",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 8,
+          "title": "Költségvetés feltöltése az EPTK rendszerbe",
+          "description": "A 9 M Ft-os projekt teljes költségvetésének rögzítése az EPTK pénzügyi tábláiban 4 kategóriában: (1) BAS szoftver és licencek; (2) felhőszolgáltatás (IaaS/PaaS); (3) tanácsadás és integráció; (4) képzés (3 fő). Az egyes tételekhez az árajánlatokban szereplő összegeket kell beírni. 90%-os támogatási intenzitás = 8 100 000 Ft támogatás, 900 000 Ft önerő.",
+          "due_by": "2026-07-28",
+          "dependencies": [4, 5],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 9,
+          "title": "Benyújtás az EPTK portálon",
+          "description": "A kész pályázati dokumentáció (projekt indokoltsága, célok, szakmai tartalom, költségvetés) és az összes melléklet feltöltése és végleges elektronikus benyújtása az EPTK portálon. A benyújtás előtt elvégezni a belső ellenőrzést a 03_MELLEKLETEK_CHECKLIST.md alapján, futtatni a scripts/check_mellekletek.ps1 szkriptet, majd csak ezután rögzíteni a benyújtást.",
+          "due_by": "2026-08-05",
+          "dependencies": [5, 6, 7, 8],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 10,
+          "title": "Hiánypótlás kezelése és támogatói döntés figyelése",
+          "description": "A benyújtás utáni folyamat kezelése: az esetleges hiánypótlási felhívásokra határidőn belüli válasz (általában 8–15 nap áll rendelkezésre). Az EPTK értesítők és az NFM/DIMOP ügyfélszolgálat figyelése. Pozitív döntés esetén a támogatási szerződés átvizsgálása és aláírása, a projekt megvalósítási ütemtervének megerősítése.",
+          "due_by": "2026-09-30",
+          "dependencies": [9],
+          "owner": "Pohánka és Társa Kft."
+        }
+      ]
+    },
+    {
+      "program_code": "SZ-MIKRO-2026",
+      "name": "Széchenyi Plusz – Mikrovállalkozói Fejlesztési Alap (vidéki felhívás)",
+      "official_url": "https://szechenyi.hu/",
+      "type": "grant",
+      "priority_rank": 2,
+      "reason": "75%-os támogatási intenzitással elérhető vidéki mikrovállalkozói fejlesztési felhívás; Zalaegerszeg jogosult, digitalizációs és IT fejlesztési cél illeszkedik a BAS projekthez. A DIMOP utáni kiegészítő pályázatként tervezhető, 3–8 M Ft összegben. A felhívás megjelenésétől függ – előkészítés elvégezhető a 3 hónapos horizonton belül.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "Felhívás megjelenésének és státuszának rendszeres figyelése",
+          "description": "A szechenyi.hu és palyazat.gov.hu oldalakon heti rendszerességgel ellenőrizni a mikrovállalkozói fejlesztési felhívás megjelenését. E-mail értesítő beállítása az EPTK rendszerben a 'Széchenyi' és 'mikrovállalkozás' kulcsszavakra. Ha a felhívás megjelenik, azonnali jogosultsági gyorsellenőrzés szükséges.",
+          "due_by": "TBD",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "Jogosultsági gyorsellenőrzés a felhívás megjelenésekor",
+          "description": "A felhívás megjelenésekor azonnal ellenőrizni: (a) KKV besorolás (mikro, <=10 fő – teljesül); (b) vidéki székhely (Zalaegerszeg – teljesül); (c) TEÁOR kódok illeszkedése (6201, 6202, 6311 – teljesül); (d) KIVA adózás kizáró ok-e; (e) önerő követelmény (<30% elfogadható); (f) elszámolható tételek köre (IT fejlesztés – várhatóan jogosult).",
+          "due_by": "TBD",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Projekt leírás elkészítése a felhívás feltételei alapján",
+          "description": "A TAMOGAT/PALYAZATI_DOKUMENTUM_SABLON.md sablonból kiindulva elkészíteni a projekt leírást a felhívás specifikus tartalmi követelményeihez igazítva. A BAS digitalizációs projekt rövid összefoglalójára alapozni, a vidéki fejlesztési hatásokat kiemelni (Zala vármegye, 3 fő foglalkoztatás megtartása/bővítése).",
+          "due_by": "TBD",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 4,
+          "title": "Kettős finanszírozási tilalom ellenőrzése (DIMOP + Széchenyi Plusz)",
+          "description": "Amennyiben a DIMOP Plusz-1.2.6/B-26 pályázat támogatási szerződése már megkötésre kerül, ellenőrizni, hogy a Széchenyi Plusz felhívás elszámolható tételei átfednek-e a DIMOP-projekttel. Szükség esetén eltérő beruházási tételeket rögzíteni (pl. kiegészítő szoftver vagy ügyfélszolgálati eszköz).",
+          "due_by": "TBD",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft. / external consultant"
+        },
+        {
+          "step_order": 5,
+          "title": "Benyújtás",
+          "description": "A felhívás feltételeinek megfelelő pályázati dokumentáció és mellékletek EPTK-n keresztüli benyújtása. Felhasználni a már összegyűjtött mellékleteket (cégkivonat, KOMA, HIPA, KKV nyilatkozat), amelyek a DIMOP pályázatnál frissítésre kerültek.",
+          "due_by": "TBD",
+          "dependencies": [3, 4],
+          "owner": "Pohánka és Társa Kft."
+        }
+      ]
+    },
+    {
+      "program_code": "GINOP Plusz-1.4.3-24",
+      "name": "GINOP Plusz-1.4.3-24 – KKV Technológia Plusz (VNT komponens)",
+      "official_url": "https://ginop.gov.hu/",
+      "type": "grant",
+      "priority_rank": 3,
+      "reason": "Kombinált VNT + 0% hitel konstrukció, 80%-os intenzitású vissza nem térítendő komponenssel. IT hardver és szoftver elszámolható, Garantiqa bevonható. Középtávú előkészítés (2027) ajánlott, mert a felhívás nyitottságát 2026-ban először ellenőrizni kell, és a DIMOP benyújtás prioritást élvez. Az alapozó lépések elvégezhetők a 3 hónapos horizonton.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "Felhívás aktuális státuszának ellenőrzése",
+          "description": "A ginop.gov.hu és palyazat.gov.hu oldalakon megvizsgálni, hogy a GINOP Plusz-1.4.3-24 felhívás 2026-ban nyitott-e, mikor zárul a beadási ablak, és van-e aktív befogadási időszak. Ha a felhívás lezárult vagy szünetel, ezt dokumentálni, és a következő nyitási időpontot figyelni.",
+          "due_by": "2026-07-15",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "VNT és 0% hitel komponens arányának pontosítása",
+          "description": "A felhívás dokumentációjából meghatározni a kombinált konstrukció pontos arányát: mekkora részre vonatkozik a vissza nem térítendő komponens (várhatóan 50% körüli intenzitás) és mekkora az igényelhető 0%-os hitelrész. Ez meghatározza, hogy a 9–12 M Ft értékű BAS projektből mekkora rész finanszírozható VNT-vel és mekkora hitellel.",
+          "due_by": "2026-07-22",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Garantiqa garancia előzetes feltételeinek megismerése",
+          "description": "A Garantiqa Hitelgarancia Zrt. honlapján (garantiqa.hu) és az OTP Bankon keresztül tájékozódni a garancia igénylés folyamatáról, díjáról és feltételeiről. A Garantiqa ingatlanfedezet kiváltására használható, ami a cég számára kritikus, mivel az ingatlanfedezet bevonása nem preferált.",
+          "due_by": "TBD",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 4,
+          "title": "Kettős finanszírozási tilalom vizsgálata (GINOP + DIMOP kombináció)",
+          "description": "Jogi tanácsadó segítségével megvizsgálni, hogy a GINOP Plusz-1.4.3-24 kombinált konstrukció egyidejűleg igénybe vehető-e a már benyújtott DIMOP Plusz-1.2.6/B-26 VNT pályázattal. Ha nem kombinálható, a GINOP felhívást a DIMOP projekt lezárása után lehet mérlegelni a BAS SaaS bővítéshez.",
+          "due_by": "TBD",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft. / external consultant"
+        },
+        {
+          "step_order": 5,
+          "title": "Projekt koncepció kidolgozása (középtávú BAS SaaS bővítés)",
+          "description": "Amennyiben a kettős finanszírozási ellenőrzés pozitív, elkészíteni a GINOP Plusz-1.4.3-24 felhíváshoz illeszkedő projekt koncepciót: a BAS rendszer SaaS modellű kiterjesztése, szerverinfrastruktúra fejlesztés, 10–20 M Ft projektérték, 2027-es megvalósítási időszak tervezésével.",
+          "due_by": "TBD",
+          "dependencies": [3, 4],
+          "owner": "Pohánka és Társa Kft."
+        }
+      ]
+    },
+    {
+      "program_code": "NKFIH-AI-micro-2026",
+      "name": "Innovációs Alap – Vállalati K+F és AI termékfejlesztés (mikro KKV sáv)",
+      "official_url": "https://nkfih.gov.hu/",
+      "type": "grant",
+      "priority_rank": 4,
+      "reason": "A BAS rendszer AI/LLM komponensei (LanceDB RAG, Phoenix Protocol) innovatív terméknek minősülhetnek, 70%-os intenzitású K+F pályázat. Kockázati tényező: a 30%-os önerő közelíti a preferenciák kizárási határát (>30% elutasított). Csak akkor érdemes, ha a Széchenyi Mikrohitel MAX+ hitelből az önerő finanszírozható. Előkészítő lépések belférnek a 3 hónapos horizonton.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "Felhívás jogosultsági feltételeinek részletes tanulmányozása",
+          "description": "Az nkfih.gov.hu oldalon megkeresni és letölteni az aktuális mikrovállalkozói AI K+F pályázat dokumentációját. Különösen figyelni: (a) elszámolható költségek köre (szoftver fejlesztés, kutatási tevékenység, prototípus); (b) önerő pontos mértéke és felhasználható-e hitelből; (c) KIVA adózású cégre vonatkozó speciális szabályok; (d) projekt minimális K+F tartalomra vonatkozó előírások.",
+          "due_by": "2026-07-20",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "Önerő finanszírozhatóságának vizsgálata",
+          "description": "Pénzügyi kalkuláció: ha a projektérték 9 M Ft és az intenzitás 70%, akkor 2,7 M Ft önerő szükséges. Megvizsgálni, hogy ez fedezhető-e: (a) a cég saját tőkéjéből (6 065 000 Ft – lehetséges); (b) a Széchenyi Mikrohitel MAX+ hitelből, ha az összeg elkülönítéssel igénybe vehető; (c) vagy a DIMOP VNT kifizetéséből. Ha az önerő nem biztosítható, a pályázat kizárható.",
+          "due_by": "2026-07-25",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Innovatív elem dokumentálása (BAS AI komponensek)",
+          "description": "A BAS rendszer innovatív elemeinek összefoglalása K+F pályázati formátumban: (a) LanceDB RAG modul – vektoros könyvelési adatbázis, újszerű alkalmazás KKV szegmensben; (b) Phoenix Protocol v2 – önjavító AI protokoll; (c) FastAPI Robotkéz – könyvelési folyamatok gépi automatizálása. Az NKFIH előírásai szerint dokumentálni a tudományos/technológiai kockázatot és az innováció fokát.",
+          "due_by": "TBD",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 4,
+          "title": "Benyújtás döntése és végrehajtása",
+          "description": "Az önerő rendelkezésre állásának és a jogosultsági ellenőrzés pozitív kimenetelének függvényében döntés a pályázat benyújtásáról. Negatív eredmény esetén a program kizárható a rövid távú tervből, és a középtávú (2027) BAS SaaS fejlesztéshez tartalékolható.",
+          "due_by": "TBD",
+          "dependencies": [3],
+          "owner": "Pohánka és Társa Kft."
+        }
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "program_code": "SZ-MIKRO-MAX-PLUS",
+      "name": "Széchenyi Mikrohitel MAX+",
+      "official_url": "https://kavosz.hu/szechenyi-mikrohitel-max-plus",
+      "type": "credit",
+      "priority_rank": 1,
+      "reason": "A cég rövid távú hitelszükségletére legjobban illeszkedő konstrukció: 3% fix kamat (az elfogadható 3% maximum határán), 6 M Ft összeg, 60 hónap futamidő, tervezett 1 éves türelmi idő. A GPU, PC, NAS, cégautó beruházás teljes egészében elszámolható. KIVA adózás nem kizáró ok. Havi törlesztő ~107 812 Ft. Az OTP Bank mint főbank KAVOSZ partnerként közvetlen kapcsolattartást tesz lehetővé.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "OTP Bank KAVOSZ termékspecialista megkeresése",
+          "description": "Az OTP Bank zalaegerszegi fiókjában vagy telefonon/e-mailben felvenni a kapcsolatot a Széchenyi Kártyaprogram termékspecialistájával. Időpontot kérni az előminősítő konzultációra, amelyen bemutatható a beruházási lista (GPU, NAS, PC, cégautó) és a cégprofil. A 11749008-24920311 bankszámlaszám alapján a kapcsolattartó azonosítható.",
+          "due_by": "2026-07-07",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "Széchenyi Kártyaprogram regisztráció ellenőrzése és megújítása",
+          "description": "Ellenőrizni, hogy a cég rendelkezik-e érvényes Széchenyi Kártya regisztrációval (szechenyi.hu / kavosz.hu portálon). Ha a regisztráció lejárt vagy nem létezik, megindítani a regisztrációs folyamatot: cégkivonat, KKV nyilatkozat, aláírási minta és adózói igazolások beküldése KAVOSZ-nak.",
+          "due_by": "2026-07-07",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "NAV KOMA és HIPA igazolások frissítése",
+          "description": "A hiteligényléshez szükséges igazolások frissítése, ha a meglévők (KOMA-Pohanka-Kft-8.pdf, SKM_4050260625124300-9.pdf) 30 napnál régebbiek: (a) NAV köztartozásmentes igazolás igénylése online ügyfélkapun (gov.hu); (b) helyi iparűzési adó igazolás kérése a Zalaegerszeg Önkormányzat adóhatóságától. Az igazolásokat digitálisan és papíron is beszerezni.",
+          "due_by": "2026-07-10",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 4,
+          "title": "Beruházási lista és 3-3 szállítói árajánlat begyűjtése",
+          "description": "Részletes beruházási lista összeállítása és szállítói árajánlatok begyűjtése minden tételhez (minimum 3 ajánlat): (a) GPU AI munkaállomás (1 db, ~600–800 ezer Ft); (b) irodai PC/laptop (3 db, ~250–350 ezer Ft/db); (c) NAS + hálózati eszközök (~300 ezer Ft); (d) használt cégautó (~1,5–2 M Ft, max. 5 éves). Az összes tétel együttes értéke lehetőleg ne haladja meg a 6 M Ft-ot.",
+          "due_by": "2026-07-15",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 5,
+          "title": "3 éves pénzügyi dokumentumok előkészítése",
+          "description": "A hiteligénylési csomaghoz szükséges pénzügyi dokumentumok összegyűjtése: (a) 2023. évi lezárt beszámoló: 2023.-beszamolo-10.pdf; (b) 2024. évi lezárt beszámoló: 2024.-beszamolo-2.pdf; (c) 2025. évi mérleg/előzetes: 2025-evi-merleg-4.pdf; (d) 2023–2025 főkönyvi kivonatok. Ha a 2025-ös zárás még nem véglegesített, könyvelő által aláírt előzetes mérleget kell benyújtani.",
+          "due_by": "2026-07-15",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 6,
+          "title": "Garantiqa garancia igénylési folyamat megindítása",
+          "description": "Párhuzamosan megindítani a Garantiqa Hitelgarancia Zrt. garanciaigénylését, amely kiválthatja az ingatlanfedezetet (a cég az ingatlan bevonását nem preferálja). Az OTP Bankon keresztül igényelni a Garantiqa 80%-os garanciát a 6 M Ft-os hitelre. A garanciadíj ~1–1,5%/év. Garantiqa portál: garantiqa.hu.",
+          "due_by": "2026-07-15",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 7,
+          "title": "Hiteligénylési csomag összeállítása",
+          "description": "A bank által előírt teljes hiteligénylési dokumentáció összegyűjtése és rendezése: (a) kitöltött hiteligénylő lap (KAVOSZ formanyomtatvány); (b) friss cégkivonat (Cegkivonat-7.pdf); (c) aláírási minta (Alairasi-cimp.-Atlath.-nyil.-KKV-min-6.pdf); (d) 3 éves pénzügyi dokumentumok; (e) NAV KOMA és HIPA igazolások; (f) beruházási lista és árajánlatok; (g) rövid üzleti/beruházási terv (HITELPROJEKT_SABLON.md alapján).",
+          "due_by": "2026-07-22",
+          "dependencies": [3, 4, 5, 6],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 8,
+          "title": "Hiteligénylő lap benyújtása a banknak",
+          "description": "Az összeállított hiteligénylési csomag benyújtása az OTP Bank zalaegerszegi fiókjában személyesen, vagy az elektronikus KAVOSZ csatornán. A bank-előterjesztési folyamat megindítása, a szükséges adatbekérő levelek megválaszolása.",
+          "due_by": "2026-07-29",
+          "dependencies": [7],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 9,
+          "title": "Hitelszerződés átvizsgálása és aláírása",
+          "description": "A bank hitel-előterjesztési döntése után a hitelszerződés részletes áttekintése: kamat (3% fix), futamidő (60 hó), türelmi idő (1 év kérelmezése), Garantiqa garancia érvényessége, fedezeti feltételek (IT eszközök + cégautó zálogjog). Szükség esetén jogi tanácsadó bevonása az aláírás előtt.",
+          "due_by": "2026-08-20",
+          "dependencies": [8],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 10,
+          "title": "Eszközök megrendelése és számlák elszámolása",
+          "description": "A hitel folyósítását követően a beruházási tételek (GPU munkaállomás, PC-k, NAS, cégautó) megrendelése az árajánlatot adó szállítóktól. A vásárlási számlák és szállítólevelek megőrzése az esetleges ellenőrzési kötelezettségekhez. A cégautó esetén a kötelező zárlogkönyv nyitása és üzemeltetési napló vezetése.",
+          "due_by": "2026-09-30",
+          "dependencies": [9],
+          "owner": "Pohánka és Társa Kft."
+        }
+      ]
+    },
+    {
+      "program_code": "MFB-KKV-DIGITAL-2026",
+      "name": "MFB Pont – KKV Digitalizációs Kamattámogatott Hitel",
+      "official_url": "https://mfb.hu/",
+      "type": "credit",
+      "priority_rank": 2,
+      "reason": "1,5%-os kedvezményes kamattal elérhető digitalizációs hitel, amely a Széchenyi Mikrohitel MAX+ mellett párhuzamos alternatívaként vagy kiegészítő forrásként vizsgálandó. A BAS projekt IT-komponensei elszámolhatók, Garantiqa garancia bevonható. Az OTP Bank MFB Pont partner, így a meglévő banki kapcsolat felhasználható.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "MFB Pont partnerbank és aktuális kamatfeltételek megismerése",
+          "description": "Az mfb.hu portálon és az OTP Bank MFB Pont ajánlatában tájékozódni az aktuális kamatfeltételekről (nominál kamat, kamatperiódus, díjak), a futamidőről (5–10 év), az igényelhető összegről (5–50 M Ft sáv) és a fedezeti követelményekről. Az OTP Bank zalaegerszegi fiókja MFB Pont partnerbank – konzultáció a Széchenyi Mikrohitel MAX+ megbeszéléssel összevonható.",
+          "due_by": "2026-07-10",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 2,
+          "title": "Széchenyi Mikrohitel MAX+ és MFB Pont összehasonlítása",
+          "description": "Pénzügyi összehasonlítás 6 M Ft, 60 hó futamidőre: Széchenyi 3% (~107 812 Ft/hó) vs. MFB Pont ~1,5% (~98 000–100 000 Ft/hó). Döntés: a két hitel kombinálható-e különböző célokra, vagy csak az egyiket igényeljük. Ha MFB Pont tartósan alacsonyabb kamatú és feltételei azonosak, elsőbbséget kaphat.",
+          "due_by": "2026-07-15",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Hiteligénylési csomag összeállítása MFB Pont feltételekre igazítva",
+          "description": "Az MFB Pont által előírt dokumentumok összegyűjtése (a Széchenyi csomaggal nagyrészt megegyező, de MFB-specifikus formanyomtatványokkal kiegészítve): hiteligénylő lap, üzleti terv / beruházási leírás, 3 éves pénzügyi dokumentumok, cégiratok, NAV KOMA, HIPA igazolások, beruházási lista.",
+          "due_by": "2026-07-22",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 4,
+          "title": "Garantiqa garancia párhuzamos megindítása",
+          "description": "Ha az MFB Pont hitel kiválasztásra kerül, a Garantiqa garancia igénylési folyamatát párhuzamosan megindítani (garantiqa.hu). Az OTP Bank mint MFB Pont partnerbank közvetítheti a garanciaigénylést.",
+          "due_by": "2026-07-22",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 5,
+          "title": "Hiteligénylés benyújtása és szerződéskötés",
+          "description": "Az összeállított hiteligénylési dokumentáció benyújtása az OTP Bankon keresztül az MFB Pont programba. A bank döntése után a hitelszerződés aláírása és a folyósítás megindítása. Az eszközök megrendelése a folyósítást követően.",
+          "due_by": "2026-08-29",
+          "dependencies": [3, 4],
+          "owner": "Pohánka és Társa Kft. / bank"
+        }
+      ]
+    },
+    {
+      "program_code": "GINOP-1.4.3-24-HITEL",
+      "name": "GINOP Plusz-1.4.3-24 – KKV Technológia Plusz (0% beruházási hitel komponens)",
+      "official_url": "https://ginop.gov.hu/",
+      "type": "credit",
+      "priority_rank": 3,
+      "reason": "0%-os kamattámogatott hitelkonstrukció technológiai beruházásra; a BAS projekt IT-komponensei elszámolhatók, Garantiqa bevonható. Ideális 10–20 M Ft középtávú beruházáshoz (2027 BAS SaaS bővítés). A 3 hónapos horizonton belül az előkészítő lépések elvégezhetők; a tényleges benyújtás az aktív felhívástól és DIMOP döntéstől függ.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "Felhívás nyitottságának és beadási ablakának ellenőrzése",
+          "description": "A ginop.gov.hu és palyazat.gov.hu oldalakon megállapítani, hogy a GINOP Plusz-1.4.3-24 felhívás 2026-ban aktív-e és mikor van a következő befogadási ablak. Ha a felhívás lezárult, figyelni az újranyitást és dokumentálni a várható ütemtervet.",
+          "due_by": "2026-07-15",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "0% hitel összegének és feltételeinek pontosítása",
+          "description": "A felhívás dokumentációjából meghatározni: (a) igényelhető hitelösszeg sáv (várhatóan 5–50 M Ft); (b) futamidő; (c) türelmi idő lehetősége; (d) elszámolható beruházási tételek köre; (e) KIVA adózás kizáró ok-e; (f) Garantiqa garancia bevonható-e ingatlanfedezet helyett.",
+          "due_by": "TBD",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Garantiqa előzetes tájékozódás és díjkalkuláció",
+          "description": "A garantiqa.hu portálon és az OTP Bankon keresztül tájékozódni a GINOP Plusz-1.4.3-24 konstrukcióhoz kapcsolódó Garantiqa garancia feltételeiről és díjáról. 0%-os kamat esetén a garanciadíj a teljes finanszírozási költség – ezt kalkulálni kell a döntéselőkészítéshez.",
+          "due_by": "TBD",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 4,
+          "title": "Kettős finanszírozási tilalom vizsgálata (GINOP + DIMOP kombináció)",
+          "description": "Jogi szakértővel megvizsgálni, hogy a GINOP Plusz-1.4.3-24 hitel egyidejűleg igénybe vehető-e a DIMOP Plusz-1.2.6/B-26 VNT támogatással. Ha tilalom fennáll, a GINOP hitelt a DIMOP projekt lezárása utáni bővítéshez (BAS SaaS skálázás) célozzuk.",
+          "due_by": "TBD",
+          "dependencies": [2],
+          "owner": "Pohánka és Társa Kft. / external consultant"
+        },
+        {
+          "step_order": 5,
+          "title": "Hiteligénylési csomag előkészítése és benyújtása (felhívás megnyílásakor)",
+          "description": "Az előkészített dokumentumok (beruházási lista, árajánlatok, pénzügyi dokumentumok, cégiratok, KOMA, HIPA) alapján a hiteligénylési csomag véglegesítése és benyújtása az OTP Bankon keresztül, a felhívás nyitott befogadási ablakában.",
+          "due_by": "TBD",
+          "dependencies": [3, 4],
+          "owner": "Pohánka és Társa Kft. / bank"
+        }
+      ]
+    },
+    {
+      "program_code": "DIMOP-1.2.3-A-24",
+      "name": "DIMOP Plusz-1.2.3/A-24 – Kombinált 0% hitel + VNT konstrukció",
+      "official_url": "https://palyazat.gov.hu/",
+      "type": "credit",
+      "priority_rank": 4,
+      "reason": "0%-os kamatozású hitel és vissza nem térítendő komponens kombinációja digitalizációs projektekre; a BAS projekt elvben jogosult. FONTOS: a DIMOP Plusz-1.2.6/B-26 VNT pályázattal kettős finanszírozási tilalom állhat fenn – ez jogi egyeztetés nélkül nem benyújtható. Középtávú előkészítés (2027) ajánlott; az alapozó jogi és dokumentációs lépések elvégezhetők 3 hónapon belül.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "Kettős finanszírozási tilalom jogi vizsgálata (DIMOP 1.2.6/B + 1.2.3/A kombináció)",
+          "description": "Jogi tanácsadó vagy az NFM/DIMOP ügyfélszolgálat segítségével megvizsgálni: a DIMOP 1.2.6/B-26 VNT pályázat támogatási szerződésének megkötése után a DIMOP 1.2.3/A-24 kombinált konstrukció igénybe vehető-e ugyanarra a BAS projektre, vagy annak bővítésére. A vizsgálat eredményét írásban dokumentálni.",
+          "due_by": "2026-08-01",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft. / external consultant"
+        },
+        {
+          "step_order": 2,
+          "title": "Felhívás státuszának és beadási feltételeinek megismerése",
+          "description": "A palyazat.gov.hu oldalon megvizsgálni a DIMOP Plusz-1.2.3/A-24 felhívás aktuális státuszát, beadási ablakát, az igényelhető 0% hitel és VNT komponensek arányát, valamint az elszámolható tételek körét. Ha a felhívás nem aktív 2026 nyarán, 2027-es újranyitásra tervezni.",
+          "due_by": "2026-08-01",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "Középtávú BAS SaaS fejlesztési projekt koncepció kidolgozása",
+          "description": "Amennyiben a kettős finanszírozási vizsgálat pozitív és a felhívás nyitott, elkészíteni a DIMOP 1.2.3/A-24-re fókuszáló projekt koncepciót: a BAS rendszer SaaS modellű kibővítése, szerverinfrastruktúra, 10–15 M Ft projektérték. Ez a lépés elvégezhető előkészítő munkaként akkor is, ha a benyújtás 2027-re csúszik.",
+          "due_by": "TBD",
+          "dependencies": [1, 2],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 4,
+          "title": "Hiteligénylési dokumentáció összeállítása és benyújtás",
+          "description": "A jogi ellenőrzés és projekt koncepció alapján összeállítani a teljes pályázati és hiteligénylési dokumentációt: BAS projekt leírás (VNT komponenshez), beruházási terv és cash-flow (0% hitel komponenshez), mellékletek. Benyújtás az EPTK portálon a nyitott befogadási ablakban.",
+          "due_by": "TBD",
+          "dependencies": [3],
+          "owner": "Pohánka és Társa Kft."
+        }
+      ]
+    },
+    {
+      "program_code": "SZ-BERUH-MAX-PLUS",
+      "name": "Széchenyi Beruházási Hitel MAX+",
+      "official_url": "https://kavosz.hu/szechenyi-beruhazasi-hitel-max-plus",
+      "type": "credit",
+      "priority_rank": 5,
+      "reason": "2,5%-os kamatozású közép- és hosszú távú beruházási hitel, 6–20 M Ft sávban. Kifejezetten a 2027–2028-as BAS SaaS infrastruktúra-fejlesztési tervhez illeszkedik. AVHGA garancia bevonható. A 3 hónapos horizonton csak előkészítő tájékozódási lépések szükségesek; a tényleges benyújtás 2027-re tervezendő.",
+      "actions": [
+        {
+          "step_order": 1,
+          "title": "Középtávú beruházási igény pontosítása (2027: 10–20 M Ft)",
+          "description": "A 2027–2028-ra tervezett BAS SaaS bővítési beruházás részletes listájának elkészítése: szerverinfrastruktúra (dedikált GPU szerver, NAS klaszter), hálózati eszközök, esetleges kiegészítő járművek ha a tevékenység bővül. Az összesített beruházási érték alapján meghatározni, hogy a Széchenyi Beruházási Hitel MAX+ 10–20 M Ft sávja megfelelő-e.",
+          "due_by": "TBD",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 2,
+          "title": "AVHGA garancia feltételeinek megismerése",
+          "description": "Az AVHGA Agrár-Vállalkozási Hitelgarancia Alapítvány portálján (avhga.hu) tájékozódni a garancia feltételeiről, díjáról és maximálisan vállalható garancia mértékéről. Megvizsgálni, hogy az AVHGA releváns-e egy IT/technológiai szektorbeli cég számára, vagy a Garantiqa a megfelelőbb garanciavállaló.",
+          "due_by": "TBD",
+          "dependencies": [],
+          "owner": "Pohánka és Társa Kft."
+        },
+        {
+          "step_order": 3,
+          "title": "OTP Bank Széchenyi Beruházási Hitel előzetes tájékozódás",
+          "description": "Az OTP Bank zalaegerszegi fiókjában tájékozódni a Széchenyi Beruházási Hitel MAX+ aktuális feltételeiről (2,5% kamat, futamidő, türelmi idő, garancia típus). Az előzetes tájékozódást a Széchenyi Mikrohitel MAX+ ügyintézéssel összevonni (azonos kapcsolattartó).",
+          "due_by": "TBD",
+          "dependencies": [1],
+          "owner": "Pohánka és Társa Kft. / bank"
+        },
+        {
+          "step_order": 4,
+          "title": "Hiteligénylési dokumentáció előkészítése és benyújtás (2027)",
+          "description": "A 2027-es beruházási ütemterv alapján összeállítani a hiteligénylési csomagot: frissített pénzügyi dokumentumok (2024–2026 lezárt évek), beruházási lista, árajánlatok, KOMA és HIPA igazolások, cégiratok. Benyújtás az OTP Bankon keresztül 2027 első negyedévében.",
+          "due_by": "TBD",
+          "dependencies": [2, 3],
+          "owner": "Pohánka és Társa Kft. / bank"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "source_file": "output/pohanka_funding_candidates.json",
+    "generated_at": "2026-06-30",
+    "notes": [
+      "Only programs with identifiable codes + URLs are included.",
+      "Programs violating exclusions are filtered out.",
+      "Steps are intended for the next 3 months.",
+      "DIMOP Plusz-képzés-26 filtered out: url is null, no identifiable official URL.",
+      "SZ-MIKRO-MAX-PLUS (Széchenyi Mikrohitel MAX+) and DIMOP Plusz-1.2.6/B-26 are the two immediate top-priority actions.",
+      "DIMOP-1.2.3-A-24 and GINOP-1.4.3-24-HITEL are mid-term (2027) preparations; key steps marked due_by TBD pending dual-financing legal review and felhívás status verification.",
+      "SZ-BERUH-MAX-PLUS is exclusively mid-term (2027-2028); all steps marked TBD.",
+      "Kettős finanszírozási tilalom (dual-financing prohibition) between DIMOP 1.2.6/B-26 and other DIMOP/GINOP programs must be resolved by legal counsel before combining applications.",
+      "All interest rates verified against exclusion criteria: no program exceeds 3% (acceptable_max), no forgóeszköz or piaci >4% credits included.",
+      "No Budapest-only, nagyvállalati, mezőgazdasági, or export-focused programs are present in the source data."
+    ]
+  }
+}
