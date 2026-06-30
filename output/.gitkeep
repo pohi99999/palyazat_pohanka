@@ -1,0 +1,15 @@
+{
+  "search_date": "PLACEHOLDER",
+  "company": "Pohánka és Társa Kft.",
+  "company_tax_id": "14728864-2-20",
+  "workflow_version": "1.0.0",
+  "eligibility_checks_applied": [],
+  "ranking_criteria_applied": [],
+  "grants": [],
+  "credits": [],
+  "meta": {
+    "agent": "FundingSearchAgent",
+    "version": "1.0.0",
+    "note": "Ez a fájl a fundingAndGrantDiscovery.py workflow által generált kimenet. Frissítéshez futtasd: python -m src.workflows.fundingAndGrantDiscovery"
+  }
+}

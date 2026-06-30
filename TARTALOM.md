@@ -87,6 +87,19 @@ A `HITEL/` könyvtár általános beruházási hitel sablonokat tartalmaz (Széc
 - [HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md](HITEL/HITEL_KOLTSEGVETES_ES_CASHFLOW_SABLON.md) — Annuitásos törlesztő számítás képlettel (referencia: 107 812 Ft/hó), 5 éves EBITDA / szabad cash-flow / DSCR előrejelzés, paraméterezhető FIXME mezőkkel.
 - [HITEL_DOKUMENTUMLISTA_SABLON.md](HITEL/HITEL_DOKUMENTUMLISTA_SABLON.md) — KAVOSZ / banki dokumentumlista checklist: cégiratok, 3 év pénzügyi dokumentum, KOMA, HIPA, beruházási lista, árajánlatok, fedezeti iratok és igénylőlapok.
 
+## Pohánka és Társa Kft. – Hitel és pályázat profil (Brunella AI rendszer)
+A `config/` és `src/` könyvtárak a Brunella ügynökalapú pályázat- és hitelkereső rendszert tartalmazzák.
+
+- [`config/pohanka_credit_profile.json`](config/pohanka_credit_profile.json) — Gépileg olvasható céges profil JSON: cégadatok, pénzügyek, DI igazolások, beruházási terv, pályázati/hitel preferenciák, kizárási listák, jogosultsági ellenőrzési pontok.
+- [`src/domain/pohankaCreditProfile.py`](src/domain/pohankaCreditProfile.py) — Python domain modul: betölti a JSON profilt, `getCreditPreferences()`, `getGrantPreferences()`, `getEligibilityChecks()`, `getInvestmentPlanShortTerm()` stb. helper függvényekkel.
+- [`src/agents/fundingSearchAgent.py`](src/agents/fundingSearchAgent.py) — FundingSearchAgent: a Brunella LLM-motornak átadott rendszer-prompt és ügynök konfiguráció. Hivatkozik a `pohankaCreditProfile`-ra mint `company_profile`.
+- [`src/workflows/fundingAndGrantDiscovery.py`](src/workflows/fundingAndGrantDiscovery.py) — Teljes workflow: szűrés (kizárások, intenzitás/kamatplafon), rangsorolás (kamatszint, ismert program, türelmi idő, összeg, garancia), JSON kimenet mentése.
+- [`output/pohanka_funding_candidates.json`](output/pohanka_funding_candidates.json) — Legutóbbi workflow kimenet: 5 pályázat + 5 hitelkonstrukció rangsorolva, akció tervekkel.
+- [`tests/test_pohankaCreditProfile.py`](tests/test_pohankaCreditProfile.py) — 29 egységteszt: JSON validálás, helper függvények, kizárási logika, rangsorolás.
+
+*Futtatás:* `python -m src.workflows.fundingAndGrantDiscovery`
+*Tesztek:* `python -m pytest tests/ -v` (29 passed)
+
 Fontos fájlok gyors elérés:
 - KELL.md — emberi teendők (most létrehozva)
 - TARTALOM.md — ez a fájl (áttekintés)

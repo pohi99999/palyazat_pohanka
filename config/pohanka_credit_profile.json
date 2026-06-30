@@ -1,0 +1,246 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "profile_version": "2026-06-30",
+  "company": {
+    "name": "Pohánka és Társa Kft.",
+    "full_name": "POHÁNKA ÉS TÁRSA KÖNYVELŐ IRODA KORLÁTOLT FELELŐSSÉGŰ TÁRSASÁG",
+    "tax_id": "14728864-2-20",
+    "vat_id": "HU14728864",
+    "registration_number": "20-09-069482",
+    "founded": "2009-04-10",
+    "legal_form": "Kft",
+    "seat": {
+      "country": "HU",
+      "region": "Nyugat-Dunántúl",
+      "county": "Zala",
+      "city": "Zalaegerszeg",
+      "address": "Berek utca 38.",
+      "is_budapest": false
+    },
+    "headcount_2025": 3,
+    "sme_class": "micro",
+    "connected_companies": false,
+    "foreign_owners": false,
+    "main_bank": {
+      "name": "OTP Bank",
+      "branch": "Zalaegerszeg",
+      "account_prefix": "11749008-24920311"
+    },
+    "taxation": {
+      "scheme": "KIVA",
+      "since": "2020-01-01",
+      "reliable_taxpayer": true,
+      "reliable_since": "2026-05-01",
+      "public_debt_free": true
+    },
+    "tevor_codes": [
+      { "code": "6920", "label": "Számviteli, könyvvizsgálói, adószakértői tevékenység", "main": true },
+      { "code": "6201", "label": "Számítógépes programozás" },
+      { "code": "6202", "label": "Információtechnológiai szaktanácsadás" },
+      { "code": "6311", "label": "Adatfeldolgozás, web-hoszting szolgáltatás" },
+      { "code": "6290", "label": "Egyéb információtechnológiai szolgáltatás" },
+      { "code": "6310", "label": "Számítástechnikai infrastruktúra, adatfeldolgozás" }
+    ]
+  },
+  "financials": {
+    "years": [
+      {
+        "year": 2023,
+        "revenue_net_huf": 2844000,
+        "ebitda_huf": 1260000,
+        "profit_after_tax_huf": 1620000,
+        "equity_huf": 5344000,
+        "balance_sheet_total_huf": 5661000
+      },
+      {
+        "year": 2024,
+        "revenue_net_huf": 4204000,
+        "ebitda_huf": 346000,
+        "profit_after_tax_huf": 346000,
+        "equity_huf": 5681000,
+        "balance_sheet_total_huf": 6338000
+      },
+      {
+        "year": 2025,
+        "revenue_net_huf": 9158000,
+        "ebitda_huf": 517000,
+        "profit_after_tax_huf": 374000,
+        "equity_huf": 6065000,
+        "balance_sheet_total_huf": 6502000
+      }
+    ],
+    "debt_free": true,
+    "previous_grants": {
+      "vnt_used": false,
+      "de_minimis_used": false,
+      "de_minimis_remaining_eur": 200000
+    }
+  },
+  "digital_profile": {
+    "di_company": {
+      "score": 10,
+      "level": "low",
+      "id": "IG32095-2025",
+      "date": "2025-06-19"
+    },
+    "di_community": {
+      "score": 8,
+      "level": "high",
+      "id": "IG32096-2025",
+      "date": "2025-06-19"
+    },
+    "dfk": {
+      "program": "Modern Vállalkozások Program 2.0",
+      "supporting_document_id": "D127/23-505/2025",
+      "project_id": "DIMOP_Plusz-1.2.7-23-2023-00001",
+      "valid_until": "2026-11-30"
+    },
+    "core_project": {
+      "name": "Brunella Agent System (BAS)",
+      "description": "Multi-agent AI ökoszisztéma könyvelési és adminisztratív folyamatok automatizálására",
+      "expected_impacts": {
+        "manual_admin_reduction_pct": 50,
+        "automatic_invoice_processing_pct": 80,
+        "bank_reconciliation_automation_pct": 70
+      }
+    }
+  },
+  "investment_plan": {
+    "short_term_2026": {
+      "dimop_project": {
+        "name": "BAS bevezetés és digitális infrastruktúra",
+        "total_value_huf": 9000000,
+        "grant_expected_huf": 8100000,
+        "own_contribution_huf": 900000,
+        "eligible_items": [
+          "BAS szoftver és licencek",
+          "Felhőszolgáltatás (IaaS/PaaS)",
+          "OCR, LanceDB, AI modulok",
+          "Tanácsadás és integráció",
+          "Képzés (3 fő)",
+          "IT hardver (GPU, NAS, hálózat) dimop-kereten belül"
+        ]
+      },
+      "szechenyi_credit": {
+        "program": "Széchenyi Mikrohitel MAX+",
+        "planned_amount_huf": 6000000,
+        "purpose": [
+          "GPU AI munkaállomás (1 db)",
+          "Irodai PC/laptop (3 db)",
+          "NAS + hálózati eszközök",
+          "Használt cégautó"
+        ],
+        "desired_interest_pct": 3,
+        "desired_term_months": 60,
+        "preferred_grace_period_years": 1
+      }
+    },
+    "mid_term_2027_2028": {
+      "potential_credit_range_huf": [10000000, 20000000],
+      "use_cases": [
+        "Szerverinfrastruktúra BAS SaaS szolgáltatáshoz",
+        "Kiegészítő járművek (terepjáró, kosaras emelő) ha tevékenység bővül"
+      ]
+    },
+    "long_term_2029_plus": {
+      "potential_credit_range_huf": [20000000, 30000000],
+      "use_case": "BAS SaaS skálázás országos / regionális szinten"
+    }
+  },
+  "preferences": {
+    "grant_programs": {
+      "preferred_types": [
+        "KKV digitalizáció (IT, AI, automatizálás)",
+        "Innovációs támogatás (AI termék)",
+        "Vállalati képzés (digitális kompetencia)",
+        "Vidéki mikrovállalkozásoknak szóló felhívás",
+        "Kombinált 0%-os hitel + VNT konstrukciók"
+      ],
+      "preferred_intensity_pct": {
+        "ideal": 90,
+        "acceptable_min": 70
+      },
+      "amount_ranges_huf": {
+        "short_term": [3000000, 12000000],
+        "mid_term": [12000000, 30000000]
+      }
+    },
+    "credit_programs": {
+      "priority_order": [
+        "State_supported 0% investment loan (GINOP Plusz-1.4.3-24 KKV Technológia Plusz)",
+        "Széchenyi Mikrohitel MAX+",
+        "Széchenyi Beruházási Hitel MAX+",
+        "DIMOP Plusz-1.2.3/A-24 kombinált 0% hitel + VNT",
+        "MFB Pont kamattámogatott konstrukciók"
+      ],
+      "interest_preference_pct": {
+        "ideal": 0,
+        "acceptable_max": 3
+      },
+      "amount_preference_huf": {
+        "short_term": [5000000, 10000000],
+        "mid_term": [10000000, 20000000],
+        "long_term": [20000000, 30000000]
+      },
+      "grace_period": {
+        "ideal_years": 2,
+        "acceptable_full_annuity_from_start_if_dscr_ge": 1.5
+      }
+    },
+    "collateral": {
+      "assets": ["IT berendezések", "Cégautó"],
+      "real_estate": {
+        "seat_property_available": true,
+        "prefer_not_to_use": true
+      },
+      "preferred_guarantee": ["Garantiqa garancia", "AVHGA garancia"]
+    },
+    "exclusions": {
+      "exclude_credit": [
+        "Piaci kamatozású >4%/év hitelek",
+        "Forgóeszköz-hitelek (Széchenyi Likviditási / munkakapital)",
+        "Extrém ingatlanfedezetet igénylő konstrukciók",
+        "Rövid távon >25M Ft hitel"
+      ],
+      "exclude_grants": [
+        "Kizárólag budapesti székhelyű cégeknek szóló felhívások",
+        "Nagyvállalati (>250 fő) felhívások",
+        "Mezőgazdasági, ipari vagy gyártási szektorra célzott pályázatok",
+        "Export-fókuszú pályázatok",
+        "Magas önerő (>30%) pályázatok",
+        ">50M Ft tisztán K+F pályázatok jelenlegi árbevétel mellett"
+      ]
+    }
+  },
+  "eligibility_checks": {
+    "company_params_for_agent": {
+      "region": "Zala Vármegye",
+      "is_budapest": false,
+      "headcount": 3,
+      "revenue_2025_huf": 9158000,
+      "sme_size": "micro",
+      "tax_scheme": "KIVA",
+      "di_low": true,
+      "dfk_available": true
+    },
+    "agent_must_check_each_program": [
+      "Jogosultság mikro/kis KKV-ra (<=10 fő, <=2M EUR árbevétel)",
+      "Területi hatókör: országos vagy Nyugat-Dunántúl, Budapest kizárása",
+      "Ingatlanfedezet kötelező-e; ha igen, jelölés külön",
+      "Garantiqa/AVHGA garancia bevonható-e ingatlan kiváltására",
+      "Kettős finanszírozási tilalom: DIMOP VNT + hitel kombinációk összehangolása",
+      "Van-e KIVA-specifikus kizárás",
+      "Elszámolható-e IT hardver, szoftver, felhő, tanácsadás, képzés a BAS projektre",
+      "Támogatási intenzitás és összegsáv illeszkedik-e a preferenciákhoz"
+    ],
+    "ranking_criteria": {
+      "order": [
+        "Kamat mértéke (0% > 1–2% > 3%)",
+        "Ismerős programok (Széchenyi / KAVOSZ / GINOP Tech)",
+        "Türelmi idő lehetősége",
+        "Összeg illeszkedése (elsősorban 5–10M Ft sáv)",
+        "Garantiqa/AVHGA elérhetősége"
+      ]
+    }
+  }
+}

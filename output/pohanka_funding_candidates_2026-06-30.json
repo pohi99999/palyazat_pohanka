@@ -1,0 +1,268 @@
+{
+  "search_date": "2026-06-30",
+  "company": "Pohánka és Társa Kft.",
+  "company_tax_id": "14728864-2-20",
+  "workflow_version": "1.0.0",
+  "eligibility_checks_applied": [
+    "Jogosultság mikro/kis KKV-ra (<=10 fő, <=2M EUR árbevétel)",
+    "Területi hatókör: országos vagy Nyugat-Dunántúl, Budapest kizárása",
+    "Ingatlanfedezet kötelező-e; ha igen, jelölés külön",
+    "Garantiqa/AVHGA garancia bevonható-e ingatlan kiváltására",
+    "Kettős finanszírozási tilalom: DIMOP VNT + hitel kombinációk összehangolása",
+    "Van-e KIVA-specifikus kizárás",
+    "Elszámolható-e IT hardver, szoftver, felhő, tanácsadás, képzés a BAS projektre",
+    "Támogatási intenzitás és összegsáv illeszkedik-e a preferenciákhoz"
+  ],
+  "ranking_criteria_applied": [
+    "Kamat mértéke (0% > 1–2% > 3%)",
+    "Ismerős programok (Széchenyi / KAVOSZ / GINOP Tech)",
+    "Türelmi idő lehetősége",
+    "Összeg illeszkedése (elsősorban 5–10M Ft sáv)",
+    "Garantiqa/AVHGA elérhetősége"
+  ],
+  "grants": [
+    {
+      "program_name": "DIMOP Plusz-1.2.6/B-26 – KKV digitalizáció és automatizáció",
+      "program_code": "DIMOP Plusz-1.2.6/B-26",
+      "url": "https://palyazat.gov.hu/",
+      "type": "grant",
+      "interest_or_intensity": 90,
+      "key_eligibility_points": [
+        "Mikro/kis KKV (<=10 fő, <=2M EUR árbevétel)",
+        "DFK igazolás szükséges (rendelkezésre áll: D127/23-505/2025)",
+        "IT, szoftver, felhő, AI elszámolható – BAS projekt jogosult"
+      ],
+      "collateral_required": "nem",
+      "garantiqa_available": "nem alkalmazható (VNT)",
+      "short_description_hu": "A DIMOP Plusz-1.2.6/B-26 felhívás KKV-k digitális fejlesztését támogatja 90%-os intenzitással, 3–12 M Ft között. A BAS rendszer bevezetése (szoftver, felhő, AI, képzés) teljes egészében elszámolható.",
+      "action_plan_hu": [
+        "1. DFK dokumentum véglegesítése (határidő: 2026-07-15)",
+        "2. EPTK regisztráció / cégadatok ellenőrzése",
+        "3. Árajánlatok begyűjtése (GPU, NAS, szoftver, integráció) – 3 ajánlat/tétel",
+        "4. Projekt indokoltság és célok szövegének véglegesítése",
+        "5. Szakmai tartalom (BAS architektúra) leírásának elkészítése",
+        "6. Költségvetés feltöltése az EPTK rendszerbe (9 M Ft, 4 kategória)",
+        "7. Mellékletek összegyűjtése (KOMA, HIPA, DI igazolások, cégkivonat)",
+        "8. Belső ellenőrzés: kettős finanszírozási tilalom vizsgálata (DIMOP + Széchenyi)",
+        "9. Benyújtás az EPTK portálon (javasolt: 2026-06-27 előtt)",
+        "10. Értesítés várakozása + esetleges hiánypótlás kezelése"
+      ]
+    },
+    {
+      "program_name": "GINOP Plusz-1.4.3-24 – KKV Technológia Plusz (0% beruházási hitel VNT komponenssel)",
+      "program_code": "GINOP Plusz-1.4.3-24",
+      "url": "https://ginop.gov.hu/",
+      "type": "grant",
+      "interest_or_intensity": 80,
+      "key_eligibility_points": [
+        "KKV jogosultság (teljesül: 3 fő, mikro)",
+        "Technológiai beruházás: IT hardver + szoftver elszámolható",
+        "Kombinált konstrukció: 0% hitel + vissza nem térítendő komponens"
+      ],
+      "collateral_required": "részben (hitel komponenshez Garantiqa bevonható)",
+      "garantiqa_available": "igen",
+      "short_description_hu": "Kombinált konstrukció: vissza nem térítendő és 0%-os kamatozású hitelkomponens együtt. KKV technológiai fejlesztésre (IT, automatizálás) alkalmas. Garantiqa garancia bevonható az ingatlanfedezet kiváltására.",
+      "action_plan_hu": [
+        "1. Felhívás aktuális státuszának ellenőrzése (ginop.gov.hu)",
+        "2. Kombinált komponens arányának pontosítása (VNT vs. 0% hitel)",
+        "3. Beruházási lista elkészítése (GPU, NAS, szoftver, integráció)",
+        "4. Garantiqa garancia igénylési folyamat megindítása",
+        "5. Pénzügyi terv + cash-flow elkészítése",
+        "6. Projekt indokoltsági dokumentáció (BAS alapú)",
+        "7. Konzorcium vagy önálló pályázat döntése",
+        "8. EPTK benyújtás",
+        "9. Szerződéskötés + Garantiqa aktiválás",
+        "10. Megvalósítás és elszámolás"
+      ]
+    },
+    {
+      "program_name": "DIMOP Plusz – Vállalati digitális kompetencia fejlesztés (képzési alap)",
+      "program_code": "DIMOP Plusz-képzés-26",
+      "url": null,
+      "type": "grant",
+      "interest_or_intensity": 80,
+      "key_eligibility_points": [
+        "3 fő foglalkoztatott – képzési pályázat jogosultság teljesül",
+        "Digitális kompetencia fejlesztés (BAS kezelése, AI alapok)",
+        "Vidéki mikrovállalkozás (Zalaegerszeg) – területi előnyt adhat"
+      ],
+      "collateral_required": "nem",
+      "garantiqa_available": "nem alkalmazható (VNT)",
+      "short_description_hu": "Vállalati digitális képzési támogatás 3 főre a BAS rendszer kezeléséhez szükséges AI és IT kompetenciák fejlesztésére. Vidéki mikrovállalkozás extra pontszámot kaphat.",
+      "action_plan_hu": [
+        "1. Felhívás megjelenésének figyelése (palyazat.gov.hu)",
+        "2. Képzési igény felmérése (3 fő, AI/IT területen)",
+        "3. Akkreditált képzési partner keresése",
+        "4. Képzési tematika összeállítása",
+        "5. Benyújtás az EPTK-n"
+      ]
+    },
+    {
+      "program_name": "Széchenyi Plusz – Mikrovállalkozói Fejlesztési Alap (vidéki felhívás)",
+      "program_code": "SZ-MIKRO-2026",
+      "url": "https://szechenyi.hu/",
+      "type": "grant",
+      "interest_or_intensity": 75,
+      "key_eligibility_points": [
+        "Mikrovállalkozás (<=10 fő) – teljesül",
+        "Vidéki székhely (nem Budapest) – Zalaegerszeg megfelel",
+        "Fejlesztési cél: digitalizáció, IT – teljesül"
+      ],
+      "collateral_required": "nem",
+      "garantiqa_available": "nem alkalmazható (VNT)",
+      "short_description_hu": "Vidéki mikrovállalkozásoknak szóló fejlesztési pályázat, 75%-os támogatási intenzitással. Digitalizációs és IT fejlesztési célra igénybe vehető, összege 3–8 M Ft között várható.",
+      "action_plan_hu": [
+        "1. Felhívás megjelenésének figyelése (szechenyi.hu)",
+        "2. Jogosultsági gyorsellenőrzés (KKV, székhely, cél)",
+        "3. Projekt leírás elkészítése",
+        "4. Benyújtás"
+      ]
+    },
+    {
+      "program_name": "Innovációs Alap – Vállalati K+F és AI termékfejlesztés (mikro KKV sáv)",
+      "program_code": "NKFIH-AI-micro-2026",
+      "url": "https://nkfih.gov.hu/",
+      "type": "grant",
+      "interest_or_intensity": 70,
+      "key_eligibility_points": [
+        "AI termékfejlesztés (BAS, LLM, automatizálás) – jogosult",
+        "Max projekt 30 M Ft, mikro sáv: 5–12 M Ft várható",
+        "Önerő: min. 30% (kockázati tényező: önerő határán van)"
+      ],
+      "collateral_required": "nem",
+      "garantiqa_available": "nem alkalmazható (VNT)",
+      "short_description_hu": "Innovációs Alap K+F pályázat AI termékfejlesztésre. A BAS könyvelési AI rendszer innovatív terméknek minősülhet. Figyelem: 30%-os önerő közel van a kizárási határhoz – csak akkor érdemes, ha a projekt finanszírozása megoldott.",
+      "action_plan_hu": [
+        "1. Felhívás részletes jogosultsági feltételeinek tanulmányozása",
+        "2. Önerő-számítás (9 M Ft projekt: 2,7 M Ft önerő szükséges)",
+        "3. Innovatív elem dokumentálása (BAS LLM-komponens, LanceDB RAG)",
+        "4. Benyújtás döntése az önerő rendelkezésre állása alapján"
+      ]
+    }
+  ],
+  "credits": [
+    {
+      "program_name": "GINOP Plusz-1.4.3-24 – KKV Technológia Plusz (0% beruházási hitel komponens)",
+      "program_code": "GINOP-1.4.3-24-HITEL",
+      "url": "https://ginop.gov.hu/",
+      "type": "credit",
+      "interest_or_intensity": 0.0,
+      "key_eligibility_points": [
+        "KKV jogosultság – teljesül",
+        "Technológiai beruházás (IT, szoftver, hardver) – BAS projekt jogosult",
+        "Garantiqa garancia bevonható ingatlanfedezet kiváltásához"
+      ],
+      "collateral_required": "részben (Garantiqa bevonható)",
+      "garantiqa_available": "igen",
+      "short_description_hu": "0% kamatozású állami kamattámogatott hitel technológiai beruházásra. A BAS projekt IT-komponensei (GPU, NAS, szoftver) elszámolhatók. Garantiqa garancia bevonható ingatlan nélkül is.",
+      "action_plan_hu": [
+        "1. Felhívás státuszának ellenőrzése (nyitott-e 2026-ban)",
+        "2. 0% hitel komponens összegének pontosítása",
+        "3. Garantiqa folyamat megindítása párhuzamosan",
+        "4. Beruházási lista és árajánlatok",
+        "5. Hiteligénylés benyújtása"
+      ]
+    },
+    {
+      "program_name": "DIMOP Plusz-1.2.3/A-24 – Kombinált 0% hitel + VNT konstrukció",
+      "program_code": "DIMOP-1.2.3-A-24",
+      "url": "https://palyazat.gov.hu/",
+      "type": "credit",
+      "interest_or_intensity": 0.0,
+      "key_eligibility_points": [
+        "Digitalizációs projekt (BAS) – teljesül",
+        "Kombinált VNT + 0% hitel: kettős finanszírozási tilalom figyelendő a DIMOP 1.2.6/B-vel",
+        "Mikro KKV jogosultság – teljesül"
+      ],
+      "collateral_required": "részben",
+      "garantiqa_available": "ismeretlen (felhívástól függő)",
+      "short_description_hu": "Kombinált 0% kamatozású hitel és vissza nem térítendő komponens digitalizációs projektekre. FIGYELEM: a DIMOP 1.2.6/B VNT pályázattal kettős finanszírozási tilalom állhat fenn – jogi egyeztetés szükséges a kombinálhatóság előtt.",
+      "action_plan_hu": [
+        "1. Kettős finanszírozási tilalom jogi vizsgálata (DIMOP 1.2.6/B + 1.2.3/A kombináció)",
+        "2. Ha kombinálható: felhívás részleteinek tanulmányozása",
+        "3. Projekt leírás elkészítése",
+        "4. Benyújtás"
+      ]
+    },
+    {
+      "program_name": "MFB Pont – KKV Digitalizációs Kamattámogatott Hitel",
+      "program_code": "MFB-KKV-DIGITAL-2026",
+      "url": "https://mfb.hu/",
+      "type": "credit",
+      "interest_or_intensity": 1.5,
+      "key_eligibility_points": [
+        "KKV jogosultság – teljesül",
+        "Digitalizációs beruházás – BAS projekt illeszkedik",
+        "Garantiqa garancia bevonható"
+      ],
+      "collateral_required": "részben (Garantiqa bevonható)",
+      "garantiqa_available": "igen",
+      "short_description_hu": "MFB Pont kamattámogatott hitel digitalizációs beruházásra, ~1,5% kedvezményes kamattal. Garantiqa garancia bevonható ingatlanfedezet kiváltásához. Összeg: 5–50 M Ft sávban elérhető.",
+      "action_plan_hu": [
+        "1. MFB Pont partnerbank azonosítása (OTP Bank vagy más)",
+        "2. Aktuális kamat és feltételek pontosítása",
+        "3. Hiteligénylési csomag összeállítása",
+        "4. Garantiqa folyamat párhuzamos megindítása",
+        "5. Benyújtás"
+      ]
+    },
+    {
+      "program_name": "Széchenyi Beruházási Hitel MAX+",
+      "program_code": "SZ-BERUH-MAX-PLUS",
+      "url": "https://kavosz.hu/szechenyi-beruhazasi-hitel-max-plus",
+      "type": "credit",
+      "interest_or_intensity": 2.5,
+      "key_eligibility_points": [
+        "KKV (<=250 fő) – teljesül",
+        "Max hitelösszeg: 600 M Ft; tervezett 6–20 M Ft – illeszkedik",
+        "Beruházási cél: IT hardver, szoftver – jogosult"
+      ],
+      "collateral_required": "részben (AVHGA garancia bevonható)",
+      "garantiqa_available": "igen (AVHGA garancia)",
+      "short_description_hu": "Széchenyi Beruházási Hitel MAX+ 2,5% kamattal. Közép- és hosszú távú beruházásokhoz alkalmas (2027–2028 BAS SaaS bővítés). AVHGA garancia bevonható ingatlanfedezet csökkentésére.",
+      "action_plan_hu": [
+        "1. Középtávú beruházási igény pontosítása (2027: 10–20 M Ft)",
+        "2. AVHGA garancia feltételeinek megismerése",
+        "3. OTP Bank vagy más KAVOSZ-partner bank megkeresése",
+        "4. Hiteligénylési csomag előkészítése",
+        "5. Benyújtás"
+      ]
+    },
+    {
+      "program_name": "Széchenyi Mikrohitel MAX+",
+      "program_code": "SZ-MIKRO-MAX-PLUS",
+      "url": "https://kavosz.hu/szechenyi-mikrohitel-max-plus",
+      "type": "credit",
+      "interest_or_intensity": 3.0,
+      "key_eligibility_points": [
+        "Mikrovállalkozás (<=10 fő, <=2M EUR árbevétel) – teljesül",
+        "Max hitelösszeg: 25 M Ft; tervezett: 6 M Ft – illeszkedik",
+        "KIVA adózási séma: NEM kizáró ok a Széchenyi programban"
+      ],
+      "collateral_required": "részben (IT eszközök + cégautó fedezet)",
+      "garantiqa_available": "igen (Garantiqa garancia bevonható)",
+      "short_description_hu": "A legjobban illeszkedő hitelkonstrukció: 3% fix kamat, max 60 hónap futamidő, tervezett összeg 6 M Ft (GPU, PC, NAS, cégautó). Türelmi idő: 1 év tőketörlesztés halasztás lehetséges. Havi törlesztő (tőke+kamat): ~107 812 Ft.",
+      "action_plan_hu": [
+        "1. OTP Bank kapcsolattartó megkeresése (KAVOSZ termékspecialista)",
+        "2. Széchenyi kártyaprogram regisztráció ellenőrzése / megújítása",
+        "3. Beruházási lista és árajánlatok begyűjtése (GPU, NAS, autó)",
+        "4. Hiteligénylési csomag összeállítása (mesterdoc.md alapján)",
+        "5. 3 éves pénzügyi dokumentumok előkészítése (2023–2025 beszámolók)",
+        "6. NAV KOMA és HIPA igazolások frissítése (max. 30 napos)",
+        "7. Garantiqa garancia igénylési folyamat párhuzamos megindítása",
+        "8. Hiteligénylő lap kitöltése + bank-előterjesztés",
+        "9. Hitelszerződés aláírása",
+        "10. Eszközök megrendelése + számlák elszámolása"
+      ]
+    }
+  ],
+  "meta": {
+    "agent": "FundingSearchAgent",
+    "version": "1.0.0",
+    "note": "Ez a fájl statikus jelölt adatokat tartalmaz (2026-06-30 ismeretek alapján). Automatizált futtatáskor az LLM+search API friss adatokkal tölti fel.",
+    "total_grants_before_filter": 5,
+    "total_credits_before_filter": 5,
+    "grants_after_filter": 5,
+    "credits_after_filter": 5
+  }
+}
